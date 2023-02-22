@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Pteridophyte Phylogeny Group"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: github.qmd
+        text: GitHub Guide
+  page-footer: "All content by Pteridophyte Phylogeny Group is licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/) unless otherwise noted" 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto

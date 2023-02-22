@@ -1,0 +1,118 @@
+---
+title: "Guide to GitHub for PPG discussions"
+fig-responsive: true
+toc: true
+grid:
+      margin-width: 500px
+---
+
+## Why GitHub? {#why-github}
+
+GitHub provides tools to allow us to have open, collaborative discussions of taxonomic proposals, and to maintain a record of those discussions publicly available in perpetuity.
+
+## Setup {#setup}
+
+In order to participate in PPG discussion you will need to [obtain a GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) (the free account is fine). Anyone can browse the discussions, but only GitHub account-holders can contribute to them.
+
+## Background information
+
+### About repos
+
+A **repository** (or "**repo**" for short) is a project—a collection of files in a single folder (that may contain subfolders)—that is tracked by a piece of version-control software called "git". Git can be thought of as a fancy "undo" tool—it keeps track of all previous versions of your documents so you can always go back to earlier versions if you want to. GitHub is a web service to host repos in the cloud (online) so that anybody can access them. For our purposes, one need not know anything about git—just think of GitHub as a website that can host our classification and our discussions.
+
+### About issues
+
+**Issues** are the tool that GitHub uses to track "to-do" items related to the project. A repo will have a list of issues (like a to-do list), each of which can be **open** or **closed**. Open issues still need to be completed. Closed issues have been resolved. Issues can be commented on in a discussion, and the discussion will remain online in perpetuity, even after the issue is closed.
+
+### About markdown {#about-markdown}
+
+When you create a new issue or add a comment on an existing issue, you can only use plain text (no bold, italics, etc). In order to add formatting, you need to use a syntax called markdown. In markdown, you indicate how the text should be formatted with special characters, such as asterisks  around words to be shown in italics. That is why any dialog box to enter text in GitHub has two tabs, "Write" and "Preview". You enter the text in the "Write" tab and click on "Preview" to see how the formatted text will appear. For more on writing with markdown, see this [help doc](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github).
+
+::: {.callout-tip}
+## Tip: No markdown needed
+If you don’t want to bother with markdown formatting, you don’t need to use it! Feel free just to write with plain text. 
+:::
+
+## A demo PPG repo
+
+We will use a GitHub repo to maintain the PPG classification (in the form of a CSV file) and to organize and maintain a record of all community discussions using issues.
+
+To show how this works, there is a demonstration repo at [https://github.com/pteridogroup/ppg-demo](https://github.com/pteridogroup/ppg-demo). This repo doesn’t have any data in it; it is just to show to how use issues. 
+
+::: {.callout-note}
+In order to be able to complete each of the steps yourself, you will need a GitHub account (see [Setup](#setup)).
+:::
+
+::: {.callout-important}
+There will eventually be a real repo set up including the PPG taxonomic data, but at this stage we are only using the demo.
+:::
+
+There are three basic things to learn: [creating a new issue](#creating-a-new-issue), [searching for an issue](#searching-for-an-issue), and [commenting on an issue](#commenting-on-an-issue).
+
+## Creating a new issue {#creating-a-new-issue}
+
+::: {.callout-warning}
+Before submitting a new issue, please [search the existing issues](#searching-for-an-issue) to see if one already exists.
+:::
+
+1. Click on "Issues" in the top navigation bar of the [repo homepage](https://github.com/pteridogroup/ppg-demo) (@fig-1).
+
+::: {.column-margin}
+[![Repo homepage](images/fig_1.png){#fig-1}](images/fig_1.png)
+:::
+
+2. Click on the green "New issue" button (@fig-2)
+
+::: {.column-margin}
+[![Issues page](images/fig_2.png){#fig-2}](images/fig_2.png)
+:::
+
+3. Click on the "Get started" button next to "Suggest a taxonomic update" (@fig-3)
+
+::: {.column-margin}
+[![Issues templates page](images/fig_3.png){#fig-3}](images/fig_3.png)
+:::
+
+4. Fill out the form provided (@fig-4). It comes pre-populated with prompts and comments to help remind you of important information to include, and to ensure that proposals to update PPG are sufficiently informative to support productive discussion. When you are done filling out the form, hit the "Submit new issue" button. You're done!
+
+::: {.callout-tip}
+## Tip: Include the taxon name in the issue title
+It will make it easier to find issues if you include the name of the taxon in the title (e.g., "Add Gastoniella")
+:::
+
+::: {.column-margin}
+[![Issue form](images/fig_4.png){#fig-4}](images/fig_4.png)
+:::
+
+## Searching for an issue {#searching-for-an-issue}
+
+1. Click on "Issues" in the top navigation bar (@fig-1), which will take you to the "Issues" page (@fig-2). You will see issues in chronological order.
+
+2. Use the search bar (@fig-5) to find an issue you are interested in. Note that the search only includes open issues by default; pressing on the button listing the number of closed issues will bring them up instead. 
+
+::: {.column-margin}
+[![Issue search bar](images/fig_5.png){#fig-5}](images/fig_5.png)
+:::
+
+## Commenting on an issue {#commenting-on-an-issue}
+
+Anyone with a GitHub account can comment on an issue.
+
+1. First, find an issue you are interested in (it could be one you created). See "[Searching for an issue](#searching-for-an-issue)" for how to do that.
+
+2. Once you find an issue you are interested in, click it. You should see the page for the issue, with a dialog box at the bottom (@fig-6).
+
+::: {.column-margin}
+[![Commenting on an issue](images/fig_6.png){#fig-6}](images/fig_6.png)
+:::
+
+3. Fill out the dialog box with your comment and press the green "Comment" button.  Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information–refrain from contributing to long threads of simple agreements, or unfocussed discussions.
+
+::: {.callout-tip}
+## Tip: Don't press "Close issue" (usually)
+You may notice there is also a "Close issue" button. This will only be available to the person who created the issue and to the maintainers of the repo. Generally you should not press the "Close issue" button---the maintainers of the repo will take care of that, after [voting](#voting) is complete.
+:::
+
+## Voting {#voting}
+
+We will not use GitHub for taking votes on proposed changes (probably we will do that with Google Forms or something similar). After a certain amount of time during which comments are taken on the issue using the system described in this document, all members of PPG will be given a chance to vote, then the issue will be marked as closed and either accepted or rejected.

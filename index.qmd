@@ -1,0 +1,9 @@
+---
+title: "Pteridophyte Phylogeny Group"
+---
+
+This the homepage of the Pteridophyte Phylogeny Group (PPG), a community of scientists who maintain a taxonomic database of pteridophytes (ferns and lycophytes).
+
+All community discussions (taxonomic proposals) are hosted publicly on GitHub. For more information, please see the [Guide to GitHub for PPG discussions](github.qmd).
+
+Anybody is welcome to participate. Please contact us for more information.
