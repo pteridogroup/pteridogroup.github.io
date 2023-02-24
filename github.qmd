@@ -106,7 +106,7 @@ Anyone with a GitHub account can comment on an issue.
 [![Commenting on an issue](images/fig_6.png){#fig-6}](images/fig_6.png)
 :::
 
-3. Fill out the dialog box with your comment and press the green "Comment" button.  Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information–refrain from contributing to long threads of simple agreements, or unfocussed discussions.
+3. Fill out the dialog box with your comment and press the green "Comment" button.  Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information---refrain from contributing to long threads of simple agreements, or unfocussed discussions.
 
 ::: {.callout-tip}
 ## Tip: Don't press "Close issue" (usually)
@@ -115,4 +115,4 @@ You may notice there is also a "Close issue" button. This will only be available
 
 ## Voting {#voting}
 
-We will not use GitHub for taking votes on proposed changes (probably we will do that with Google Forms or something similar). After a certain amount of time during which comments are taken on the issue using the system described in this document, all members of PPG will be given a chance to vote, then the issue will be marked as closed and either accepted or rejected.
+We will not use GitHub for taking votes on proposed changes (probably we will do that with Google Forms or something similar). After a certain amount of time during which comments are taken on the issue using the system described in this document, all members of PPG will be given a chance to vote, then the proposal will be marked either accepted or rejected.
