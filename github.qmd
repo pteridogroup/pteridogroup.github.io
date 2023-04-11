@@ -18,7 +18,7 @@ In order to participate in PPG discussion you will need to [obtain a GitHub acco
 
 ### About repos
 
-A **repository** (or "**repo**" for short) is a project—a collection of files in a single folder (that may contain subfolders)—that is tracked by a piece of version-control software called "git". Git can be thought of as a fancy "undo" tool—it keeps track of all previous versions of your documents so you can always go back to earlier versions if you want to. GitHub is a web service to host repos in the cloud (online) so that anybody can access them. For our purposes, one need not know anything about git—just think of GitHub as a website that can host our classification and our discussions.
+A **repository** (or "**repo**" for short) is a project—a collection of files in a single folder (that may contain subfolders) that is tracked by a piece of version-control software called "git". Git can be thought of as a fancy "undo" tool---it keeps track of all previous versions of your documents so you can always go back to earlier versions if you want to. GitHub is a web service to host repos in the cloud (online) so that anybody can access them. For our purposes, one need not know anything about git---just think of GitHub as a website that can host our classification and our discussions.
 
 ### About issues
 
@@ -67,13 +67,13 @@ Before submitting a new issue, please [search the existing issues](#searching-fo
 [![Issues page](images/fig_2.png){#fig-2}](images/fig_2.png)
 :::
 
-3. Click on the "Get started" button next to "Suggest a taxonomic update" (@fig-3)
+3. Click on the "Get started" button next to "Taxonomic proposal" (@fig-3)
 
 ::: {.column-margin}
 [![Issues templates page](images/fig_3.png){#fig-3}](images/fig_3.png)
 :::
 
-4. Fill out the form provided (@fig-4). It comes pre-populated with prompts and comments to help remind you of important information to include, and to ensure that proposals to update PPG are sufficiently informative to support productive discussion. When you are done filling out the form, hit the "Submit new issue" button. You're done!
+4. Fill out the form provided (@fig-4). It includes fields to ensure that proposals to update PPG are sufficiently informative for productive discussion. When you are done filling out the form, hit the "Submit new issue" button. You're done!
 
 ::: {.callout-tip}
 ## Tip: Include the taxon name in the issue title
@@ -106,7 +106,7 @@ Anyone with a GitHub account can comment on an issue.
 [![Commenting on an issue](images/fig_6.png){#fig-6}](images/fig_6.png)
 :::
 
-3. Fill out the dialog box with your comment and press the green "Comment" button.  Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information---refrain from contributing to long threads of simple agreements, or unfocussed discussions.
+3. Fill out the dialog box with your comment and press the green "Comment" button.  Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information---refrain from contributing to long threads of simple agreements, or unfocused discussions.
 
 ::: {.callout-tip}
 ## Tip: Don't press "Close issue" (usually)
