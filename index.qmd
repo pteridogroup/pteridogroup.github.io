@@ -6,4 +6,4 @@ This the homepage of the Pteridophyte Phylogeny Group (PPG), a community of scie
 
 All community discussions (taxonomic proposals) are hosted publicly on GitHub. For more information, please see the [Guide to GitHub for PPG discussions](github.qmd).
 
-Anybody is welcome to participate. Please reade [the guidelines](https://pteridogroup.github.io/guidelines.html) and [contact us](https://pteridogroup.github.io/guidelines.html#coordinating-committee) for more information if you have any questions.
+Anybody is welcome to participate. Please read [the guidelines](https://pteridogroup.github.io/guidelines.html) and [contact us](https://pteridogroup.github.io/guidelines.html#coordinating-committee) for more information if you have any questions.
