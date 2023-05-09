@@ -116,6 +116,11 @@ The database maintainer (currently Joel Nitta) will be in charge of issuing upda
 The PPG community would be notified before any major updates.
 Only changes that have been approved by the voting system will be included in updates.
 
+## Reference Library
+
+A [Zotero library](https://www.zotero.org/groups/5043626/pteridogroup/library) is being maintained to store references relevant to PPG.
+If you are interested in helping to maintain the reference library, please [contact a member of the coordinating committee](#coordinating-committee).
+
 ## Code of Conduct
 
 Anybody participating in PPG must agree to abide by the [Code of Conduct](https://pteridogroup.github.io/coc.html). A committee of three volunteers plus a secretary will assess any reported violations of the Code of Conduct, and will have the ability to block violators from the PPG GitHub page.
