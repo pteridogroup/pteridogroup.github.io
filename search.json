@@ -9,65 +9,72 @@
   {
     "objectID": "github.html",
     "href": "github.html",
-    "title": "Guide to GitHub for PPG discussions",
+    "title": "Guide to GitHub for PPG",
     "section": "",
     "text": "GitHub provides tools to allow us to have open, collaborative discussions of taxonomic proposals, and to maintain a record of those discussions publicly available in perpetuity."
   },
   {
     "objectID": "github.html#setup",
     "href": "github.html#setup",
-    "title": "Guide to GitHub for PPG discussions",
+    "title": "Guide to GitHub for PPG",
     "section": "Setup",
     "text": "Setup\nIn order to participate in PPG discussion you will need to obtain a GitHub account (the free account is fine). Anyone can browse the discussions, but only GitHub account-holders can contribute to them."
   },
   {
     "objectID": "github.html#background-information",
     "href": "github.html#background-information",
-    "title": "Guide to GitHub for PPG discussions",
+    "title": "Guide to GitHub for PPG",
     "section": "Background information",
     "text": "Background information\n\nAbout repos\nA repository (or “repo” for short) is a project—a collection of files in a single folder (that may contain subfolders) that is tracked by a piece of version-control software called “git”. Git can be thought of as a fancy “undo” tool—it keeps track of all previous versions of your documents so you can always go back to earlier versions if you want to. GitHub is a web service to host repos in the cloud (online) so that anybody can access them. For our purposes, one need not know anything about git—just think of GitHub as a website that can host our classification and our discussions.\n\n\nAbout issues\nIssues are the tool that GitHub uses to track “to-do” items related to the project. A repo will have a list of issues (like a to-do list), each of which can be open or closed. Open issues still need to be completed. Closed issues have been resolved. Issues can be commented on in a discussion, and the discussion will remain online in perpetuity, even after the issue is closed.\n\n\nAbout markdown\nWhen you create a new issue or add a comment on an existing issue, you can only use plain text (no bold, italics, etc). In order to add formatting, you need to use a syntax called markdown. In markdown, you indicate how the text should be formatted with special characters, such as asterisks around words to be shown in italics. That is why any dialog box to enter text in GitHub has two tabs, “Write” and “Preview”. You enter the text in the “Write” tab and click on “Preview” to see how the formatted text will appear. For more on writing with markdown, see this help doc.\n\n\n\n\n\n\nTip: No markdown needed\n\n\n\nIf you don’t want to bother with markdown formatting, you don’t need to use it! Feel free just to write with plain text."
   },
   {
-    "objectID": "github.html#a-demo-ppg-repo",
-    "href": "github.html#a-demo-ppg-repo",
-    "title": "Guide to GitHub for PPG discussions",
-    "section": "A demo PPG repo",
-    "text": "A demo PPG repo\nWe will use a GitHub repo to maintain the PPG classification (in the form of a CSV file) and to organize and maintain a record of all community discussions using issues.\nTo show how this works, there is a demonstration repo at https://github.com/pteridogroup/ppg-demo. This repo doesn’t have any data in it; it is just to show to how use issues.\n\n\n\n\n\n\nNote\n\n\n\nIn order to be able to complete each of the steps yourself, you will need a GitHub account (see Setup).\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThere will eventually be a real repo set up including the PPG taxonomic data, but at this stage we are only using the demo.\n\n\nThere are three basic things to learn: creating a new issue, searching for an issue, and commenting on an issue."
+    "objectID": "github.html#the-ppg-repo",
+    "href": "github.html#the-ppg-repo",
+    "title": "Guide to GitHub for PPG",
+    "section": "The PPG repo",
+    "text": "The PPG repo\nWe will use a GitHub repo to maintain the PPG classification (in the form of a CSV file) and to organize and maintain a record of all community discussions using issues1. It is located at https://github.com/pteridogroup/ppg.\n\n\n\n\n\n\nNote\n\n\n\nIn order to be able to complete each of the steps yourself, you will need a GitHub account (see Setup).\n\n\nThere are three basic things to learn: creating a new issue, searching for an issue, and commenting on an issue."
   },
   {
     "objectID": "github.html#creating-a-new-issue",
     "href": "github.html#creating-a-new-issue",
-    "title": "Guide to GitHub for PPG discussions",
+    "title": "Guide to GitHub for PPG",
     "section": "Creating a new issue",
     "text": "Creating a new issue\n\n\n\n\n\n\nWarning\n\n\n\nBefore submitting a new issue, please search the existing issues to see if one already exists.\n\n\n\nClick on “Issues” in the top navigation bar of the repo homepage (Figure 1).\n\n\n\n\n\n\nFigure 1: Repo homepage\n\n\n\nClick on the green “New issue” button (Figure 2)\n\n\n\n\n\n\nFigure 2: Issues page\n\n\n\nClick on the “Get started” button next to “Taxonomic proposal” (Figure 3)\n\n\n\n\n\n\nFigure 3: Issues templates page\n\n\n\nFill out the form provided (Figure 4). It includes fields to ensure that proposals to update PPG are sufficiently informative for productive discussion. When you are done filling out the form, hit the “Submit new issue” button. You’re done!\n\n\n\n\n\n\n\nTip: Include the taxon name in the issue title\n\n\n\nIt will make it easier to find issues if you include the name of the taxon in the title (e.g., “Add Gastoniella”)\n\n\n\n\n\n\n\nFigure 4: Issue form"
   },
   {
     "objectID": "github.html#searching-for-an-issue",
     "href": "github.html#searching-for-an-issue",
-    "title": "Guide to GitHub for PPG discussions",
+    "title": "Guide to GitHub for PPG",
     "section": "Searching for an issue",
     "text": "Searching for an issue\n\nClick on “Issues” in the top navigation bar (Figure 1), which will take you to the “Issues” page (Figure 2). You will see issues in chronological order.\nUse the search bar (Figure 5) to find an issue you are interested in. Note that the search only includes open issues by default; pressing on the button listing the number of closed issues will bring them up instead.\n\n\n\n\n\n\nFigure 5: Issue search bar"
   },
   {
     "objectID": "github.html#commenting-on-an-issue",
     "href": "github.html#commenting-on-an-issue",
-    "title": "Guide to GitHub for PPG discussions",
+    "title": "Guide to GitHub for PPG",
     "section": "Commenting on an issue",
     "text": "Commenting on an issue\nAnyone with a GitHub account can comment on an issue.\n\nFirst, find an issue you are interested in (it could be one you created). See “Searching for an issue” for how to do that.\nOnce you find an issue you are interested in, click it. You should see the page for the issue, with a dialog box at the bottom (Figure 6).\n\n\n\n\n\n\nFigure 6: Commenting on an issue\n\n\n\nFill out the dialog box with your comment and press the green “Comment” button. Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information—refrain from contributing to long threads of simple agreements, or unfocused discussions.\n\n\n\n\n\n\n\nTip: Don’t press “Close issue” (usually)\n\n\n\nYou may notice there is also a “Close issue” button. This will only be available to the person who created the issue and to the maintainers of the repo. Generally you should not press the “Close issue” button—the maintainers of the repo will take care of that, after voting is complete."
   },
   {
+    "objectID": "github.html#general-discussions",
+    "href": "github.html#general-discussions",
+    "title": "Guide to GitHub for PPG",
+    "section": "General discussions",
+    "text": "General discussions\nSo far this guide has focused on using issues as a forum for discussing taxonomic proposals. If you have something else you want to talk about, for example, discussing how PPG is maintained, asking a question about using GitHub, etc., please use the Discussions feature, available at https://github.com/pteridogroup/ppg/discussions.\nTo start a discussion, click the green “New discussion” button, select a category, and fill out the text box.\nThe interface is very similar to issues, but general discussions don’t get marked as “open” or “closed”. We want to separate taxonomic proposals from general discussions to make it easy to track which proposals have been approved and implemented2.\n\n\n\n\n\nFigure 7: The Discussions forum"
+  },
+  {
     "objectID": "github.html#voting",
     "href": "github.html#voting",
-    "title": "Guide to GitHub for PPG discussions",
+    "title": "Guide to GitHub for PPG",
     "section": "Voting",
-    "text": "Voting\nWe will not use GitHub for taking votes on proposed changes (probably we will do that with Google Forms or something similar). After a certain amount of time during which comments are taken on the issue using the system described in this document, all members of PPG will be given a chance to vote, then the proposal will be marked either accepted or rejected."
+    "text": "Voting\nWe will not use GitHub for taking votes on proposed changes (we will do that with a ballot created using Google Forms and sent out to the PPG mailing list). After a certain amount of time during which comments are taken on the issue using the system described in this document, all members of PPG will be given a chance to vote, then the proposal will be marked either accepted or rejected."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pteridophyte Phylogeny Group",
     "section": "",
-    "text": "This the homepage of the Pteridophyte Phylogeny Group (PPG), a community of scientists who maintain a taxonomic database of pteridophytes (ferns and lycophytes).\nAll community discussions (taxonomic proposals) are hosted publicly on GitHub. For more information, please see the Guide to GitHub for PPG discussions.\nAnybody is welcome to participate. Please read the guidelines and contact us for more information if you have any questions."
+    "text": "This the homepage of the Pteridophyte Phylogeny Group (PPG), a community of scientists who maintain a taxonomic database of pteridophytes (ferns and lycophytes).\nAll community discussions (taxonomic proposals) are hosted publicly on GitHub. For more information, please see the Guide to GitHub for PPG.\nAnybody is welcome to participate. Please read the guidelines and contact us for more information if you have any questions."
   },
   {
     "objectID": "guidelines.html",
