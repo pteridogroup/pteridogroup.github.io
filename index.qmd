@@ -1,9 +1,18 @@
 ---
 title: "Pteridophyte Phylogeny Group"
+toc: false
 ---
 
-This the homepage of the Pteridophyte Phylogeny Group (PPG), a community of scientists who maintain a taxonomic database of pteridophytes (ferns and lycophytes).
+This the homepage of the **Pteridophyte Phylogeny Group (PPG)**, a community of scientists who maintain a taxonomic database of pteridophytes (ferns and lycophytes).
 
-All community discussions (taxonomic proposals) are hosted publicly on GitHub. For more information, please see the [Guide to GitHub for PPG](github.qmd).
+All discussion of taxonomic proposals is hosted publicly on [GitHub](https://github.com/pteridogroup/ppg/). For more information, please see the [Guide to GitHub for PPG](github.qmd).
 
-Anybody is welcome to participate. Please read [the guidelines](https://pteridogroup.github.io/guidelines.html) and [contact us](https://pteridogroup.github.io/guidelines.html#coordinating-committee) for more information if you have any questions.
+## Participation
+
+Anybody is welcome to participate. Please read [the project guidelines](guidelines.qmd) and [contact us](guidelines.qmd#coordinating-committee) for more information if you have any questions.
+
+## Quick links
+
+- [Propose a taxonomic change](https://github.com/pteridogroup/ppg/issues/new?assignees=&labels=taxonomic+proposal&template=taxonomic-proposal.yml)
+- [Browse taxonomic proposals](https://github.com/pteridogroup/ppg/issues)
+- [Browse general discussions](https://github.com/pteridogroup/ppg/discussions)
