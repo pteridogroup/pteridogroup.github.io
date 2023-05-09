@@ -1,0 +1,16 @@
+---
+references:
+
+- id: ppg2016
+  author:
+    - literal: Pteridophyte Phylogeny Group I
+  citation-key: PteridophytePhylogenyGroupI2016
+  container-title: Journal of Systematics and Evolution
+  DOI: 10.1111/jse.12229
+  issue: '6'
+  issued:
+    - year: 2016
+  page: 563-603
+  title: A community-derived classification for extant lycophytes and ferns
+  type: article-journal
+  volume: '54'

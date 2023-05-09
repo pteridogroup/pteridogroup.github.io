@@ -7,6 +7,8 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: guidelines.qmd
+        text: Project Guidelines
       - href: github.qmd
         text: GitHub Guide
       - href: coc.qmd
