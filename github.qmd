@@ -1,5 +1,5 @@
 ---
-title: "Guide to GitHub for PPG discussions"
+title: "Guide to GitHub for PPG"
 fig-responsive: true
 toc: true
 grid:
@@ -33,18 +33,12 @@ When you create a new issue or add a comment on an existing issue, you can only 
 If you don’t want to bother with markdown formatting, you don’t need to use it! Feel free just to write with plain text. 
 :::
 
-## A demo PPG repo
+## The PPG repo
 
-We will use a GitHub repo to maintain the PPG classification (in the form of a CSV file) and to organize and maintain a record of all community discussions using issues.
-
-To show how this works, there is a demonstration repo at [https://github.com/pteridogroup/ppg-demo](https://github.com/pteridogroup/ppg-demo). This repo doesn’t have any data in it; it is just to show to how use issues. 
+We will use a GitHub repo to maintain the PPG classification (in the form of a CSV file) and to organize and maintain a record of all community discussions using issues^[There was a demonstration repo originally set up for testing purposes at <https://github.com/pteridogroup/ppg-demo>. The demonstration repo is no longer active, but is still online for reference.]. It is located at <https://github.com/pteridogroup/ppg>.
 
 ::: {.callout-note}
 In order to be able to complete each of the steps yourself, you will need a GitHub account (see [Setup](#setup)).
-:::
-
-::: {.callout-important}
-There will eventually be a real repo set up including the PPG taxonomic data, but at this stage we are only using the demo.
 :::
 
 There are three basic things to learn: [creating a new issue](#creating-a-new-issue), [searching for an issue](#searching-for-an-issue), and [commenting on an issue](#commenting-on-an-issue).
@@ -55,7 +49,7 @@ There are three basic things to learn: [creating a new issue](#creating-a-new-is
 Before submitting a new issue, please [search the existing issues](#searching-for-an-issue) to see if one already exists.
 :::
 
-1. Click on "Issues" in the top navigation bar of the [repo homepage](https://github.com/pteridogroup/ppg-demo) (@fig-1).
+1. Click on "Issues" in the top navigation bar of the [repo homepage](https://github.com/pteridogroup/ppg) (@fig-1).
 
 ::: {.column-margin}
 [![Repo homepage](images/fig_1.png){#fig-1}](images/fig_1.png)
@@ -113,6 +107,18 @@ Anyone with a GitHub account can comment on an issue.
 You may notice there is also a "Close issue" button. This will only be available to the person who created the issue and to the maintainers of the repo. Generally you should not press the "Close issue" button---the maintainers of the repo will take care of that, after [voting](#voting) is complete.
 :::
 
+## General discussions
+
+So far this guide has focused on using issues as a forum for discussing taxonomic proposals. If you have something else you want to talk about, for example, discussing how PPG is maintained, asking a question about using GitHub, etc., please use the [Discussions](https://github.com/pteridogroup/ppg/discussions) feature, available at <https://github.com/pteridogroup/ppg/discussions>.
+
+To start a discussion, click the green "New discussion" button, select a category, and fill out the text box.
+
+The interface is very similar to issues, but general discussions don't get marked as "open" or "closed". We want to separate taxonomic proposals from general discussions to make it easy to track which proposals have been approved and implemented^[If you notice a bug in the PPG database, filing an issue is appropriate way to let us know about it. Generally, issues are something that can be marked as completed and closed, whereas discussions are more open-ended].
+
+::: {.column-margin}
+[![The Discussions forum](images/fig_7.png){#fig-7}](images/fig_7.png)
+:::
+
 ## Voting {#voting}
 
-We will not use GitHub for taking votes on proposed changes (probably we will do that with Google Forms or something similar). After a certain amount of time during which comments are taken on the issue using the system described in this document, all members of PPG will be given a chance to vote, then the proposal will be marked either accepted or rejected.
+We will not use GitHub for taking votes on proposed changes (we will do that with a ballot created using Google Forms and sent out to the PPG mailing list). After a certain amount of time during which comments are taken on the issue using the system described in this document, all members of PPG will be given a chance to vote, then the proposal will be marked either accepted or rejected.
