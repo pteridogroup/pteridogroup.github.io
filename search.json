@@ -67,7 +67,7 @@
     "href": "github.html#voting",
     "title": "Guide to GitHub for PPG",
     "section": "Voting",
-    "text": "Voting\nWe will not use GitHub for taking votes on proposed changes (we will do that with a ballot created using Google Forms and sent out to the PPG mailing list). After a certain amount of time during which comments are taken on the issue using the system described in this document, all members of PPG will be given a chance to vote, then the proposal will be marked either accepted or rejected."
+    "text": "Voting\nGitHub is not used for voting. For more details on how voting is carried out, see the PPG Guidelines.\nAfter voting, the results will be indicated on each proposal (issue) that was up for a vote, including the tally of votes for and against. The issue will not be closed at this point, however. Issues will only be closed once they have been implemented in the data."
   },
   {
     "objectID": "index.html",
@@ -103,6 +103,13 @@
     "title": "Project Guidelines",
     "section": "Phase 2",
     "text": "Phase 2\n\nIntended products\nThe primary product of Phase Two will be a database of species for each of the higher taxa recognized as a result of Phase 1. In addition, we anticipate one other paper, led by Joel Nitta, describing the bioinformatic tools that we will use in the production of PPG II.\n\n\nProcess\nThe details of the process that we will use to achieve this ambitious goal are still being worked out, but the process will revolve heavily around a set of scripts that Joel Nitta has created and which will be available online. These scripts provide user access to an underlying database of fern taxa. Basically, every taxon will be an entry in a big text file (A CSV file in Darwin Core format), and the data associated with that taxon (such as its parent taxon, its publication details, its rank, etc.) are stored in different fields in that entry.\nAs with Phase One, the initial database will be courtesy of Michael Hassler and based on his World Ferns list, modified as necessary to be consistent with the Phase One higher classification.\nJoel’s scripts will allow a user to download portions of the big text file (say, all the species in a given family or genus), edit them, and upon re-upload, will run a series of checks and adjust the rest of the master classification file as necessary (for example, but making sure that synonyms map to an accepted species, etc).\nOur rough plan is that PPG members will adopt individual taxa with which they have expertise and vet/refine the species lists for those taxa. They will then “push” their proposed changes back to the master list, where we’ll apply some sort of vetting (maybe by a geographically representative set of reviewers) to ensure a baseline degree of quality and consistency.\n\n\nVersioning\nDuring Phase 2 and beyond, we anticipate frequent, ongoing updates to the taxonomic database. Rather than release a major new PPG (e.g., PPG 3, PPG 4, etc.) only every few years, semantic versioning will be used to release updates on a more frequent and granular scale. The details are yet to be worked out, but it will likely be a numbering scheme with three digits (like v1.0.0) where changes below genus could be increments of the last digit (v1.0.1), changes at intermediate levels (genus to order) could be the middle digit (v1.1.0), and dramatic changes (order or higher, or a completely different data format) could be the first digit (v2.0.0). The database maintainer (currently Joel Nitta) will be in charge of issuing updates. The PPG community would be notified before any major updates. Only changes that have been approved by the voting system will be included in updates."
+  },
+  {
+    "objectID": "guidelines.html#reference-library",
+    "href": "guidelines.html#reference-library",
+    "title": "Project Guidelines",
+    "section": "Reference Library",
+    "text": "Reference Library\nA Zotero library is being maintained to store references relevant to PPG. If you are interested in helping to maintain the reference library, please contact a member of the coordinating committee."
   },
   {
     "objectID": "guidelines.html#code-of-conduct",
