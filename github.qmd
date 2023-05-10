@@ -74,6 +74,11 @@ Before submitting a new issue, please [search the existing issues](#searching-fo
 It will make it easier to find issues if you include the name of the taxon in the title (e.g., "Add Gastoniella")
 :::
 
+::: {.callout-tip}
+## Tip: Add a PDF
+If you want, you can upload a PDF (or [other file](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files)) by dragging it into the text box. It will automatically upload to GitHub and a link will be added. Click "Preview" to see how the link will look.
+:::
+
 ::: {.column-margin}
 [![Issue form](images/fig_4.png){#fig-4}](images/fig_4.png)
 :::
