@@ -1,96 +1,5 @@
 [
   {
-    "objectID": "coc.html",
-    "href": "coc.html",
-    "title": "Code of Conduct",
-    "section": "",
-    "text": "Version 1.0.0, 2023-05-09\nThe Pteridophyte Phylogeny Group (PPG) is committed to providing a safe, inclusive, welcoming, and harassment-free experience for everyone.\nWe strive to cultivate a community with shared values, where people are comfortable exploring ideas, asking questions, and saying things like “I don’t understand” or “why”. We assume competence in our participants and collaborators. There are no stupid questions.\nWe aim to keep discussions productive and civil. Spamming discussions with off-topic comments are not tolerated.\nWe will be considerate in speech and actions, and actively seek to acknowledge and respect the boundaries of people who participate in PPG activities.\nWe will take care of each other. We will alert a member of the Code of Conduct Committee if we notice a dangerous situation, someone in distress, or a potential violation of this Code of Conduct, even if it seems inconsequential.\nWe do not tolerate harassment in any form. Adherence to our Code of Conduct requires refraining from demeaning, discriminatory, or harassing behavior and speech including, but not limited to:\n\noffensive comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), nationality, native language, or technology choices;\nunwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, or employment;\nsustained or willful disruption of discussions, talks, or other events, including online discussion;\ndeliberate intimidation;\ncontinued one-on-one communication after requests to cease;\nunwanted photography or recording, including logging online activity for harassment purposes;\npattern of inappropriate social contact, such as requesting or assuming inappropriate levels of intimacy with others;\ninappropriate physical contact without consent or after a request to stop;\nin virtual settings, inappropriate simulated physical contact used without consent, such as textual descriptions like “hug” or “backrub” or emojis representing such contacts;\nstalking or following, including in virtual settings behavior such as persistent unwanted direct messages, sending unwanted pictures or malware links, or logging online activity for harassment purposes;\nthreats of violence or incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm;\nuse of sexual or discriminatory imagery, comments, or jokes;\nunwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favors, or repeatedly asking for dates or contact information;\ndeliberate ‘outing’ of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse;\ndeliberate misgendering or use of ‘dead’ or rejected names;\nnon-consensual publication of non-harassing private communication, including screenshots of private discussion channels or direct messages;\nforcing or coercing others to join in discussions or vote against their will or without their consent.\n\nWe prioritize marginalized people’s safety over privileged people’s comfort. We will not act on complaints regarding:\n\n‘reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’;\nreasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you”;\ncommunicating in a ‘tone’ you don’t find professional and congenial;\ncriticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions.\n\nIf anyone engages in harassing behavior, the Committee will take action that may include warning the offender or asking them to leave an event or an online channel either temporarily or permanently, or seeking help from law enforcement.\nThis Code of Conduct applies to all people participating in the PPG community, including PPG leadership. It applies to all modes of interaction online including GitHub project repositories, the PPG email list, Slack, virtual meetings, and in person at PPG-hosted events or events officially endorsed by PPG, including social gatherings affiliated with the event.\n\nReporting Guidelines\nThe PPG Code of Conduct Committee is composed of three volunteers, including a member of the PPG Coordinating Committee, who will serve as secretary:\n\nChristopher Krieg (christopher.p.krieg@gmail.com)\nErin Sigel (Erin.Sigel@unh.edu)\nAgustina Yañez (gugu@macn.gov.ar)\nEric Schuettpelz (SchuettpelzE@si.edu), secretary\n\nIf you experience or witness unacceptable behavior, or have any other concerns, please email one or more of the Committee members listed above. If any member of the Committee has a conflict of interest with a report of potential misconduct, they will be recused and will not have access to the content or process of the report followup. At an in-person PPG event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.\nIf you are planning to attend an upcoming event or join an online channel, and have concerns regarding another individual who may be present, please submit a report as described above. We will work with you to take precautions to ensure your comfort and safety. These precautions may include: providing an escort, preparing onsite event staff, and/or providing on-site contact cell phone numbers for immediate contact. In some cases, we may take action to prevent a harasser from attending the conference.\nThe Code of Conduct Committee will investigate and decide responses to reports of potential misconduct with the aim of making a decision and implementing enforcement as soon as is reasonably possible. We are committed to transparency with our community while upholding the privacy of victims and people who report incidents. Anybody who has been found to have violated the Code of Conduct will be blocked from participation in online discussions, voting, or participation in in-person events. We will publish brief, anonymized summaries of incidents on the forum in a dedicated, read-only category, and will publish on the PPG blog an annual transparency report.\nWe welcome your feedback by email and we thank you for working with us to make PPG a safe, enjoyable, friendly and enriching experience for everyone who participates.\n\n\nLicense and Credits\nThe PPG Code of Conduct has been influenced by and adapted from rOpenSci (https://ropensci.org/code-of-conduct/).\n\n\n\nLicense: CC0-1.0\n\n\nTo the extent possible under law, PPG has waived all copyright and related or neighboring rights to the PPG Code of Conduct."
-  },
-  {
-    "objectID": "github.html",
-    "href": "github.html",
-    "title": "Guide to GitHub for PPG",
-    "section": "",
-    "text": "GitHub provides tools to allow us to have open, collaborative discussions of taxonomic proposals, and to maintain a record of those discussions publicly available in perpetuity."
-  },
-  {
-    "objectID": "github.html#setup",
-    "href": "github.html#setup",
-    "title": "Guide to GitHub for PPG",
-    "section": "Setup",
-    "text": "Setup\nIn order to participate in PPG discussion you will need to obtain a GitHub account (the free account is fine). Anyone can browse the discussions, but only GitHub account-holders can contribute to them."
-  },
-  {
-    "objectID": "github.html#background-information",
-    "href": "github.html#background-information",
-    "title": "Guide to GitHub for PPG",
-    "section": "Background information",
-    "text": "Background information\n\nAbout repos\nA repository (or “repo” for short) is a project—a collection of files in a single folder (that may contain subfolders) that is tracked by a piece of version-control software called “git”. Git can be thought of as a fancy “undo” tool—it keeps track of all previous versions of your documents so you can always go back to earlier versions if you want to. GitHub is a web service to host repos in the cloud (online) so that anybody can access them. For our purposes, one need not know anything about git—just think of GitHub as a website that can host our classification and our discussions.\n\n\nAbout issues\nIssues are the tool that GitHub uses to track “to-do” items related to the project. A repo will have a list of issues (like a to-do list), each of which can be open or closed. Open issues still need to be completed. Closed issues have been resolved. Issues can be commented on in a discussion, and the discussion will remain online in perpetuity, even after the issue is closed.\n\n\nAbout markdown\nWhen you create a new issue or add a comment on an existing issue, you can only use plain text (no bold, italics, etc). In order to add formatting, you need to use a syntax called markdown. In markdown, you indicate how the text should be formatted with special characters, such as asterisks around words to be shown in italics. That is why any dialog box to enter text in GitHub has two tabs, “Write” and “Preview”. You enter the text in the “Write” tab and click on “Preview” to see how the formatted text will appear. For more on writing with markdown, see this help doc.\n\n\n\n\n\n\nTip: No markdown needed\n\n\n\nIf you don’t want to bother with markdown formatting, you don’t need to use it! Feel free just to write with plain text."
-  },
-  {
-    "objectID": "github.html#the-ppg-repo",
-    "href": "github.html#the-ppg-repo",
-    "title": "Guide to GitHub for PPG",
-    "section": "The PPG repo",
-    "text": "The PPG repo\nWe will use a GitHub repo to maintain the PPG classification (in the form of a CSV file) and to organize and maintain a record of all community discussions using issues1. It is located at https://github.com/pteridogroup/ppg.\n\n\n\n\n\n\nNote\n\n\n\nIn order to be able to complete each of the steps yourself, you will need a GitHub account (see Setup).\n\n\nThere are three basic things to learn: creating a new issue, searching for an issue, and commenting on an issue."
-  },
-  {
-    "objectID": "github.html#creating-a-new-issue",
-    "href": "github.html#creating-a-new-issue",
-    "title": "Guide to GitHub for PPG",
-    "section": "Creating a new issue",
-    "text": "Creating a new issue\n\n\n\n\n\n\nWarning\n\n\n\nBefore submitting a new issue, please search the existing issues to see if one already exists.\n\n\n\nClick on “Issues” in the top navigation bar of the repo homepage (Figure 1).\n\n\n\n\n\n\nFigure 1: Repo homepage\n\n\n\nClick on the green “New issue” button (Figure 2)\n\n\n\n\n\n\nFigure 2: Issues page\n\n\n\nClick on the “Get started” button next to “Taxonomic proposal” (Figure 3)\n\n\n\n\n\n\nFigure 3: Issues templates page\n\n\n\nFill out the form provided (Figure 4). It includes fields to ensure that proposals to update PPG are sufficiently informative for productive discussion. When you are done filling out the form, hit the “Submit new issue” button. You’re done!\n\n\n\n\n\n\n\nTip: Include the taxon name in the issue title\n\n\n\nIt will make it easier to find issues if you include the name of the taxon in the title (e.g., “Add Gastoniella”)\n\n\n\n\n\n\n\nFigure 4: Issue form"
-  },
-  {
-    "objectID": "github.html#searching-for-an-issue",
-    "href": "github.html#searching-for-an-issue",
-    "title": "Guide to GitHub for PPG",
-    "section": "Searching for an issue",
-    "text": "Searching for an issue\n\nClick on “Issues” in the top navigation bar (Figure 1), which will take you to the “Issues” page (Figure 2). You will see issues in chronological order.\nUse the search bar (Figure 5) to find an issue you are interested in. Note that the search only includes open issues by default; pressing on the button listing the number of closed issues will bring them up instead.\n\n\n\n\n\n\nFigure 5: Issue search bar"
-  },
-  {
-    "objectID": "github.html#commenting-on-an-issue",
-    "href": "github.html#commenting-on-an-issue",
-    "title": "Guide to GitHub for PPG",
-    "section": "Commenting on an issue",
-    "text": "Commenting on an issue\nAnyone with a GitHub account can comment on an issue.\n\nFirst, find an issue you are interested in (it could be one you created). See “Searching for an issue” for how to do that.\nOnce you find an issue you are interested in, click it. You should see the page for the issue, with a dialog box at the bottom (Figure 6).\n\n\n\n\n\n\nFigure 6: Commenting on an issue\n\n\n\nFill out the dialog box with your comment and press the green “Comment” button. Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information—refrain from contributing to long threads of simple agreements, or unfocused discussions.\n\n\n\n\n\n\n\nTip: Don’t press “Close issue” (usually)\n\n\n\nYou may notice there is also a “Close issue” button. This will only be available to the person who created the issue and to the maintainers of the repo. Generally you should not press the “Close issue” button—the maintainers of the repo will take care of that, after voting is complete."
-  },
-  {
-    "objectID": "github.html#general-discussions",
-    "href": "github.html#general-discussions",
-    "title": "Guide to GitHub for PPG",
-    "section": "General discussions",
-    "text": "General discussions\nSo far this guide has focused on using issues as a forum for discussing taxonomic proposals. If you have something else you want to talk about, for example, discussing how PPG is maintained, asking a question about using GitHub, etc., please use the Discussions feature, available at https://github.com/pteridogroup/ppg/discussions.\nTo start a discussion, click the green “New discussion” button, select a category, and fill out the text box.\nThe interface is very similar to issues, but general discussions don’t get marked as “open” or “closed”. We want to separate taxonomic proposals from general discussions to make it easy to track which proposals have been approved and implemented2.\n\n\n\n\n\nFigure 7: The Discussions forum"
-  },
-  {
-    "objectID": "github.html#voting",
-    "href": "github.html#voting",
-    "title": "Guide to GitHub for PPG",
-    "section": "Voting",
-    "text": "Voting\nGitHub is not used for voting. For more details on how voting is carried out, see the PPG Guidelines.\nAfter voting, the results will be indicated on each proposal (issue) that was up for a vote, including the tally of votes for and against. The issue will not be closed at this point, however. Issues will only be closed once they have been implemented in the data."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pteridophyte Phylogeny Group",
-    "section": "",
-    "text": "This the homepage of the Pteridophyte Phylogeny Group (PPG), a community of scientists who maintain a taxonomic database of pteridophytes (ferns and lycophytes).\nAll discussion of taxonomic proposals is hosted publicly on GitHub. For more information, please see the Guide to GitHub for PPG."
-  },
-  {
-    "objectID": "index.html#participation",
-    "href": "index.html#participation",
-    "title": "Pteridophyte Phylogeny Group",
-    "section": "Participation",
-    "text": "Participation\nAnybody is welcome to participate. Please read the project guidelines and contact us for more information if you have any questions."
-  },
-  {
-    "objectID": "index.html#quick-links",
-    "href": "index.html#quick-links",
-    "title": "Pteridophyte Phylogeny Group",
-    "section": "Quick links",
-    "text": "Quick links\n\nPropose a taxonomic change\nBrowse taxonomic proposals\nBrowse general discussions"
-  },
-  {
     "objectID": "guidelines.html",
     "href": "guidelines.html",
     "title": "Project Guidelines",
@@ -145,5 +54,96 @@
     "title": "Project Guidelines",
     "section": "Coordinating committee",
     "text": "Coordinating committee\nThe day-to-day coordination of the PPG II process is organized by:\n\nJoel Nitta (joelnitta@gmail.com)\nCarl Rothfels (carl.rothfels@usu.edu)\nHarald Schneider (harald@xtbg.ac.cn)\nEric Schuettpelz (schuettpelzE@si.edu)\n\nPlease contact us with any administrative concerns or comments. If you’re interested in getting more involved, let us know!"
+  },
+  {
+    "objectID": "github.html",
+    "href": "github.html",
+    "title": "Guide to GitHub for PPG",
+    "section": "",
+    "text": "GitHub provides tools to allow us to have open, collaborative discussions of taxonomic proposals, and to maintain a record of those discussions publicly available in perpetuity."
+  },
+  {
+    "objectID": "github.html#setup",
+    "href": "github.html#setup",
+    "title": "Guide to GitHub for PPG",
+    "section": "Setup",
+    "text": "Setup\nIn order to participate in PPG discussion you will need to obtain a GitHub account (the free account is fine). Anyone can browse the discussions, but only GitHub account-holders can contribute to them."
+  },
+  {
+    "objectID": "github.html#background-information",
+    "href": "github.html#background-information",
+    "title": "Guide to GitHub for PPG",
+    "section": "Background information",
+    "text": "Background information\n\nAbout repos\nA repository (or “repo” for short) is a project—a collection of files in a single folder (that may contain subfolders) that is tracked by a piece of version-control software called “git”. Git can be thought of as a fancy “undo” tool—it keeps track of all previous versions of your documents so you can always go back to earlier versions if you want to. GitHub is a web service to host repos in the cloud (online) so that anybody can access them. For our purposes, one need not know anything about git—just think of GitHub as a website that can host our classification and our discussions.\n\n\nAbout issues\nIssues are the tool that GitHub uses to track “to-do” items related to the project. A repo will have a list of issues (like a to-do list), each of which can be open or closed. Open issues still need to be completed. Closed issues have been resolved. Issues can be commented on in a discussion, and the discussion will remain online in perpetuity, even after the issue is closed.\n\n\nAbout markdown\nWhen you create a new issue or add a comment on an existing issue, you can only use plain text (no bold, italics, etc). In order to add formatting, you need to use a syntax called markdown. In markdown, you indicate how the text should be formatted with special characters, such as asterisks around words to be shown in italics. That is why any dialog box to enter text in GitHub has two tabs, “Write” and “Preview”. You enter the text in the “Write” tab and click on “Preview” to see how the formatted text will appear. For more on writing with markdown, see this help doc.\n\n\n\n\n\n\nTip: No markdown needed\n\n\n\nIf you don’t want to bother with markdown formatting, you don’t need to use it! Feel free just to write with plain text."
+  },
+  {
+    "objectID": "github.html#the-ppg-repo",
+    "href": "github.html#the-ppg-repo",
+    "title": "Guide to GitHub for PPG",
+    "section": "The PPG repo",
+    "text": "The PPG repo\nWe will use a GitHub repo to maintain the PPG classification (in the form of a CSV file) and to organize and maintain a record of all community discussions using issues1. It is located at https://github.com/pteridogroup/ppg.\n\n\n\n\n\n\nNote\n\n\n\nIn order to be able to complete each of the steps yourself, you will need a GitHub account (see Setup).\n\n\nThere are three basic things to learn: creating a new issue, searching for an issue, and commenting on an issue."
+  },
+  {
+    "objectID": "github.html#creating-a-new-issue",
+    "href": "github.html#creating-a-new-issue",
+    "title": "Guide to GitHub for PPG",
+    "section": "Creating a new issue",
+    "text": "Creating a new issue\n\n\n\n\n\n\nWarning\n\n\n\nBefore submitting a new issue, please search the existing issues to see if one already exists.\n\n\n\nClick on “Issues” in the top navigation bar of the repo homepage (Figure 1).\n\n\n\n\n\n\nFigure 1: Repo homepage\n\n\n\nClick on the green “New issue” button (Figure 2)\n\n\n\n\n\n\nFigure 2: Issues page\n\n\n\nClick on the “Get started” button next to “Taxonomic proposal” (Figure 3)\n\n\n\n\n\n\nFigure 3: Issues templates page\n\n\n\nFill out the form provided (Figure 4). It includes fields to ensure that proposals to update PPG are sufficiently informative for productive discussion. When you are done filling out the form, hit the “Submit new issue” button. You’re done!\n\n\n\n\n\n\n\nTip: Include the taxon name in the issue title\n\n\n\nIt will make it easier to find issues if you include the name of the taxon in the title (e.g., “Add Gastoniella”)\n\n\n\n\n\n\n\n\nTip: Add a PDF\n\n\n\nIf you want, you can upload a PDF (or other file) by dragging it into the text box. It will automatically upload to GitHub and a link will be added. Click “Preview” to see how the link will look.\n\n\n\n\n\n\n\nFigure 4: Issue form"
+  },
+  {
+    "objectID": "github.html#searching-for-an-issue",
+    "href": "github.html#searching-for-an-issue",
+    "title": "Guide to GitHub for PPG",
+    "section": "Searching for an issue",
+    "text": "Searching for an issue\n\nClick on “Issues” in the top navigation bar (Figure 1), which will take you to the “Issues” page (Figure 2). You will see issues in chronological order.\nUse the search bar (Figure 5) to find an issue you are interested in. Note that the search only includes open issues by default; pressing on the button listing the number of closed issues will bring them up instead.\n\n\n\n\n\n\nFigure 5: Issue search bar"
+  },
+  {
+    "objectID": "github.html#commenting-on-an-issue",
+    "href": "github.html#commenting-on-an-issue",
+    "title": "Guide to GitHub for PPG",
+    "section": "Commenting on an issue",
+    "text": "Commenting on an issue\nAnyone with a GitHub account can comment on an issue.\n\nFirst, find an issue you are interested in (it could be one you created). See “Searching for an issue” for how to do that.\nOnce you find an issue you are interested in, click it. You should see the page for the issue, with a dialog box at the bottom (Figure 6).\n\n\n\n\n\n\nFigure 6: Commenting on an issue\n\n\n\nFill out the dialog box with your comment and press the green “Comment” button. Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information—refrain from contributing to long threads of simple agreements, or unfocused discussions.\n\n\n\n\n\n\n\nTip: Don’t press “Close issue” (usually)\n\n\n\nYou may notice there is also a “Close issue” button. This will only be available to the person who created the issue and to the maintainers of the repo. Generally you should not press the “Close issue” button—the maintainers of the repo will take care of that, after voting is complete."
+  },
+  {
+    "objectID": "github.html#general-discussions",
+    "href": "github.html#general-discussions",
+    "title": "Guide to GitHub for PPG",
+    "section": "General discussions",
+    "text": "General discussions\nSo far this guide has focused on using issues as a forum for discussing taxonomic proposals. If you have something else you want to talk about, for example, discussing how PPG is maintained, asking a question about using GitHub, etc., please use the Discussions feature, available at https://github.com/pteridogroup/ppg/discussions.\nTo start a discussion, click the green “New discussion” button, select a category, and fill out the text box.\nThe interface is very similar to issues, but general discussions don’t get marked as “open” or “closed”. We want to separate taxonomic proposals from general discussions to make it easy to track which proposals have been approved and implemented2.\n\n\n\n\n\nFigure 7: The Discussions forum"
+  },
+  {
+    "objectID": "github.html#voting",
+    "href": "github.html#voting",
+    "title": "Guide to GitHub for PPG",
+    "section": "Voting",
+    "text": "Voting\nGitHub is not used for voting. For more details on how voting is carried out, see the PPG Guidelines.\nAfter voting, the results will be indicated on each proposal (issue) that was up for a vote, including the tally of votes for and against. The issue will not be closed at this point, however. Issues will only be closed once they have been implemented in the data."
+  },
+  {
+    "objectID": "coc.html",
+    "href": "coc.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Version 1.0.0, 2023-05-09\nThe Pteridophyte Phylogeny Group (PPG) is committed to providing a safe, inclusive, welcoming, and harassment-free experience for everyone.\nWe strive to cultivate a community with shared values, where people are comfortable exploring ideas, asking questions, and saying things like “I don’t understand” or “why”. We assume competence in our participants and collaborators. There are no stupid questions.\nWe aim to keep discussions productive and civil. Spamming discussions with off-topic comments are not tolerated.\nWe will be considerate in speech and actions, and actively seek to acknowledge and respect the boundaries of people who participate in PPG activities.\nWe will take care of each other. We will alert a member of the Code of Conduct Committee if we notice a dangerous situation, someone in distress, or a potential violation of this Code of Conduct, even if it seems inconsequential.\nWe do not tolerate harassment in any form. Adherence to our Code of Conduct requires refraining from demeaning, discriminatory, or harassing behavior and speech including, but not limited to:\n\noffensive comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), nationality, native language, or technology choices;\nunwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, or employment;\nsustained or willful disruption of discussions, talks, or other events, including online discussion;\ndeliberate intimidation;\ncontinued one-on-one communication after requests to cease;\nunwanted photography or recording, including logging online activity for harassment purposes;\npattern of inappropriate social contact, such as requesting or assuming inappropriate levels of intimacy with others;\ninappropriate physical contact without consent or after a request to stop;\nin virtual settings, inappropriate simulated physical contact used without consent, such as textual descriptions like “hug” or “backrub” or emojis representing such contacts;\nstalking or following, including in virtual settings behavior such as persistent unwanted direct messages, sending unwanted pictures or malware links, or logging online activity for harassment purposes;\nthreats of violence or incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm;\nuse of sexual or discriminatory imagery, comments, or jokes;\nunwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favors, or repeatedly asking for dates or contact information;\ndeliberate ‘outing’ of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse;\ndeliberate misgendering or use of ‘dead’ or rejected names;\nnon-consensual publication of non-harassing private communication, including screenshots of private discussion channels or direct messages;\nforcing or coercing others to join in discussions or vote against their will or without their consent.\n\nWe prioritize marginalized people’s safety over privileged people’s comfort. We will not act on complaints regarding:\n\n‘reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’;\nreasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you”;\ncommunicating in a ‘tone’ you don’t find professional and congenial;\ncriticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions.\n\nIf anyone engages in harassing behavior, the Committee will take action that may include warning the offender or asking them to leave an event or an online channel either temporarily or permanently, or seeking help from law enforcement.\nThis Code of Conduct applies to all people participating in the PPG community, including PPG leadership. It applies to all modes of interaction online including GitHub project repositories, the PPG email list, Slack, virtual meetings, and in person at PPG-hosted events or events officially endorsed by PPG, including social gatherings affiliated with the event.\n\nReporting Guidelines\nThe PPG Code of Conduct Committee is composed of three volunteers, including a member of the PPG Coordinating Committee, who will serve as secretary:\n\nChristopher Krieg (christopher.p.krieg@gmail.com)\nErin Sigel (Erin.Sigel@unh.edu)\nAgustina Yañez (gugu@macn.gov.ar)\nEric Schuettpelz (SchuettpelzE@si.edu), secretary\n\nIf you experience or witness unacceptable behavior, or have any other concerns, please email one or more of the Committee members listed above. If any member of the Committee has a conflict of interest with a report of potential misconduct, they will be recused and will not have access to the content or process of the report followup. At an in-person PPG event, please reach out to anyone named as a member of that event-specific Code of Conduct Committee, or to venue staff or security who will be present throughout the event.\nIf you are planning to attend an upcoming event or join an online channel, and have concerns regarding another individual who may be present, please submit a report as described above. We will work with you to take precautions to ensure your comfort and safety. These precautions may include: providing an escort, preparing onsite event staff, and/or providing on-site contact cell phone numbers for immediate contact. In some cases, we may take action to prevent a harasser from attending the conference.\nThe Code of Conduct Committee will investigate and decide responses to reports of potential misconduct with the aim of making a decision and implementing enforcement as soon as is reasonably possible. We are committed to transparency with our community while upholding the privacy of victims and people who report incidents. Anybody who has been found to have violated the Code of Conduct will be blocked from participation in online discussions, voting, or participation in in-person events. We will publish brief, anonymized summaries of incidents on the forum in a dedicated, read-only category, and will publish on the PPG blog an annual transparency report.\nWe welcome your feedback by email and we thank you for working with us to make PPG a safe, enjoyable, friendly and enriching experience for everyone who participates.\n\n\nLicense and Credits\nThe PPG Code of Conduct has been influenced by and adapted from rOpenSci (https://ropensci.org/code-of-conduct/).\n\n\n\nLicense: CC0-1.0\n\n\nTo the extent possible under law, PPG has waived all copyright and related or neighboring rights to the PPG Code of Conduct."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pteridophyte Phylogeny Group",
+    "section": "",
+    "text": "This the homepage of the Pteridophyte Phylogeny Group (PPG), a community of scientists who maintain a taxonomic database of pteridophytes (ferns and lycophytes).\nAll discussion of taxonomic proposals is hosted publicly on GitHub. For more information, please see the Guide to GitHub for PPG."
+  },
+  {
+    "objectID": "index.html#participation",
+    "href": "index.html#participation",
+    "title": "Pteridophyte Phylogeny Group",
+    "section": "Participation",
+    "text": "Participation\nAnybody is welcome to participate. Please read the project guidelines and contact us for more information if you have any questions."
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Pteridophyte Phylogeny Group",
+    "section": "Quick links",
+    "text": "Quick links\n\nPropose a taxonomic change\nBrowse taxonomic proposals\nBrowse general discussions"
   }
 ]
