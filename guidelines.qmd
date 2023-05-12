@@ -57,12 +57,13 @@ With that goal in mind, please follow these guidelines (**if a proposal does not
 Similarly, all supporting studies should be published.
 For example, if one is advocating for a name change based upon the non-monophyly of a taxon recognized in PPG I [-@ppg2016], the phylogeny demonstrating non-monophyly needs to be published.
 2. **Each proposal should take PPG I [-@ppg2016] as the starting point** (i.e., only _changes_ to PPG I should be proposed).
-3. Each proposal should be cohesive and self-contained—try to avoid compound proposals where possible.
+3. Proposals to recognize nothotaxa should only be made if the parent taxa are already recognized.
+4. Each proposal should be cohesive and self-contained—try to avoid compound proposals where possible.
 Proposing a different set of genera within a family, for example, would be appropriate because the new generic circumscriptions depend on each other.
 However, proposing the recognition of two unrelated generic treatments should be done with two separate proposals.
-4. Anyone is welcome to make a proposal for any taxon, but it would be collegial to allow the researchers most closely associated with the name change "first dibs", so to speak.
+5. Anyone is welcome to make a proposal for any taxon, but it would be collegial to allow the researchers most closely associated with the name change "first dibs", so to speak.
 These people are also probably in the best position to write a comprehensive proposal.
-5. Each proposal should be comprehensive: it should include all relevant details to allow other PPG members to make an informed decision about the proposal.
+6. Each proposal should be comprehensive: it should include all relevant details to allow other PPG members to make an informed decision about the proposal.
 Those details include summaries (with citations) of the arguments supporting a particular proposal, and, ideally, a discussion of the main counter arguments.
 Take the time to write a comprehensive proposal the first time, so that there is no need to mention additional information during the discussion—the proposal itself should ideally contain all the information that PPG members need to come to a conclusion.
 
