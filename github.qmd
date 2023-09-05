@@ -129,3 +129,15 @@ The interface is very similar to issues, but general discussions don't get marke
 GitHub is not used for voting. For more details on how voting is carried out, see the [PPG Guidelines](https://pteridogroup.github.io/guidelines.html#voting).
 
 After voting, the results will be indicated on each proposal (issue) that was up for a vote, including the tally of votes for and against. The issue will not be closed at this point, however. Issues will only be closed once they have been implemented in the data.
+
+## Notifications
+
+It is a good idea to subscribe to GitHub notifications so you don't miss anything. We recommend receiving email notifications for all activity on the [PPG repo](https://github.com/pteridogroup/ppg/). To do this, first [log in to GitHub](https://github.com/login). Next, go to <https://github.com/pteridogroup/ppg/> and click on the "Watch/Unwatch" button and select "All Activity" (@fig-8). Finally, to make sure that you receive notifications as emails, go to <https://github.com/settings/notifications>, and make sure "Email" is checked under "Subscriptions" (@fig-9).
+
+::: {.column-margin}
+[![The Watch/Unwatch button](images/fig_8.png){#fig-8}](images/fig_8.png)
+:::
+
+::: {.column-margin}
+[![Subscription options](images/fig_9.png){#fig-9}](images/fig_9.png)
+:::
