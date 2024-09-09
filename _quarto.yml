@@ -13,6 +13,8 @@ website:
         text: GitHub Guide
       - href: coc.qmd
         text: Code of Conduct
+      - href: wf.qmd
+        text: World Ferns
   page-footer: "All content by Pteridophyte Phylogeny Group is licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/) unless otherwise noted" 
 
 format:
