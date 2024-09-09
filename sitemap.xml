@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/pteridogroup/pteridogroup.github.io/wf.html</loc>
+    <lastmod>2024-09-09T05:29:52.850Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/pteridogroup/pteridogroup.github.io/guidelines.html</loc>
-    <lastmod>2023-09-05T00:06:27.124Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pteridogroup/pteridogroup.github.io/index.html</loc>
-    <lastmod>2023-09-05T00:06:27.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pteridogroup/pteridogroup.github.io/coc.html</loc>
-    <lastmod>2023-09-05T00:06:28.280Z</lastmod>
+    <lastmod>2024-09-09T05:29:53.670Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/pteridogroup/pteridogroup.github.io/github.html</loc>
-    <lastmod>2023-09-05T00:06:29.296Z</lastmod>
+    <lastmod>2024-09-09T05:29:54.394Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pteridogroup/pteridogroup.github.io/index.html</loc>
+    <lastmod>2024-09-09T05:29:54.858Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pteridogroup/pteridogroup.github.io/coc.html</loc>
+    <lastmod>2024-09-09T05:29:55.194Z</lastmod>
   </url>
 </urlset>
