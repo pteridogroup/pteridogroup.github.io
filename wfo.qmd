@@ -1,0 +1,33 @@
+---
+title: "World Flora Online"
+author: "PPG Coordinating Committee"
+toc: true
+date: "2025-04-04"
+bibliography: references.yaml
+---
+
+## About WFO
+
+[World Flora Online (**WFO**)](https://about.worldfloraonline.org/) is a digital flora including all land plants(bryophytes and vascular plants).
+It was initiated during the 11th Conference of the Parties to the Convention on Biological Diversity in October 2012 in response to Target 1 ("An online flora of all known plants") of the Global Strategy for Plant Conservation (GSPC) of the U.N. Convention on Biological Diversity.
+
+The WFO is a [collaborative, international project](https://about.worldfloraonline.org/who-we-are) that is supported by multiple institutions, including the Missouri Botanical Garden, the New York Botanical Garden, the Royal Botanic Garden Edinburgh, and the Royal Botanic Gardens, Kew.
+
+WFO data are widely used, including major databases such as [Catalog of Life (CoL)](https://www.catalogueoflife.org/) and the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/).
+
+## About TENs
+
+WFO does not take a "top-down" approach to taxonomy.
+Rather, the data in WFO are maintained by [Taxonomic Expert Networks, or **TENs**](https://about.worldfloraonline.org/tens).
+Each TEN is composed of expert taxonomists for a certain group of plants (for example, [Fabaceae](https://about.worldfloraonline.org/tens/fabaceae)).
+
+[PPG is the TEN for ferns and lycophytes in WFO](https://about.worldfloraonline.org/tens/pteridophyte-phylogeny-group).
+
+## Accessing WFO data
+
+The WFO data may be accessed from <https://www.worldfloraonline.org/> or <https://wfoplantlist.org/>.
+
+These two websites show the most recent **snapshot** (version) of the data.
+Snapshots are taken twice per year, at the solstices (December and June).
+
+Note that once a snapshot is taken, <https://wfoplantlist.org/> gets updated first; <https://www.worldfloraonline.org/> is also updated, but lags by a few weeks to months.
