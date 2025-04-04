@@ -25,9 +25,38 @@ Each TEN is composed of expert taxonomists for a certain group of plants (for ex
 
 ## Accessing WFO data
 
-The WFO data may be accessed from <https://www.worldfloraonline.org/> or <https://wfoplantlist.org/>.
+### Public-facing portals
+
+There are two public-facing portals (websites) for accessing WFO data, <https://www.worldfloraonline.org/> and <https://wfoplantlist.org/>.
 
 These two websites show the most recent **snapshot** (version) of the data.
 Snapshots are taken twice per year, at the solstices (December and June).
 
-Note that once a snapshot is taken, <https://wfoplantlist.org/> gets updated first; <https://www.worldfloraonline.org/> is also updated, but lags by a few weeks to months.
+Note that once a snapshot is taken, <https://wfoplantlist.org/> gets updated first; <https://www.worldfloraonline.org/> is also updated, but lags by a few weeks to months[^1].
+
+[^1]: There is no real need to have two websites; this is an historical artifact that arose from the way WFO was developed. Eventually these two will be unified into single site.
+
+### Rhakhis
+
+[Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html) is the online interface to the WFO database.
+
+The key difference between Rhakhis and the public-facing WFO portals is that Rhakhis shows the **current data**, whereas the portals show snapshots of the data.
+
+The primary function of Rhakhis is to edit the WFO taxonomic data; however, you may also use it to browse the current data.
+
+Rhakhis requires a [ORCID](https://orcid.org/) for login.
+Anybody may create an OCRID at <https://orcid.org/register>.
+
+Although anybody with an ORCID may login to Rhakhis and browse the data, only authorized users may edit the data.
+
+### PPG and Rhakhis
+
+PPG will use Rhakhis as its database management system.
+
+During [Phase II](guidelines.qmd#phase-two), PPG members will be granted permission to edit names within taxonomic groups of their expertise (typically within a family or genus/genera).
+
+Only members of the coordinating committee will have permission to edit names at higher taxonomic levels (family and above).
+
+This will enable us to maintain names at the species level in an effective manner.
+
+Instructions on how to use Rhakhis for editing will be posted once Phase II begins.
