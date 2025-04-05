@@ -8,7 +8,7 @@ bibliography: references.yaml
 
 ## About WFO
 
-[World Flora Online (**WFO**)](https://about.worldfloraonline.org/) is a digital flora including all land plants(bryophytes and vascular plants).
+[World Flora Online (**WFO**)](https://about.worldfloraonline.org/) is a digital flora including all land plants (bryophytes and vascular plants).
 It was initiated during the 11th Conference of the Parties to the Convention on Biological Diversity in October 2012 in response to Target 1 ("An online flora of all known plants") of the Global Strategy for Plant Conservation (GSPC) of the U.N. Convention on Biological Diversity.
 
 The WFO is a [collaborative, international project](https://about.worldfloraonline.org/who-we-are) that is supported by multiple institutions, including the Missouri Botanical Garden, the New York Botanical Garden, the Royal Botanic Garden Edinburgh, and the Royal Botanic Gardens, Kew.
@@ -38,7 +38,7 @@ Note that once a snapshot is taken, <https://wfoplantlist.org/> gets updated fir
 
 ### Rhakhis
 
-[Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html) is the online interface to the WFO database.
+[Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html) is the online interface to the WFO database (@fig-1).
 
 The key difference between Rhakhis and the public-facing WFO portals is that Rhakhis shows the **current data**, whereas the portals show snapshots of the data.
 
@@ -48,6 +48,13 @@ Rhakhis requires a [ORCID](https://orcid.org/) for login.
 Anybody may create an OCRID at <https://orcid.org/register>.
 
 Although anybody with an ORCID may login to Rhakhis and browse the data, only authorized users may edit the data.
+
+::: {#fig-1}
+[![](images/rhakhis.png){#fig-1}](images/rhakhis.png)
+
+Rhakhis interface for *[Crepidomanes](https://rhakhis.rbge.info/rhakhis/ui/#wfo-4000009670)*.
+See the [corresponding entry](https://www.worldfloraonline.org/taxon/wfo-4000009670) in the public-facing portal.
+:::
 
 ### PPG and Rhakhis
 
