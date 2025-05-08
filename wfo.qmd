@@ -58,7 +58,9 @@ See the [corresponding entry](https://www.worldfloraonline.org/taxon/wfo-4000009
 
 ### PPG and Rhakhis
 
-PPG will use Rhakhis as its database management system.
+PPG will use [Rhakhis](https://list.worldfloraonline.org/rhakhis) as its database management system.
+
+You can see an overview of the PPG taxonomy exported from Rhakhis on the [Taxonomic Treatment](ppg.qmd).
 
 During [Phase II](guidelines.qmd#phase-two), PPG members will be granted permission to edit names within taxonomic groups of their expertise (typically within a family or genus/genera).
 

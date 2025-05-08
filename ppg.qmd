@@ -6,6 +6,9 @@ toc-depth: 5
 
 Please note that this is a **work in progress**. The official PPG II has not been released yet. **Please do not cite this** as PPG II until it is officially released.
 
+To see details such as synonyms, please browse the data on [Rhakhis](https://list.worldfloraonline.org/rhakhis) (most up-to-date version) or [World Flora Online (WFO)](https://wfoplantlist.org) (biannual snapshots).
+For more information about WFO, see [here](wfo.qmd).
+
 ## Class **Lycopodiopsida** Bartl.
 
 #### Order **Isoetales** Prantl

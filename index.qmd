@@ -13,6 +13,7 @@ Anybody is welcome to participate. Please read [the project guidelines](guidelin
 
 ## Quick links
 
+- [PPG Taxonomy](ppg.qmd)
 - [Propose a taxonomic change](https://github.com/pteridogroup/ppg/issues/new?assignees=&labels=taxonomic+proposal&template=taxonomic-proposal.yml)
 - [Browse taxonomic proposals](https://github.com/pteridogroup/ppg/issues)
 - [Browse general discussions](https://github.com/pteridogroup/ppg/discussions)
