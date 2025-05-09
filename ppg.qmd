@@ -11,12 +11,6 @@ For more information about WFO, see [here](wfo.qmd).
 
 ## Class **Lycopodiopsida** Bartl.
 
-#### Order **Isoetales** Prantl
-
-##### Family **Isoetaceae** Dumort.
-
-*Isoetes* L.
-
 #### Order **Lycopodiales** DC. ex Bercht. & J.Presl
 
 ##### Family **Lycopodiaceae** P.Beauv. ex Mirb.
@@ -59,6 +53,12 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Spinulum* A.Haines
 
+#### Order **Isoetales** Prantl
+
+##### Family **Isoetaceae** Dumort.
+
+*Isoetes* L.
+
 #### Order **Selaginellales** Prantl
 
 ##### Family **Selaginellaceae** Willk.
@@ -77,6 +77,14 @@ For more information about WFO, see [here](wfo.qmd).
 
 ### Subclass **Ophioglossidae** Klinge
 
+#### Order **Psilotales** Prantl
+
+##### Family **Psilotaceae** J.W.Griff. & Henfr.
+
+*Psilotum* Sw.
+
+*Tmesipteris* Bernh.
+
 #### Order **Ophioglossales** Link
 
 ##### Family **Ophioglossaceae** Martinov
@@ -89,9 +97,9 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Japanobotrychium* Masam.
 
-*Sceptridium* Lyon
-
 *Sahashia* Li Bing Zhang & Liang Zhang
+
+*Sceptridium* Lyon
 
 ###### Subfamily **Helminthostachyoideae** C.Presl
 
@@ -110,14 +118,6 @@ For more information about WFO, see [here](wfo.qmd).
 *Ophioderma* (Blume) Endl.
 
 *Ophioglossum* L.
-
-#### Order **Psilotales** Prantl
-
-##### Family **Psilotaceae** J.W.Griff. & Henfr.
-
-*Psilotum* Sw.
-
-*Tmesipteris* Bernh.
 
 ### Subclass **Marattiidae** Klinge
 
@@ -139,81 +139,25 @@ For more information about WFO, see [here](wfo.qmd).
 
 ### Subclass **Polypodiidae** Cronquist, Takht. & W.Zimm.
 
-#### Order **Cyatheales** A.B.Frank
+#### Order **Osmundales** Link
 
-##### Family **Cibotiaceae** Korall
+##### Family **Osmundaceae** Martinov
 
-*Cibotium* Kaulf.
+*× Osmunasium* Hong M.Liu, Schuettp. & H.Schneid.
 
-##### Family **Culcitaceae** Pic.Serm.
+*× Osmunimunda* Xia Wan & Li Bing Zhang
 
-*Culcita* C.Presl
+*Claytosmunda* (Y.Yatabe, N.Murak. & K.Iwats.) Metzgar & Rouhan
 
-##### Family **Cyatheaceae** Kaulf.
+*Leptopteris* C.Presl
 
-*Alsophila* R.Br.
+*Osmunda* L.
 
-*Cyathea* Sm.
+*Osmundastrum* C.Presl
 
-*Gymnosphaera* Blume
+*Plenasium* C.Presl
 
-*Sphaeropteris* Bernh.
-
-##### Family **Dicksoniaceae** M.R.Schomb.
-
-*Calochlaena* (Maxon) M.D.Turner & R.A.White
-
-*Dicksonia* L’Hér.
-
-*Lophosoria* C.Presl
-
-##### Family **Loxsomataceae** C.Presl
-
-*Loxsoma* R.Br. ex A.Cunn.
-
-*Loxsomopsis* Christ
-
-##### Family **Metaxyaceae** Pic.Serm.
-
-*Metaxya* C.Presl
-
-##### Family **Plagiogyriaceae** Bower
-
-*Plagiogyria* (Kunze) Mett.
-
-##### Family **Thyrsopteridaceae** C.Presl
-
-*Thyrsopteris* Kunze
-
-#### Order **Gleicheniales** Link
-
-##### Family **Dipteridaceae** Seward & E.Dale
-
-*Cheiropleuria* C.Presl
-
-*Dipteris* Reinw.
-
-##### Family **Gleicheniaceae** C.Presl
-
-*Dicranopteris* Bernh.
-
-*Diplopterygium* (Diels) Nakai
-
-*Gleichenella* Ching
-
-*Gleichenia* Sm.
-
-*Sticherus* C.Presl
-
-*Stromatopteris* Mett.
-
-*Rouxopteris* Hong M.Liu
-
-##### Family **Matoniaceae** C.Presl
-
-*Matonia* R.Br. ex Wall.
-
-*Phanerosorus* Copel.
+*Todea* Willd.
 
 #### Order **Hymenophyllales** A.B.Frank
 
@@ -241,255 +185,135 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Vandenboschia* Copel.
 
-#### Order **Osmundales** Link
+#### Order **Gleicheniales** Link
 
-##### Family **Osmundaceae** Martinov
+##### Family **Gleicheniaceae** C.Presl
 
-*Leptopteris* C.Presl
+*Dicranopteris* Bernh.
 
-*Osmunda* L.
+*Diplopterygium* (Diels) Nakai
 
-*Osmundastrum* C.Presl
+*Gleichenella* Ching
 
-*Plenasium* C.Presl
+*Gleichenia* Sm.
 
-*Todea* Willd.
+*Rouxopteris* Hong M.Liu
 
-*Claytosmunda* (Y.Yatabe, N.Murak. & K.Iwats.) Metzgar & Rouhan
+*Sticherus* C.Presl
 
-*× Osmunasium* Hong M.Liu, Schuettp. & H.Schneid.
+*Stromatopteris* Mett.
 
-*× Osmunimunda* Xia Wan & Li Bing Zhang
+##### Family **Matoniaceae** C.Presl
+
+*Matonia* R.Br. ex Wall.
+
+*Phanerosorus* Copel.
+
+##### Family **Dipteridaceae** Seward & E.Dale
+
+*Cheiropleuria* C.Presl
+
+*Dipteris* Reinw.
+
+#### Order **Schizaeales** Schimp.
+
+##### Family **Lygodiaceae** M.Roem.
+
+*Lygodium* Sw.
+
+##### Family **Schizaeaceae** Kaulf.
+
+*Actinostachys* R.Br. ex Hook. & Baker
+
+*Microschizaea* C.F.Reed
+
+*Schizaea* Sm.
+
+##### Family **Anemiaceae** Link
+
+*Anemia* Sw.
+
+#### Order **Salviniales** Link
+
+##### Family **Salviniaceae** Martinov
+
+*Azolla* Lam.
+
+*Salvinia* Ség.
+
+##### Family **Marsileaceae** Mirb.
+
+*Marsilea* L.
+
+*Pilularia* L.
+
+*Regnellidium* Lindm.
+
+#### Order **Cyatheales** A.B.Frank
+
+##### Family **Thyrsopteridaceae** C.Presl
+
+*Thyrsopteris* Kunze
+
+##### Family **Loxsomataceae** C.Presl
+
+*Loxsoma* R.Br. ex A.Cunn.
+
+*Loxsomopsis* Christ
+
+##### Family **Plagiogyriaceae** Bower
+
+*Plagiogyria* (Kunze) Mett.
+
+##### Family **Culcitaceae** Pic.Serm.
+
+*Culcita* C.Presl
+
+##### Family **Metaxyaceae** Pic.Serm.
+
+*Metaxya* C.Presl
+
+##### Family **Cibotiaceae** Korall
+
+*Cibotium* Kaulf.
+
+##### Family **Dicksoniaceae** M.R.Schomb.
+
+*Calochlaena* (Maxon) M.D.Turner & R.A.White
+
+*Dicksonia* L’Hér.
+
+*Lophosoria* C.Presl
+
+##### Family **Cyatheaceae** Kaulf.
+
+*Alsophila* R.Br.
+
+*Cyathea* Sm.
+
+*Gymnosphaera* Blume
+
+*Sphaeropteris* Bernh.
 
 #### Order **Polypodiales** Link
 
-##### Family **Pteridryaceae** Li Bing Zhang, X.M.Zhou, Liang Zhang & N.T.Lu
+##### Family **Saccolomataceae** Doweld
 
-*Polydictyum* C.Presl
-
-*Pteridrys* Christensen & Ching
-
-*Malaifilix* Li Bing Zhang & Schuettp.
-
-*Draconopteris* Li Bing Zhang & Liang Zhang
-
-##### Family **Aspleniaceae** Newman
-
-*Asplenium* L.
-
-*Hymenasplenium* Hayata
-
-##### Family **Athyriaceae** Alston
-
-*Anisocampium* C.Presl
-
-*Athyrium* Roth
-
-*× Cornoathyrium* Nakaike
-
-*Cornopteris* Nakai
-
-*Deparia* Hook. & Grev.
-
-*Diplazium* Sw.
-
-*Pseudathyrium* Newm.
-
-*Ephemeropteris* R.C.Moran & Sundue
-
-*× Apseudathyrium* Xia Wan & Li Bing Zhang
-
-##### Family **Blechnaceae** Newman
-
-###### Subfamily **Blechnoideae** Hook.
-
-*Blechnidium* Moore
-
-*Blechnopsis* C.Presl
-
-*Blechnum* L.
-
-*Brainea* J.Sm.
-
-*Diploblechnum* Hayata
-
-*Doodia* R.Br.
-
-*Lomaria* Willd.
-
-*Lomaridium* C.Presl
-
-*Parablechnum* C.Presl
-
-*Sadleria* Kaulf.
-
-*Spicantopsis* Nakai
-
-*Struthiopteris* Scop.
-
-*Austroblechnum* Gasper & V.A.O.Dittrich
-
-*Cleistoblechnum* Gasper & Salino
-
-*Cranfillia* Gasper & V.A.O.Dittrich
-
-*Icarus* Gasper & Salino
-
-*Lomariocycas* (J.Sm.) Gasper & V.A.O.Dittrich
-
-*Neoblechnum* Gasper & V.A.O.Dittrich
-
-*Oceaniopteris* Gasper & Salino
-
-###### Subfamily **Stenochlaenoideae** J.P.Roux
-
-*Salpichlaena* J.Sm.
-
-*Stenochlaena* J.Sm.
-
-*Telmatoblechnum* Perrie, D.J.Ohlsen & Brownsey
-
-###### Subfamily **Woodwardioideae** Gasper, V.A.O.Dittrich & Salino
-
-*Anchistea* C.Presl
-
-*Lorinseria* C.Presl
-
-*Woodwardia* Sm.
+*Saccoloma* Kaulf.
 
 ##### Family **Cystodiaceae** J.R.Croft
 
 *Cystodium* J.Sm.
 
-##### Family **Cystopteridaceae** (Payer) Shmakov
+##### Family **Lonchitidaceae** A.R.Sm. & M.Kessler
 
-*Acystopteris* Nakai
-
-*× Cystocarpium* Fraser-Jenk.
-
-*Cystopteris* Bernh.
-
-*Gymnocarpium* Newman
-
-##### Family **Davalliaceae** M.R.Schomb. ex A.B.Frank
-
-*Davallia* Sm.
-
-##### Family **Dennstaedtiaceae** Lotsy
-
-###### Subfamily **Dennstaedtioideae** Pic.Serm.
-
-*Dennstaedtia* T.Moore
-
-*Microlepia* C.Presl
-
-*Sitobolium* Desv.
-
-*Mucura* L.A.Triana & Sundue
-
-###### Subfamily **Hypolepidoideae** Lovis
-
-*Blotiella* R.M.Tryon
-
-*Histiopteris* (J.Agardh) J.Sm.
-
-*Hypolepis* Bernh.
-
-*Paesia* A.St.-Hil.
-
-*Pteridium* Gleditsch; Scopoli
-
-*Hiya* H.Shang
-
-###### Subfamily **Monachosoroideae** Crabbe, Jermy & Mickel
-
-*Monachosorum* Kunze
-
-##### Family **Diplaziopsidaceae** X.C.Zhang & Christenh.
-
-*Diplaziopsis* C.Chr.
-
-##### Family **Dryopteridaceae** Herter
-
-###### Subfamily **Polystichopsidoideae** Z.Y.Zuo
-
-*Trichoneuron* Ching
-
-*Polystichopsis* (J.Sm.) C.Chr.
-
-###### Subfamily **Pleocnemioideae** Z.Y.Zuo
-
-*Pleocnemia* C.Presl
-
-###### Subfamily **Lastreopsidoideae** Z.Y.Zuo
-
-*Lastreopsis* Ching
-
-*Megalastrum* Holttum
-
-*Parapolystichum* (Keyserl.) Ching
-
-*Rumohra* Raddi
-
-###### Subfamily **Ctenitidoideae** Z.Y.Zuo & Jin Mei Lu
-
-*Ctenitis* (C.Chr.) C.Chr.
-
-###### Subfamily **Dryopteridoideae** B.K.Nayar
-
-*Arachniodes* Blume
-
-*Cyrtomium* C.Presl
-
-*Dryopteris* Adans.
-
-*× Dryostichum* W.H.Wagner
-
-*Phanerophlebia* C.Presl
-
-*Polystichum* Roth
-
-*Stigmatopteris* C.Chr.
-
-*Pseudarachniodes* Z.Y.Zuo & Rouhan
-
-###### Subfamily **Polybotryoideae** Hong M.Liu & X.C.Zhang
-
-*Atalopteris* Maxon & C.Chr.
-
-*Cyclodium* C.Presl
-
-*Maxonia* C.Chr.
-
-*Olfersia* Raddi
-
-*Polybotrya* Humb. & Bonpl. ex Willd.
-
-*× Cyclobotrya* Engels & Canestraro
-
-###### Subfamily **Elaphoglossoideae** Crabbe, Jermy & Mickel
-
-*Bolbitis* Schott
-
-*Elaphoglossum* Schott ex J.Sm.
-
-*Lomagramma* J.Sm.
-
-*Mickelia* R.C.Moran, Labiak & Sundue
-
-*Teratophyllum* Mett. ex Kuhn
-
-##### Family **Hypodematiaceae** Ching
-
-*Hypodematium* Kunze
-
-*Leucostegia* C.Presl
+*Lonchitis* L.
 
 ##### Family **Lindsaeaceae** M.R.Schomb.
 
-*Lindsaea* Dryand. ex Sm.
-
 *× Lindsaeosoria* W.H.Wagner
+
+*Lindsaea* Dryand. ex Sm.
 
 *Nesolindsaea* Lehtonen & Christenh.
 
@@ -503,237 +327,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Xyropteris* K.U.Kramer
 
-##### Family **Lomariopsidaceae** Alston
-
-*Cyclopeltis* J.Sm.
-
-*Dracoglossum* Christenh.
-
-*Dryopolystichum* Copel.
-
-*Lomariopsis* Fée
-
-##### Family **Lonchitidaceae** A.R.Sm. & M.Kessler
-
-*Lonchitis* L.
-
-##### Family **Nephrolepidaceae** Pic.Serm.
-
-*Nephrolepis* Schott
-
-##### Family **Oleandraceae** Ching ex Pic.Serm.
-
-*Oleandra* Cav.
-
-##### Family **Onocleaceae** Pic.Serm.
-
-*Matteuccia* Tod.
-
-*Onoclea* L.
-
-*Onocleopsis* F.Ballard
-
-*Pentarhizidium* Hayata
-
-##### Family **Polypodiaceae** J.Presl & C.Presl
-
-###### Subfamily **Adetogrammoideae** X.C.Zhang & R.Wei
-
-*Adetogramma* T.E.Almeida
-
-###### Subfamily **Campyloneuroideae** X.C.Zhang & R.Wei
-
-*Campyloneurum* C.Presl
-
-*Microgramma* C.Presl
-
-*Niphidium* J.Sm.
-
-###### Subfamily **Serpocauloideae** X.C.Zhang & R.Wei
-
-*Serpocaulon* A.R.Sm.
-
-###### Subfamily **Grammitidoideae** Parris & Sundue
-
-*Acrosorus* Copel.
-
-*Adenophorus* Gaudich.
-
-*Alansmia* M.Kessler, Moguel, Sundue & Labiak
-
-*Ascogrammitis* Sundue
-
-*Calymmodon* C.Presl
-
-*Ceradenia* L.E.Bishop
-
-*Chrysogrammitis* Parris
-
-*Cochlidium* Kaulf.
-
-*Ctenopterella* Parris
-
-*Dasygrammitis* Parris
-
-*Enterosora* Baker
-
-*Grammitis* Sw.
-
-*Lellingeria* A.R.Sm. & R.C.Moran
-
-*Leucotrichum* Labiak
-
-*Lomaphlebia* J.Sm.
-
-*Luisma* M.T.Murillo & A.R.Sm.
-
-*Melpomene* A.R.Sm. & R.C.Moran
-
-*Micropolypodium* Hayata
-
-*Moranopteris* R.Y.Hirai & J.Prado
-
-*Oreogrammitis* Copel.
-
-*Prosaptia* C.Presl
-
-*Scleroglossum* Alderw.
-
-*Stenogrammitis* Labiak
-
-*Terpsichore* A.R.Sm.
-
-*Tomophyllum* (E.Fourn.) Parris
-
-*Xiphopterella* Parris
-
-*Archigrammitis* Parris
-
-*Galactodenia* Dundue & Labiak
-
-*Mycopteris* Sundue
-
-*Notogrammitis* Parris
-
-*Parrisia* Shalisko & Sundue
-
-*Calligrammitis* Parris, Sundue, Li Bing Zhang, X.M.Zhou & Ralf Knapp
-
-*Devolia* Li Bing Zhang, X.M.Zhou, Jian Jun Yang & Ralf Knapp
-
-*Glabrigrammitis* Li Bing Zhang, X.M.Zhou, Jian Jun Yang & Parris
-
-*Aenigmatogrammitis* Parris
-
-*Boonkerdia* Li Bing Zhang, Pollawatn, X.M.Zhou & Liang Zhang
-
-*Grammitastrum* (E.Fourn.) Parris, Sundue, Li Bing Zhang & X.M.Zhou
-
-*Howeogrammitis* Parris, Sundue, Li Bing Zhang & X.M.Zhou
-
-*Nanogrammitis* Parris, Li Bing Zhang, X.M.Zhou & Liang Zhang
-
-*Oxygrammitis* Parris & Sundue
-
-*Rouhania* Li Bing Zhang, X.M.Zhou, Jian Jun Yang & Liang Zhang
-
-*Thalassogrammitis* Parris, Sundue, Li Bing Zhang & X.M.Zhou
-
-###### Subfamily **Loxogrammoideae** H.Schneid.
-
-*Dictymia* J.Sm.
-
-*Loxogramme* (Blume) C.Presl
-
-###### Subfamily **Microsoroideae** B.K.Nayar
-
-####### Tribe **Goniophlebieae** C.C.Chen & H.Schneid.
-
-*Goniophlebium* (Blume) C.Presl
-
-####### Tribe **Lecanoptereae** C.C.Chen & H.Schneid.
-
-*Lecanopteris* Reinw.
-
-*Bosmania* Testo
-
-####### Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
-
-*Thylacopteris* Kunze ex J.Sm.
-
-####### Tribe **Lepisoreae** Ching ex E.Hennipman, P.Veldhoen & K.U.Kramer
-
-*Lepisorus* (J.Sm.) Ching
-
-####### Tribe **Microsoreae** V.N.Tu
-
-*Leptochilus* Kaulf.
-
-*Microsorum* Link
-
-*Podosorus* Holttum
-
-###### Subfamily **Platycerioideae** B.K.Nayar
-
-*Platycerium* Desv.
-
-*Pyrrosia* Mirb.
-
-*Hovenkampia* Li Bing Zhang & X.M.Zhou
-
-###### Subfamily **Polypodioideae** B.K.Nayar
-
-*Pecluma* M.G.Price
-
-*Phlebodium* (R.Br.) J.Sm.
-
-*Pleopeltis* Humb. & Bonpl. ex Willd.
-
-*Pleurosoriopsis* Fomin
-
-*Polypodium* L.
-
-*× Phlebosia* Viane & Pompe
-
-###### Subfamily **Crypsinoideae** B.K.Nayar
-
-*Drynaria* (Bory) J.Sm.
-
-*Selliguea* Bory
-
-*Synammia* C.Presl
-
 ##### Family **Pteridaceae** E.D.M.Kirchn.
-
-###### Subfamily **Pteridoideae** Link
-
-*Taenitis* Willd. ex Spreng.
-
-*Actiniopteris* Link
-
-*Anogramma* Link
-
-*Austrogramme* E.Fourn.
-
-*Cerosora* (Baker) Domin
-
-*Cosentinia* Tod.
-
-*Jamesonia* Hook. & Grev.
-
-*Onychium* Kaulf.
-
-*Pityrogramma* Link
-
-*Pteris* L.
-
-*Pterozonium* Fée
-
-*Syngramma* J.Sm.
-
-*Gastoniella* Li Bing Zhang & Liang Zhang
-
-*Tryonia* Schuettp., J.Prado & A.T.Cochran
 
 ###### Subfamily **Adiantoideae** Horvat
 
@@ -751,6 +345,8 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Astrolepis* D.M.Benham & Windham
 
+*Baja* Windham & L.O.George
+
 *Bommeria* E.Fourn.
 
 *Calciphilopteris* Yesilyurt & H.Schneid.
@@ -761,9 +357,15 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Doryopteris* J.Sm.
 
+*Gaga* Pryer, Fay W.Li & Windham
+
 *Hemionitis* L.
 
+*Lytoneuron* (Klotzsch) Yesilyurt
+
 *Mildella* Trevis.
+
+*Mineirella* Ponce & Scataglini
 
 *Myriopteris* Fée
 
@@ -783,14 +385,6 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Trachypteris* André
 
-*Gaga* Pryer, Fay W.Li & Windham
-
-*Lytoneuron* (Klotzsch) Yesilyurt
-
-*Baja* Windham & L.O.George
-
-*Mineirella* Ponce & Scataglini
-
 ###### Subfamily **Cryptogrammoideae** S.Linds.
 
 *Coniogramme* Fée
@@ -805,9 +399,41 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Ceratopteris* Brongn.
 
+###### Subfamily **Pteridoideae** Link
+
+*Actiniopteris* Link
+
+*Anogramma* Link
+
+*Austrogramme* E.Fourn.
+
+*Cerosora* (Baker) Domin
+
+*Cosentinia* Tod.
+
+*Gastoniella* Li Bing Zhang & Liang Zhang
+
+*Jamesonia* Hook. & Grev.
+
+*Onychium* Kaulf.
+
+*Pityrogramma* Link
+
+*Pteris* L.
+
+*Pterozonium* Fée
+
+*Syngramma* J.Sm.
+
+*Taenitis* Willd. ex Spreng.
+
+*Tryonia* Schuettp., J.Prado & A.T.Cochran
+
 ###### Subfamily **Vittarioideae** Crabbe, Jermy & Mickel
 
 *Ananthacorus* Underw. & Maxon
+
+*Antrophyopsis* (Benedict) Schuettp.
 
 *Antrophyum* Kaulf.
 
@@ -827,27 +453,89 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Vittaria* Sm.
 
-*Antrophyopsis* (Benedict) Schuettp.
+##### Family **Dennstaedtiaceae** Lotsy
+
+###### Subfamily **Dennstaedtioideae** Pic.Serm.
+
+*Dennstaedtia* T.Moore
+
+*Microlepia* C.Presl
+
+*Mucura* L.A.Triana & Sundue
+
+*Sitobolium* Desv.
+
+###### Subfamily **Hypolepidoideae** Lovis
+
+*Blotiella* R.M.Tryon
+
+*Histiopteris* (J.Agardh) J.Sm.
+
+*Hiya* H.Shang
+
+*Hypolepis* Bernh.
+
+*Paesia* A.St.-Hil.
+
+*Pteridium* Gleditsch; Scopoli
+
+###### Subfamily **Monachosoroideae** Crabbe, Jermy & Mickel
+
+*Monachosorum* Kunze
+
+##### Family **Cystopteridaceae** (Payer) Shmakov
+
+*× Cystocarpium* Fraser-Jenk.
+
+*Acystopteris* Nakai
+
+*Cystopteris* Bernh.
+
+*Gymnocarpium* Newman
 
 ##### Family **Rhachidosoraceae** X.C.Zhang
 
 *Rhachidosorus* Ching
 
-##### Family **Saccolomataceae** Doweld
+##### Family **Diplaziopsidaceae** X.C.Zhang & Christenh.
 
-*Saccoloma* Kaulf.
+*Diplaziopsis* C.Chr.
 
-##### Family **Tectariaceae** Panigrahi
+##### Family **Aspleniaceae** Newman
 
-*Hypoderris* R.Br. ex Hook.
+*Asplenium* L.
 
-*Tectaria* Cav.
+*Hymenasplenium* Hayata
 
-*Triplophyllum* Holttum
+##### Family **Hemidictyaceae** Christenh. & H.Schneid.
+
+*Hemidictyum* C.Presl
+
+##### Family **Desmophlebiaceae** Mynssen, A.Vasco, Sylvestre, R.C.Moran & Rouhan
+
+*Desmophlebium* Mynssen, A.Vasco, Sylvestre, R.C.Moran & Rouhan
 
 ##### Family **Thelypteridaceae** Ching ex Pic.Serm.
 
-###### Subfamily **Thelypteroideae** C.F.Reed
+###### Subfamily **Phegopteridoideae** Salino, A.R.Sm. & T.E.Almeida
+
+*Macrothelypteris* (H.Ito) Ching
+
+*Phegopteris* (C.Presl) Fée
+
+*Pseudophegopteris* Ching
+
+###### Subfamily **Thelypteridoideae** C.F.Reed
+
+*× Abacopterella* T.E.Almeida & A.R.Field
+
+*× Chrinephrium* Nakaike
+
+*× Chrismatopteris* Quansah & D.S.Edwards
+
+*× Christelliopsis* Miles K.Thomas
+
+*× Glaphyrocyclosorus* Xia Wan & Li Bing Zhang
 
 *Abacopteris* Fée
 
@@ -858,10 +546,6 @@ For more information about WFO, see [here](wfo.qmd).
 *Ampelopteris* Kunze
 
 *Chingia* Holttum
-
-*× Chrinephrium* Nakaike
-
-*× Chrismatopteris* Quansah & D.S.Edwards
 
 *Christella* H.Lév.
 
@@ -875,7 +559,13 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Goniopteris* C.Presl
 
+*Grypothrix* (Holttum) S.E.Fawc. & A.R.Sm.
+
+*Hoiokula* S.E.Fawc. & A.R.Sm.
+
 *Leptogramma* J.Sm.
+
+*Menisciopsis* (Holttum) S.E.Fawc. & A.R.Sm.
 
 *Meniscium* Schreb.
 
@@ -889,6 +579,10 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Oreopteris* Holub
 
+*Pakau* S.E.Fawc. & A.R.Sm.
+
+*Pelazoneuron* (Holttum) A.R.Sm. & S.E.Fawc.
+
 *Plesioneuron* (Holttum) Holttum
 
 *Pneumatopteris* Nakai
@@ -897,96 +591,400 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Pseudocyclosorus* Ching
 
+*Reholttumia* S.E.Fawc. & A.R.Sm.
+
 *Sphaerostephanos* J.Sm.
 
 *Stegnogramma* Blume
 
 *Steiropteris* (C.Chr.) Pic.Serm.
 
+*Strophocaulon* S.E.Fawc. & A.R.Sm.
+
 *Thelypteris* Schmidel
 
 *Trigonospora* Holttum
-
-*Pelazoneuron* (Holttum) A.R.Sm. & S.E.Fawc.
-
-*Grypothrix* (Holttum) S.E.Fawc. & A.R.Sm.
-
-*Hoiokula* S.E.Fawc. & A.R.Sm.
-
-*Menisciopsis* (Holttum) S.E.Fawc. & A.R.Sm.
-
-*Pakau* S.E.Fawc. & A.R.Sm.
-
-*Reholttumia* S.E.Fawc. & A.R.Sm.
-
-*Strophocaulon* S.E.Fawc. & A.R.Sm.
-
-*× Glaphyrocyclosorus* Xia Wan & Li Bing Zhang
-
-*× Abacopterella* T.E.Almeida & A.R.Field
-
-*× Christelliopsis* Miles K.Thomas
-
-###### Subfamily **Phegopteridoideae** Salino, A.R.Sm. & T.E.Almeida
-
-*Macrothelypteris* (H.Ito) Ching
-
-*Phegopteris* (C.Presl) Fée
-
-*Pseudophegopteris* Ching
-
-###### Subfamily **Thelypteridoideae** C.F.Reed
 
 ##### Family **Woodsiaceae** Herter
 
 *Woodsia* R.Br.
 
-##### Family **Desmophlebiaceae** Mynssen, A.Vasco, Sylvestre, R.C.Moran & Rouhan
+##### Family **Athyriaceae** Alston
 
-*Desmophlebium* Mynssen, A.Vasco, Sylvestre, R.C.Moran & Rouhan
+*× Apseudathyrium* Xia Wan & Li Bing Zhang
+
+*× Cornoathyrium* Nakaike
+
+*Anisocampium* C.Presl
+
+*Athyrium* Roth
+
+*Cornopteris* Nakai
+
+*Deparia* Hook. & Grev.
+
+*Diplazium* Sw.
+
+*Ephemeropteris* R.C.Moran & Sundue
+
+*Pseudathyrium* Newm.
+
+##### Family **Onocleaceae** Pic.Serm.
+
+*Matteuccia* Tod.
+
+*Onoclea* L.
+
+*Onocleopsis* F.Ballard
+
+*Pentarhizidium* Hayata
+
+##### Family **Blechnaceae** Newman
+
+###### Subfamily **Blechnoideae** Hook.
+
+*Austroblechnum* Gasper & V.A.O.Dittrich
+
+*Blechnidium* Moore
+
+*Blechnopsis* C.Presl
+
+*Blechnum* L.
+
+*Brainea* J.Sm.
+
+*Cleistoblechnum* Gasper & Salino
+
+*Cranfillia* Gasper & V.A.O.Dittrich
+
+*Diploblechnum* Hayata
+
+*Doodia* R.Br.
+
+*Icarus* Gasper & Salino
+
+*Lomaria* Willd.
+
+*Lomaridium* C.Presl
+
+*Lomariocycas* (J.Sm.) Gasper & V.A.O.Dittrich
+
+*Neoblechnum* Gasper & V.A.O.Dittrich
+
+*Oceaniopteris* Gasper & Salino
+
+*Parablechnum* C.Presl
+
+*Sadleria* Kaulf.
+
+*Spicantopsis* Nakai
+
+*Struthiopteris* Scop.
+
+###### Subfamily **Stenochlaenoideae** J.P.Roux
+
+*Salpichlaena* J.Sm.
+
+*Stenochlaena* J.Sm.
+
+*Telmatoblechnum* Perrie, D.J.Ohlsen & Brownsey
+
+###### Subfamily **Woodwardioideae** Gasper, V.A.O.Dittrich & Salino
+
+*Anchistea* C.Presl
+
+*Lorinseria* C.Presl
+
+*Woodwardia* Sm.
+
+##### Family **Hypodematiaceae** Ching
+
+*Hypodematium* Kunze
+
+*Leucostegia* C.Presl
 
 ##### Family **Didymochlaenaceae** Ching ex Li Bing Zhang & Liang Zhang
 
 *Didymochlaena* Desv.
 
-##### Family **Hemidictyaceae** Christenh. & H.Schneid.
+##### Family **Dryopteridaceae** Herter
 
-*Hemidictyum* C.Presl
+###### Subfamily **Ctenitidoideae** Z.Y.Zuo & Jin Mei Lu
+
+*Ctenitis* (C.Chr.) C.Chr.
+
+###### Subfamily **Dryopteridoideae** B.K.Nayar
+
+*× Dryostichum* W.H.Wagner
+
+*Arachniodes* Blume
+
+*Cyrtomium* C.Presl
+
+*Dryopteris* Adans.
+
+*Phanerophlebia* C.Presl
+
+*Polystichum* Roth
+
+*Pseudarachniodes* Z.Y.Zuo & Rouhan
+
+*Stigmatopteris* C.Chr.
+
+###### Subfamily **Elaphoglossoideae** Crabbe, Jermy & Mickel
+
+*Bolbitis* Schott
+
+*Elaphoglossum* Schott ex J.Sm.
+
+*Lomagramma* J.Sm.
+
+*Mickelia* R.C.Moran, Labiak & Sundue
+
+*Teratophyllum* Mett. ex Kuhn
+
+###### Subfamily **Lastreopsidoideae** Z.Y.Zuo
+
+*Lastreopsis* Ching
+
+*Megalastrum* Holttum
+
+*Parapolystichum* (Keyserl.) Ching
+
+*Rumohra* Raddi
+
+###### Subfamily **Pleocnemioideae** Z.Y.Zuo
+
+*Pleocnemia* C.Presl
+
+###### Subfamily **Polybotryoideae** Hong M.Liu & X.C.Zhang
+
+*× Cyclobotrya* Engels & Canestraro
+
+*Atalopteris* Maxon & C.Chr.
+
+*Cyclodium* C.Presl
+
+*Maxonia* C.Chr.
+
+*Olfersia* Raddi
+
+*Polybotrya* Humb. & Bonpl. ex Willd.
+
+###### Subfamily **Polystichopsidoideae** Z.Y.Zuo
+
+*Polystichopsis* (J.Sm.) C.Chr.
+
+*Trichoneuron* Ching
+
+##### Family **Lomariopsidaceae** Alston
+
+*Cyclopeltis* J.Sm.
+
+*Dracoglossum* Christenh.
+
+*Dryopolystichum* Copel.
+
+*Lomariopsis* Fée
+
+##### Family **Nephrolepidaceae** Pic.Serm.
+
+*Nephrolepis* Schott
 
 ##### Family **Arthropteridaceae** Hong M.Liu, Hovenkamp & H.Schneid.
 
 *Arthropteris* J.Sm.
 
-#### Order **Salviniales** Link
+##### Family **Tectariaceae** Panigrahi
 
-##### Family **Marsileaceae** Mirb.
+*Hypoderris* R.Br. ex Hook.
 
-*Marsilea* L.
+*Tectaria* Cav.
 
-*Pilularia* L.
+*Triplophyllum* Holttum
 
-*Regnellidium* Lindm.
+##### Family **Pteridryaceae** Li Bing Zhang, X.M.Zhou, Liang Zhang & N.T.Lu
 
-##### Family **Salviniaceae** Martinov
+*Draconopteris* Li Bing Zhang & Liang Zhang
 
-*Azolla* Lam.
+*Malaifilix* Li Bing Zhang & Schuettp.
 
-*Salvinia* Ség.
+*Polydictyum* C.Presl
 
-#### Order **Schizaeales** Schimp.
+*Pteridrys* Christensen & Ching
 
-##### Family **Anemiaceae** Link
+##### Family **Oleandraceae** Ching ex Pic.Serm.
 
-*Anemia* Sw.
+*Oleandra* Cav.
 
-##### Family **Lygodiaceae** M.Roem.
+##### Family **Davalliaceae** M.R.Schomb. ex A.B.Frank
 
-*Lygodium* Sw.
+*Davallia* Sm.
 
-##### Family **Schizaeaceae** Kaulf.
+##### Family **Polypodiaceae** J.Presl & C.Presl
 
-*Microschizaea* C.F.Reed
+###### Subfamily **Adetogrammoideae** X.C.Zhang & R.Wei
 
-*Schizaea* Sm.
+*Adetogramma* T.E.Almeida
 
-*Actinostachys* R.Br. ex Hook. & Baker
+###### Subfamily **Campyloneuroideae** X.C.Zhang & R.Wei
+
+*Campyloneurum* C.Presl
+
+*Microgramma* C.Presl
+
+*Niphidium* J.Sm.
+
+###### Subfamily **Crypsinoideae** B.K.Nayar
+
+*Drynaria* (Bory) J.Sm.
+
+*Selliguea* Bory
+
+*Synammia* C.Presl
+
+###### Subfamily **Grammitidoideae** Parris & Sundue
+
+*Acrosorus* Copel.
+
+*Adenophorus* Gaudich.
+
+*Aenigmatogrammitis* Parris
+
+*Alansmia* M.Kessler, Moguel, Sundue & Labiak
+
+*Archigrammitis* Parris
+
+*Ascogrammitis* Sundue
+
+*Boonkerdia* Li Bing Zhang, Pollawatn, X.M.Zhou & Liang Zhang
+
+*Calligrammitis* Parris, Sundue, Li Bing Zhang, X.M.Zhou & Ralf Knapp
+
+*Calymmodon* C.Presl
+
+*Ceradenia* L.E.Bishop
+
+*Chrysogrammitis* Parris
+
+*Cochlidium* Kaulf.
+
+*Ctenopterella* Parris
+
+*Dasygrammitis* Parris
+
+*Devolia* Li Bing Zhang, X.M.Zhou, Jian Jun Yang & Ralf Knapp
+
+*Enterosora* Baker
+
+*Galactodenia* Dundue & Labiak
+
+*Glabrigrammitis* Li Bing Zhang, X.M.Zhou, Jian Jun Yang & Parris
+
+*Grammitastrum* (E.Fourn.) Parris, Sundue, Li Bing Zhang & X.M.Zhou
+
+*Grammitis* Sw.
+
+*Howeogrammitis* Parris, Sundue, Li Bing Zhang & X.M.Zhou
+
+*Lellingeria* A.R.Sm. & R.C.Moran
+
+*Leucotrichum* Labiak
+
+*Lomaphlebia* J.Sm.
+
+*Luisma* M.T.Murillo & A.R.Sm.
+
+*Melpomene* A.R.Sm. & R.C.Moran
+
+*Micropolypodium* Hayata
+
+*Moranopteris* R.Y.Hirai & J.Prado
+
+*Mycopteris* Sundue
+
+*Nanogrammitis* Parris, Li Bing Zhang, X.M.Zhou & Liang Zhang
+
+*Notogrammitis* Parris
+
+*Oreogrammitis* Copel.
+
+*Oxygrammitis* Parris & Sundue
+
+*Parrisia* Shalisko & Sundue
+
+*Prosaptia* C.Presl
+
+*Rouhania* Li Bing Zhang, X.M.Zhou, Jian Jun Yang & Liang Zhang
+
+*Scleroglossum* Alderw.
+
+*Stenogrammitis* Labiak
+
+*Terpsichore* A.R.Sm.
+
+*Thalassogrammitis* Parris, Sundue, Li Bing Zhang & X.M.Zhou
+
+*Tomophyllum* (E.Fourn.) Parris
+
+*Xiphopterella* Parris
+
+###### Subfamily **Loxogrammoideae** H.Schneid.
+
+*Dictymia* J.Sm.
+
+*Loxogramme* (Blume) C.Presl
+
+###### Subfamily **Microsoroideae** B.K.Nayar
+
+####### Tribe **Goniophlebieae** C.C.Chen & H.Schneid.
+
+*Goniophlebium* (Blume) C.Presl
+
+####### Tribe **Lecanoptereae** C.C.Chen & H.Schneid.
+
+*Bosmania* Testo
+
+*Lecanopteris* Reinw.
+
+####### Tribe **Lepisoreae** Ching ex E.Hennipman, P.Veldhoen & K.U.Kramer
+
+*Lepisorus* (J.Sm.) Ching
+
+####### Tribe **Microsoreae** V.N.Tu
+
+*Leptochilus* Kaulf.
+
+*Microsorum* Link
+
+*Podosorus* Holttum
+
+####### Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
+
+*Thylacopteris* Kunze ex J.Sm.
+
+###### Subfamily **Platycerioideae** B.K.Nayar
+
+*Hovenkampia* Li Bing Zhang & X.M.Zhou
+
+*Platycerium* Desv.
+
+*Pyrrosia* Mirb.
+
+###### Subfamily **Polypodioideae** B.K.Nayar
+
+*× Phlebosia* Viane & Pompe
+
+*Pecluma* M.G.Price
+
+*Phlebodium* (R.Br.) J.Sm.
+
+*Pleopeltis* Humb. & Bonpl. ex Willd.
+
+*Pleurosoriopsis* Fomin
+
+*Polypodium* L.
+
+###### Subfamily **Serpocauloideae** X.C.Zhang & R.Wei
+
+*Serpocaulon* A.R.Sm.
