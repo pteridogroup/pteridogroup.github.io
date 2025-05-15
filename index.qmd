@@ -11,6 +11,8 @@ All discussion of taxonomic proposals is hosted publicly on [GitHub](https://git
 
 Anybody is welcome to participate. Please read [the project guidelines](guidelines.qmd) and [contact us](guidelines.qmd#coordinating-committee) for more information if you have any questions.
 
+![PPG workshop at the XX International Botanical Congress, Madrid, Spain (2024). Photo by Cheng-Wei Chen.](images/ibc.png)
+
 ## Quick links
 
 - [PPG Taxonomy](ppg.qmd)
