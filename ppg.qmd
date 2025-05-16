@@ -1,5 +1,5 @@
 ---
-title: "Taxonomic treatment (IN PROGRESS)"
+title: "Classification (IN PROGRESS)"
 toc: true
 toc-depth: 5
 ---

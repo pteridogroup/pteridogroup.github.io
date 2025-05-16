@@ -16,7 +16,7 @@ website:
       - href: wfo.qmd
         text: World Flora Online
       - href: ppg.qmd
-        text: Taxonomic Treatment
+        text: Classification
   page-footer: "All content by Pteridophyte Phylogeny Group is licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/) unless otherwise noted" 
 
 format:
