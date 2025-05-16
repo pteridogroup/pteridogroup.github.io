@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.217">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pteridophyte Phylogeny Group - Classification (IN PROGRESS)</title>
+<title>Classification (IN PROGRESS) – Pteridophyte Phylogeny Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -30,22 +30,29 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dde8d7229bfee0f8bb5efd37f0f9ae1e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,8 +61,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -63,51 +72,51 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Pteridophyte Phylogeny Group</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./guidelines.html" rel="" target="">
- <span class="menu-text">Project Guidelines</span></a>
+    <a class="nav-link" href="./guidelines.html"> 
+<span class="menu-text">Project Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./github.html" rel="" target="">
- <span class="menu-text">GitHub Guide</span></a>
+    <a class="nav-link" href="./github.html"> 
+<span class="menu-text">GitHub Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coc.html" rel="" target="">
- <span class="menu-text">Code of Conduct</span></a>
+    <a class="nav-link" href="./coc.html"> 
+<span class="menu-text">Code of Conduct</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./wfo.html" rel="" target="">
- <span class="menu-text">World Flora Online</span></a>
+    <a class="nav-link" href="./wfo.html"> 
+<span class="menu-text">World Flora Online</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./ppg.html" rel="" target="" aria-current="page">
- <span class="menu-text">Classification</span></a>
+    <a class="nav-link active" href="./ppg.html" aria-current="page"> 
+<span class="menu-text">Classification</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -124,7 +133,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#order-lycopodiales-dc.-ex-bercht.-j.presl" id="toc-order-lycopodiales-dc.-ex-bercht.-j.presl" class="nav-link" data-scroll-target="#order-lycopodiales-dc.-ex-bercht.-j.presl">Order <strong>Lycopodiales</strong> DC. ex Bercht. &amp; J.Presl</a>
   <ul>
-  <li><a href="#family-lycopodiaceae-p.beauv.-ex-mirb." id="toc-family-lycopodiaceae-p.beauv.-ex-mirb." class="nav-link" data-scroll-target="#family-lycopodiaceae-p.beauv.-ex-mirb.">Family <strong>Lycopodiaceae</strong> P.Beauv. ex Mirb.</a></li>
+  <li><a href="#family-lycopodiaceae-p.beauv.-ex-mirb." id="toc-family-lycopodiaceae-p.beauv.-ex-mirb." class="nav-link" data-scroll-target="#family-lycopodiaceae-p.beauv.-ex-mirb.">Family <strong>Lycopodiaceae</strong> P.Beauv. ex Mirb.</a>
+  <ul>
+  <li><a href="#subfamily-huperzioideae-w.h.wagner-beitel-ex-b.øllg." id="toc-subfamily-huperzioideae-w.h.wagner-beitel-ex-b.øllg." class="nav-link" data-scroll-target="#subfamily-huperzioideae-w.h.wagner-beitel-ex-b.øllg.">Subfamily <strong>Huperzioideae</strong> W.H.Wagner&nbsp;&amp;&nbsp;Beitel&nbsp;ex&nbsp;B.Øllg.</a></li>
+  <li><a href="#subfamily-lycopodielloideae-w.h.wagner-beitel-ex-b.øllg." id="toc-subfamily-lycopodielloideae-w.h.wagner-beitel-ex-b.øllg." class="nav-link" data-scroll-target="#subfamily-lycopodielloideae-w.h.wagner-beitel-ex-b.øllg.">Subfamily <strong>Lycopodielloideae</strong> W.H.Wagner&nbsp;&amp;&nbsp;Beitel&nbsp;ex&nbsp;B.Øllg.</a></li>
+  <li><a href="#subfamily-lycopodioideae-w.h.wagner-beitel-ex-b.øllg." id="toc-subfamily-lycopodioideae-w.h.wagner-beitel-ex-b.øllg." class="nav-link" data-scroll-target="#subfamily-lycopodioideae-w.h.wagner-beitel-ex-b.øllg.">Subfamily <strong>Lycopodioideae</strong> W.H.Wagner&nbsp;&amp;&nbsp;Beitel&nbsp;ex&nbsp;B.Øllg.</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#order-isoetales-prantl" id="toc-order-isoetales-prantl" class="nav-link" data-scroll-target="#order-isoetales-prantl">Order <strong>Isoetales</strong> Prantl</a>
   <ul>
@@ -140,57 +154,67 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#subclass-equisetidae-warm." id="toc-subclass-equisetidae-warm." class="nav-link" data-scroll-target="#subclass-equisetidae-warm.">Subclass <strong>Equisetidae</strong> Warm.</a>
   <ul>
   <li><a href="#order-equisetales-dc.-ex-bercht.-j.presl" id="toc-order-equisetales-dc.-ex-bercht.-j.presl" class="nav-link" data-scroll-target="#order-equisetales-dc.-ex-bercht.-j.presl">Order <strong>Equisetales</strong> DC. ex Bercht. &amp; J.Presl</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#family-equisetaceae-michx.-ex-dc." id="toc-family-equisetaceae-michx.-ex-dc." class="nav-link" data-scroll-target="#family-equisetaceae-michx.-ex-dc.">Family <strong>Equisetaceae</strong> Michx. ex DC.</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#subclass-ophioglossidae-klinge" id="toc-subclass-ophioglossidae-klinge" class="nav-link" data-scroll-target="#subclass-ophioglossidae-klinge">Subclass <strong>Ophioglossidae</strong> Klinge</a>
   <ul>
   <li><a href="#order-psilotales-prantl" id="toc-order-psilotales-prantl" class="nav-link" data-scroll-target="#order-psilotales-prantl">Order <strong>Psilotales</strong> Prantl</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#family-psilotaceae-j.w.griff.-henfr." id="toc-family-psilotaceae-j.w.griff.-henfr." class="nav-link" data-scroll-target="#family-psilotaceae-j.w.griff.-henfr.">Family <strong>Psilotaceae</strong> J.W.Griff. &amp; Henfr.</a></li>
   </ul></li>
   <li><a href="#order-ophioglossales-link" id="toc-order-ophioglossales-link" class="nav-link" data-scroll-target="#order-ophioglossales-link">Order <strong>Ophioglossales</strong> Link</a>
+  <ul>
+  <li><a href="#family-ophioglossaceae-martinov" id="toc-family-ophioglossaceae-martinov" class="nav-link" data-scroll-target="#family-ophioglossaceae-martinov">Family <strong>Ophioglossaceae</strong> Martinov</a>
   <ul class="collapse">
-  <li><a href="#family-ophioglossaceae-martinov" id="toc-family-ophioglossaceae-martinov" class="nav-link" data-scroll-target="#family-ophioglossaceae-martinov">Family <strong>Ophioglossaceae</strong> Martinov</a></li>
+  <li><a href="#subfamily-botrychioideae-c.presl" id="toc-subfamily-botrychioideae-c.presl" class="nav-link" data-scroll-target="#subfamily-botrychioideae-c.presl">Subfamily <strong>Botrychioideae</strong> C.Presl</a></li>
+  <li><a href="#subfamily-helminthostachyoideae-c.presl" id="toc-subfamily-helminthostachyoideae-c.presl" class="nav-link" data-scroll-target="#subfamily-helminthostachyoideae-c.presl">Subfamily <strong>Helminthostachyoideae</strong> C.Presl</a></li>
+  <li><a href="#subfamily-mankyuoideae-j.r.grant-b.dauphin" id="toc-subfamily-mankyuoideae-j.r.grant-b.dauphin" class="nav-link" data-scroll-target="#subfamily-mankyuoideae-j.r.grant-b.dauphin">Subfamily <strong>Mankyuoideae</strong> J.R.Grant&nbsp;&amp;&nbsp;B.Dauphin</a></li>
+  <li><a href="#subfamily-ophioglossoideae-c.presl" id="toc-subfamily-ophioglossoideae-c.presl" class="nav-link" data-scroll-target="#subfamily-ophioglossoideae-c.presl">Subfamily <strong>Ophioglossoideae</strong> C.Presl</a></li>
+  </ul></li>
   </ul></li>
   </ul></li>
   <li><a href="#subclass-marattiidae-klinge" id="toc-subclass-marattiidae-klinge" class="nav-link" data-scroll-target="#subclass-marattiidae-klinge">Subclass <strong>Marattiidae</strong> Klinge</a>
   <ul>
   <li><a href="#order-marattiales-link" id="toc-order-marattiales-link" class="nav-link" data-scroll-target="#order-marattiales-link">Order <strong>Marattiales</strong> Link</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#family-marattiaceae-kaulf." id="toc-family-marattiaceae-kaulf." class="nav-link" data-scroll-target="#family-marattiaceae-kaulf.">Family <strong>Marattiaceae</strong> Kaulf.</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#subclass-polypodiidae-cronquist-takht.-w.zimm." id="toc-subclass-polypodiidae-cronquist-takht.-w.zimm." class="nav-link" data-scroll-target="#subclass-polypodiidae-cronquist-takht.-w.zimm.">Subclass <strong>Polypodiidae</strong> Cronquist, Takht. &amp; W.Zimm.</a>
   <ul>
   <li><a href="#order-osmundales-link" id="toc-order-osmundales-link" class="nav-link" data-scroll-target="#order-osmundales-link">Order <strong>Osmundales</strong> Link</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#family-osmundaceae-martinov" id="toc-family-osmundaceae-martinov" class="nav-link" data-scroll-target="#family-osmundaceae-martinov">Family <strong>Osmundaceae</strong> Martinov</a></li>
   </ul></li>
   <li><a href="#order-hymenophyllales-a.b.frank" id="toc-order-hymenophyllales-a.b.frank" class="nav-link" data-scroll-target="#order-hymenophyllales-a.b.frank">Order <strong>Hymenophyllales</strong> A.B.Frank</a>
+  <ul>
+  <li><a href="#family-hymenophyllaceae-mart." id="toc-family-hymenophyllaceae-mart." class="nav-link" data-scroll-target="#family-hymenophyllaceae-mart.">Family <strong>Hymenophyllaceae</strong> Mart.</a>
   <ul class="collapse">
-  <li><a href="#family-hymenophyllaceae-mart." id="toc-family-hymenophyllaceae-mart." class="nav-link" data-scroll-target="#family-hymenophyllaceae-mart.">Family <strong>Hymenophyllaceae</strong> Mart.</a></li>
+  <li><a href="#subfamily-hymenophylloideae-burnett" id="toc-subfamily-hymenophylloideae-burnett" class="nav-link" data-scroll-target="#subfamily-hymenophylloideae-burnett">Subfamily <strong>Hymenophylloideae</strong> Burnett</a></li>
+  <li><a href="#subfamily-trichomanoideae-c.presl" id="toc-subfamily-trichomanoideae-c.presl" class="nav-link" data-scroll-target="#subfamily-trichomanoideae-c.presl">Subfamily <strong>Trichomanoideae</strong> C.Presl</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#order-gleicheniales-link" id="toc-order-gleicheniales-link" class="nav-link" data-scroll-target="#order-gleicheniales-link">Order <strong>Gleicheniales</strong> Link</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#family-gleicheniaceae-c.presl" id="toc-family-gleicheniaceae-c.presl" class="nav-link" data-scroll-target="#family-gleicheniaceae-c.presl">Family <strong>Gleicheniaceae</strong> C.Presl</a></li>
   <li><a href="#family-matoniaceae-c.presl" id="toc-family-matoniaceae-c.presl" class="nav-link" data-scroll-target="#family-matoniaceae-c.presl">Family <strong>Matoniaceae</strong> C.Presl</a></li>
   <li><a href="#family-dipteridaceae-seward-e.dale" id="toc-family-dipteridaceae-seward-e.dale" class="nav-link" data-scroll-target="#family-dipteridaceae-seward-e.dale">Family <strong>Dipteridaceae</strong> Seward &amp; E.Dale</a></li>
   </ul></li>
   <li><a href="#order-schizaeales-schimp." id="toc-order-schizaeales-schimp." class="nav-link" data-scroll-target="#order-schizaeales-schimp.">Order <strong>Schizaeales</strong> Schimp.</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#family-lygodiaceae-m.roem." id="toc-family-lygodiaceae-m.roem." class="nav-link" data-scroll-target="#family-lygodiaceae-m.roem.">Family <strong>Lygodiaceae</strong> M.Roem.</a></li>
   <li><a href="#family-schizaeaceae-kaulf." id="toc-family-schizaeaceae-kaulf." class="nav-link" data-scroll-target="#family-schizaeaceae-kaulf.">Family <strong>Schizaeaceae</strong> Kaulf.</a></li>
   <li><a href="#family-anemiaceae-link" id="toc-family-anemiaceae-link" class="nav-link" data-scroll-target="#family-anemiaceae-link">Family <strong>Anemiaceae</strong> Link</a></li>
   </ul></li>
   <li><a href="#order-salviniales-link" id="toc-order-salviniales-link" class="nav-link" data-scroll-target="#order-salviniales-link">Order <strong>Salviniales</strong> Link</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#family-salviniaceae-martinov" id="toc-family-salviniaceae-martinov" class="nav-link" data-scroll-target="#family-salviniaceae-martinov">Family <strong>Salviniaceae</strong> Martinov</a></li>
   <li><a href="#family-marsileaceae-mirb." id="toc-family-marsileaceae-mirb." class="nav-link" data-scroll-target="#family-marsileaceae-mirb.">Family <strong>Marsileaceae</strong> Mirb.</a></li>
   </ul></li>
   <li><a href="#order-cyatheales-a.b.frank" id="toc-order-cyatheales-a.b.frank" class="nav-link" data-scroll-target="#order-cyatheales-a.b.frank">Order <strong>Cyatheales</strong> A.B.Frank</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#family-thyrsopteridaceae-c.presl" id="toc-family-thyrsopteridaceae-c.presl" class="nav-link" data-scroll-target="#family-thyrsopteridaceae-c.presl">Family <strong>Thyrsopteridaceae</strong> C.Presl</a></li>
   <li><a href="#family-loxsomataceae-c.presl" id="toc-family-loxsomataceae-c.presl" class="nav-link" data-scroll-target="#family-loxsomataceae-c.presl">Family <strong>Loxsomataceae</strong> C.Presl</a></li>
   <li><a href="#family-plagiogyriaceae-bower" id="toc-family-plagiogyriaceae-bower" class="nav-link" data-scroll-target="#family-plagiogyriaceae-bower">Family <strong>Plagiogyriaceae</strong> Bower</a></li>
@@ -201,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#family-cyatheaceae-kaulf." id="toc-family-cyatheaceae-kaulf." class="nav-link" data-scroll-target="#family-cyatheaceae-kaulf.">Family <strong>Cyatheaceae</strong> Kaulf.</a></li>
   </ul></li>
   <li><a href="#order-polypodiales-link" id="toc-order-polypodiales-link" class="nav-link" data-scroll-target="#order-polypodiales-link">Order <strong>Polypodiales</strong> Link</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#suborder-saccolomatineae-hovenkamp" id="toc-suborder-saccolomatineae-hovenkamp" class="nav-link" data-scroll-target="#suborder-saccolomatineae-hovenkamp">Suborder <strong>Saccolomatineae</strong> Hovenkamp</a>
   <ul class="collapse">
   <li><a href="#family-saccolomataceae-doweld" id="toc-family-saccolomataceae-doweld" class="nav-link" data-scroll-target="#family-saccolomataceae-doweld">Family <strong>Saccolomataceae</strong> Doweld</a></li>
@@ -214,11 +238,24 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#suborder-pteridineae-j.prado-schuettp." id="toc-suborder-pteridineae-j.prado-schuettp." class="nav-link" data-scroll-target="#suborder-pteridineae-j.prado-schuettp.">Suborder <strong>Pteridineae</strong> J.Prado &amp; Schuettp.</a>
   <ul class="collapse">
-  <li><a href="#family-pteridaceae-e.d.m.kirchn." id="toc-family-pteridaceae-e.d.m.kirchn." class="nav-link" data-scroll-target="#family-pteridaceae-e.d.m.kirchn.">Family <strong>Pteridaceae</strong> E.D.M.Kirchn.</a></li>
+  <li><a href="#family-pteridaceae-e.d.m.kirchn." id="toc-family-pteridaceae-e.d.m.kirchn." class="nav-link" data-scroll-target="#family-pteridaceae-e.d.m.kirchn.">Family <strong>Pteridaceae</strong> E.D.M.Kirchn.</a>
+  <ul class="collapse">
+  <li><a href="#subfamily-adiantoideae-horvat" id="toc-subfamily-adiantoideae-horvat" class="nav-link" data-scroll-target="#subfamily-adiantoideae-horvat">Subfamily <strong>Adiantoideae</strong> Horvat</a></li>
+  <li><a href="#subfamily-cheilanthoideae-horvat" id="toc-subfamily-cheilanthoideae-horvat" class="nav-link" data-scroll-target="#subfamily-cheilanthoideae-horvat">Subfamily <strong>Cheilanthoideae</strong> Horvat</a></li>
+  <li><a href="#subfamily-cryptogrammoideae-s.linds." id="toc-subfamily-cryptogrammoideae-s.linds." class="nav-link" data-scroll-target="#subfamily-cryptogrammoideae-s.linds.">Subfamily <strong>Cryptogrammoideae</strong> S.Linds.</a></li>
+  <li><a href="#subfamily-parkerioideae-burnett" id="toc-subfamily-parkerioideae-burnett" class="nav-link" data-scroll-target="#subfamily-parkerioideae-burnett">Subfamily <strong>Parkerioideae</strong> Burnett</a></li>
+  <li><a href="#subfamily-pteridoideae-link" id="toc-subfamily-pteridoideae-link" class="nav-link" data-scroll-target="#subfamily-pteridoideae-link">Subfamily <strong>Pteridoideae</strong> Link</a></li>
+  <li><a href="#subfamily-vittarioideae-crabbe-jermy-mickel" id="toc-subfamily-vittarioideae-crabbe-jermy-mickel" class="nav-link" data-scroll-target="#subfamily-vittarioideae-crabbe-jermy-mickel">Subfamily <strong>Vittarioideae</strong> Crabbe,&nbsp;Jermy&nbsp;&amp;&nbsp;Mickel</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#suborder-dennstaedtiineae-schwartsb.-hovenkamp" id="toc-suborder-dennstaedtiineae-schwartsb.-hovenkamp" class="nav-link" data-scroll-target="#suborder-dennstaedtiineae-schwartsb.-hovenkamp">Suborder <strong>Dennstaedtiineae</strong> Schwartsb. &amp; Hovenkamp</a>
   <ul class="collapse">
-  <li><a href="#family-dennstaedtiaceae-lotsy" id="toc-family-dennstaedtiaceae-lotsy" class="nav-link" data-scroll-target="#family-dennstaedtiaceae-lotsy">Family <strong>Dennstaedtiaceae</strong> Lotsy</a></li>
+  <li><a href="#family-dennstaedtiaceae-lotsy" id="toc-family-dennstaedtiaceae-lotsy" class="nav-link" data-scroll-target="#family-dennstaedtiaceae-lotsy">Family <strong>Dennstaedtiaceae</strong> Lotsy</a>
+  <ul class="collapse">
+  <li><a href="#subfamily-dennstaedtioideae-pic.serm." id="toc-subfamily-dennstaedtioideae-pic.serm." class="nav-link" data-scroll-target="#subfamily-dennstaedtioideae-pic.serm.">Subfamily <strong>Dennstaedtioideae</strong> Pic.Serm.</a></li>
+  <li><a href="#subfamily-hypolepidoideae-lovis" id="toc-subfamily-hypolepidoideae-lovis" class="nav-link" data-scroll-target="#subfamily-hypolepidoideae-lovis">Subfamily <strong>Hypolepidoideae</strong> Lovis</a></li>
+  <li><a href="#subfamily-monachosoroideae-crabbe-jermy-mickel" id="toc-subfamily-monachosoroideae-crabbe-jermy-mickel" class="nav-link" data-scroll-target="#subfamily-monachosoroideae-crabbe-jermy-mickel">Subfamily <strong>Monachosoroideae</strong> Crabbe, Jermy &amp; Mickel</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#suborder-aspleniineae-h.schneid.-c.j.rothf." id="toc-suborder-aspleniineae-h.schneid.-c.j.rothf." class="nav-link" data-scroll-target="#suborder-aspleniineae-h.schneid.-c.j.rothf.">Suborder <strong>Aspleniineae</strong> H.Schneid. &amp; C.J.Rothf.</a>
   <ul class="collapse">
@@ -228,17 +265,35 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#family-aspleniaceae-newman" id="toc-family-aspleniaceae-newman" class="nav-link" data-scroll-target="#family-aspleniaceae-newman">Family <strong>Aspleniaceae</strong> Newman</a></li>
   <li><a href="#family-hemidictyaceae-christenh.-h.schneid." id="toc-family-hemidictyaceae-christenh.-h.schneid." class="nav-link" data-scroll-target="#family-hemidictyaceae-christenh.-h.schneid.">Family <strong>Hemidictyaceae</strong> Christenh. &amp; H.Schneid.</a></li>
   <li><a href="#family-desmophlebiaceae-mynssen-a.vasco-sylvestre-r.c.moran-rouhan" id="toc-family-desmophlebiaceae-mynssen-a.vasco-sylvestre-r.c.moran-rouhan" class="nav-link" data-scroll-target="#family-desmophlebiaceae-mynssen-a.vasco-sylvestre-r.c.moran-rouhan">Family <strong>Desmophlebiaceae</strong> Mynssen, A.Vasco, Sylvestre, R.C.Moran &amp; Rouhan</a></li>
-  <li><a href="#family-thelypteridaceae-ching-ex-pic.serm." id="toc-family-thelypteridaceae-ching-ex-pic.serm." class="nav-link" data-scroll-target="#family-thelypteridaceae-ching-ex-pic.serm.">Family <strong>Thelypteridaceae</strong> Ching ex Pic.Serm.</a></li>
+  <li><a href="#family-thelypteridaceae-ching-ex-pic.serm." id="toc-family-thelypteridaceae-ching-ex-pic.serm." class="nav-link" data-scroll-target="#family-thelypteridaceae-ching-ex-pic.serm.">Family <strong>Thelypteridaceae</strong> Ching ex Pic.Serm.</a>
+  <ul class="collapse">
+  <li><a href="#subfamily-phegopteridoideae-salino-a.r.sm.-t.e.almeida" id="toc-subfamily-phegopteridoideae-salino-a.r.sm.-t.e.almeida" class="nav-link" data-scroll-target="#subfamily-phegopteridoideae-salino-a.r.sm.-t.e.almeida">Subfamily <strong>Phegopteridoideae</strong> Salino,&nbsp;A.R.Sm.&nbsp;&amp;&nbsp;T.E.Almeida</a></li>
+  <li><a href="#subfamily-thelypteridoideae-c.f.reed" id="toc-subfamily-thelypteridoideae-c.f.reed" class="nav-link" data-scroll-target="#subfamily-thelypteridoideae-c.f.reed">Subfamily <strong>Thelypteridoideae</strong> C.F.Reed</a></li>
+  </ul></li>
   <li><a href="#family-woodsiaceae-herter" id="toc-family-woodsiaceae-herter" class="nav-link" data-scroll-target="#family-woodsiaceae-herter">Family <strong>Woodsiaceae</strong> Herter</a></li>
   <li><a href="#family-athyriaceae-alston" id="toc-family-athyriaceae-alston" class="nav-link" data-scroll-target="#family-athyriaceae-alston">Family <strong>Athyriaceae</strong> Alston</a></li>
   <li><a href="#family-onocleaceae-pic.serm." id="toc-family-onocleaceae-pic.serm." class="nav-link" data-scroll-target="#family-onocleaceae-pic.serm.">Family <strong>Onocleaceae</strong> Pic.Serm.</a></li>
-  <li><a href="#family-blechnaceae-newman" id="toc-family-blechnaceae-newman" class="nav-link" data-scroll-target="#family-blechnaceae-newman">Family <strong>Blechnaceae</strong> Newman</a></li>
+  <li><a href="#family-blechnaceae-newman" id="toc-family-blechnaceae-newman" class="nav-link" data-scroll-target="#family-blechnaceae-newman">Family <strong>Blechnaceae</strong> Newman</a>
+  <ul class="collapse">
+  <li><a href="#subfamily-blechnoideae-hook." id="toc-subfamily-blechnoideae-hook." class="nav-link" data-scroll-target="#subfamily-blechnoideae-hook.">Subfamily <strong>Blechnoideae</strong> Hook.</a></li>
+  <li><a href="#subfamily-stenochlaenoideae-j.p.roux" id="toc-subfamily-stenochlaenoideae-j.p.roux" class="nav-link" data-scroll-target="#subfamily-stenochlaenoideae-j.p.roux">Subfamily <strong>Stenochlaenoideae</strong> J.P.Roux</a></li>
+  <li><a href="#subfamily-woodwardioideae-gasper-v.a.o.dittrich-salino" id="toc-subfamily-woodwardioideae-gasper-v.a.o.dittrich-salino" class="nav-link" data-scroll-target="#subfamily-woodwardioideae-gasper-v.a.o.dittrich-salino">Subfamily <strong>Woodwardioideae</strong> Gasper,&nbsp;V.A.O.Dittrich&nbsp;&amp;&nbsp;Salino</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#suborder-polypodiineae-dumort." id="toc-suborder-polypodiineae-dumort." class="nav-link" data-scroll-target="#suborder-polypodiineae-dumort.">Suborder <strong>Polypodiineae</strong> Dumort.</a>
   <ul class="collapse">
   <li><a href="#family-hypodematiaceae-ching" id="toc-family-hypodematiaceae-ching" class="nav-link" data-scroll-target="#family-hypodematiaceae-ching">Family <strong>Hypodematiaceae</strong> Ching</a></li>
   <li><a href="#family-didymochlaenaceae-ching-ex-li-bing-zhang-liang-zhang" id="toc-family-didymochlaenaceae-ching-ex-li-bing-zhang-liang-zhang" class="nav-link" data-scroll-target="#family-didymochlaenaceae-ching-ex-li-bing-zhang-liang-zhang">Family <strong>Didymochlaenaceae</strong> Ching ex Li Bing Zhang &amp; Liang Zhang</a></li>
-  <li><a href="#family-dryopteridaceae-herter" id="toc-family-dryopteridaceae-herter" class="nav-link" data-scroll-target="#family-dryopteridaceae-herter">Family <strong>Dryopteridaceae</strong> Herter</a></li>
+  <li><a href="#family-dryopteridaceae-herter" id="toc-family-dryopteridaceae-herter" class="nav-link" data-scroll-target="#family-dryopteridaceae-herter">Family <strong>Dryopteridaceae</strong> Herter</a>
+  <ul class="collapse">
+  <li><a href="#subfamily-ctenitidoideae-z.y.zuo-jin-mei-lu" id="toc-subfamily-ctenitidoideae-z.y.zuo-jin-mei-lu" class="nav-link" data-scroll-target="#subfamily-ctenitidoideae-z.y.zuo-jin-mei-lu">Subfamily <strong>Ctenitidoideae</strong> Z.Y.Zuo &amp; Jin Mei Lu</a></li>
+  <li><a href="#subfamily-dryopteridoideae-b.k.nayar" id="toc-subfamily-dryopteridoideae-b.k.nayar" class="nav-link" data-scroll-target="#subfamily-dryopteridoideae-b.k.nayar">Subfamily <strong>Dryopteridoideae</strong> B.K.Nayar</a></li>
+  <li><a href="#subfamily-elaphoglossoideae-pic.serm.-crabbe-jermy-mickel" id="toc-subfamily-elaphoglossoideae-pic.serm.-crabbe-jermy-mickel" class="nav-link" data-scroll-target="#subfamily-elaphoglossoideae-pic.serm.-crabbe-jermy-mickel">Subfamily <strong>Elaphoglossoideae</strong> (Pic.Serm.) Crabbe, Jermy &amp; Mickel</a></li>
+  <li><a href="#subfamily-lastreopsidoideae-z.y.zuo" id="toc-subfamily-lastreopsidoideae-z.y.zuo" class="nav-link" data-scroll-target="#subfamily-lastreopsidoideae-z.y.zuo">Subfamily <strong>Lastreopsidoideae</strong> Z.Y.Zuo</a></li>
+  <li><a href="#subfamily-pleocnemioideae-z.y.zuo" id="toc-subfamily-pleocnemioideae-z.y.zuo" class="nav-link" data-scroll-target="#subfamily-pleocnemioideae-z.y.zuo">Subfamily <strong>Pleocnemioideae</strong> Z.Y.Zuo</a></li>
+  <li><a href="#subfamily-polybotryoideae-hong-m.liu-x.c.zhang" id="toc-subfamily-polybotryoideae-hong-m.liu-x.c.zhang" class="nav-link" data-scroll-target="#subfamily-polybotryoideae-hong-m.liu-x.c.zhang">Subfamily <strong>Polybotryoideae</strong> Hong M.Liu&nbsp;&amp;&nbsp;X.C.Zhang</a></li>
+  <li><a href="#subfamily-polystichopsidoideae-z.y.zuo" id="toc-subfamily-polystichopsidoideae-z.y.zuo" class="nav-link" data-scroll-target="#subfamily-polystichopsidoideae-z.y.zuo">Subfamily <strong>Polystichopsidoideae</strong> Z.Y.Zuo</a></li>
+  </ul></li>
   <li><a href="#family-lomariopsidaceae-alston" id="toc-family-lomariopsidaceae-alston" class="nav-link" data-scroll-target="#family-lomariopsidaceae-alston">Family <strong>Lomariopsidaceae</strong> Alston</a></li>
   <li><a href="#family-nephrolepidaceae-pic.serm." id="toc-family-nephrolepidaceae-pic.serm." class="nav-link" data-scroll-target="#family-nephrolepidaceae-pic.serm.">Family <strong>Nephrolepidaceae</strong> Pic.Serm.</a></li>
   <li><a href="#family-arthropteridaceae-hong-m.liu-hovenkamp-h.schneid." id="toc-family-arthropteridaceae-hong-m.liu-hovenkamp-h.schneid." class="nav-link" data-scroll-target="#family-arthropteridaceae-hong-m.liu-hovenkamp-h.schneid.">Family <strong>Arthropteridaceae</strong> Hong M.Liu, Hovenkamp &amp; H.Schneid.</a></li>
@@ -246,7 +301,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#family-pteridryaceae-li-bing-zhang-x.m.zhou-liang-zhang-n.t.lu" id="toc-family-pteridryaceae-li-bing-zhang-x.m.zhou-liang-zhang-n.t.lu" class="nav-link" data-scroll-target="#family-pteridryaceae-li-bing-zhang-x.m.zhou-liang-zhang-n.t.lu">Family <strong>Pteridryaceae</strong> Li Bing Zhang, X.M.Zhou, Liang Zhang &amp; N.T.Lu</a></li>
   <li><a href="#family-oleandraceae-ching-ex-pic.serm." id="toc-family-oleandraceae-ching-ex-pic.serm." class="nav-link" data-scroll-target="#family-oleandraceae-ching-ex-pic.serm.">Family <strong>Oleandraceae</strong> Ching ex Pic.Serm.</a></li>
   <li><a href="#family-davalliaceae-m.r.schomb.-ex-a.b.frank" id="toc-family-davalliaceae-m.r.schomb.-ex-a.b.frank" class="nav-link" data-scroll-target="#family-davalliaceae-m.r.schomb.-ex-a.b.frank">Family <strong>Davalliaceae</strong> M.R.Schomb. ex A.B.Frank</a></li>
-  <li><a href="#family-polypodiaceae-j.presl-c.presl" id="toc-family-polypodiaceae-j.presl-c.presl" class="nav-link" data-scroll-target="#family-polypodiaceae-j.presl-c.presl">Family <strong>Polypodiaceae</strong> J.Presl &amp; C.Presl</a></li>
+  <li><a href="#family-polypodiaceae-j.presl-c.presl" id="toc-family-polypodiaceae-j.presl-c.presl" class="nav-link" data-scroll-target="#family-polypodiaceae-j.presl-c.presl">Family <strong>Polypodiaceae</strong> J.Presl &amp; C.Presl</a>
+  <ul class="collapse">
+  <li><a href="#subfamily-adetogrammoideae-x.c.zhang-r.wei" id="toc-subfamily-adetogrammoideae-x.c.zhang-r.wei" class="nav-link" data-scroll-target="#subfamily-adetogrammoideae-x.c.zhang-r.wei">Subfamily <strong>Adetogrammoideae</strong> X.C.Zhang &amp; R.Wei</a></li>
+  <li><a href="#subfamily-campyloneuroideae-x.c.zhang-r.wei" id="toc-subfamily-campyloneuroideae-x.c.zhang-r.wei" class="nav-link" data-scroll-target="#subfamily-campyloneuroideae-x.c.zhang-r.wei">Subfamily <strong>Campyloneuroideae</strong> X.C.Zhang &amp; R.Wei</a></li>
+  <li><a href="#subfamily-crypsinoideae-b.k.nayar" id="toc-subfamily-crypsinoideae-b.k.nayar" class="nav-link" data-scroll-target="#subfamily-crypsinoideae-b.k.nayar">Subfamily <strong>Crypsinoideae</strong> B.K.Nayar</a></li>
+  <li><a href="#subfamily-grammitidoideae-parris-sundue" id="toc-subfamily-grammitidoideae-parris-sundue" class="nav-link" data-scroll-target="#subfamily-grammitidoideae-parris-sundue">Subfamily <strong>Grammitidoideae</strong> Parris&nbsp;&amp;&nbsp;Sundue</a></li>
+  <li><a href="#subfamily-loxogrammoideae-h.schneid." id="toc-subfamily-loxogrammoideae-h.schneid." class="nav-link" data-scroll-target="#subfamily-loxogrammoideae-h.schneid.">Subfamily <strong>Loxogrammoideae</strong> H.Schneid.</a></li>
+  <li><a href="#subfamily-microsoroideae-b.k.nayar" id="toc-subfamily-microsoroideae-b.k.nayar" class="nav-link" data-scroll-target="#subfamily-microsoroideae-b.k.nayar">Subfamily <strong>Microsoroideae</strong> B.K.Nayar</a></li>
+  <li><a href="#subfamily-platycerioideae-b.k.nayar" id="toc-subfamily-platycerioideae-b.k.nayar" class="nav-link" data-scroll-target="#subfamily-platycerioideae-b.k.nayar">Subfamily <strong>Platycerioideae</strong> B.K.Nayar</a></li>
+  <li><a href="#subfamily-polypodioideae-b.k.nayar" id="toc-subfamily-polypodioideae-b.k.nayar" class="nav-link" data-scroll-target="#subfamily-polypodioideae-b.k.nayar">Subfamily <strong>Polypodioideae</strong> B.K.Nayar</a></li>
+  <li><a href="#subfamily-serpocauloideae-x.c.zhang-r.wei" id="toc-subfamily-serpocauloideae-x.c.zhang-r.wei" class="nav-link" data-scroll-target="#subfamily-serpocauloideae-x.c.zhang-r.wei">Subfamily <strong>Serpocauloideae</strong> X.C.Zhang &amp; R.Wei</a></li>
+  </ul></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -272,7 +338,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>Please note that this is a <strong>work in progress</strong>. The official PPG II has not been released yet. <strong>Please do not cite this</strong> as PPG II until it is officially released.</p>
 <p>To see details such as synonyms, please browse the data on <a href="https://list.worldfloraonline.org/rhakhis">Rhakhis</a> (most up-to-date version) or <a href="https://wfoplantlist.org">World Flora Online (WFO)</a> (biannual snapshots). For more information about WFO, see <a href="./wfo.html">here</a>.</p>
@@ -1013,230 +1081,419 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
     };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
         }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
       }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
+      return false;
     }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/pteridogroup\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
       });
     }
-  }
-});
-</script>
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">All content by Pteridophyte Phylogeny Group is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> unless otherwise noted</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>All content by Pteridophyte Phylogeny Group is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> unless otherwise noted</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
+
 
 
 
