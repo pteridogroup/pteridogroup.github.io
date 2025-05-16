@@ -9,9 +9,9 @@ Please note that this is a **work in progress**. The official PPG II has not bee
 To see details such as synonyms, please browse the data on [Rhakhis](https://list.worldfloraonline.org/rhakhis) (most up-to-date version) or [World Flora Online (WFO)](https://wfoplantlist.org) (biannual snapshots).
 For more information about WFO, see [here](wfo.qmd).
 
-## Class **Lycopodiopsida** Bartl.
+# Class **Lycopodiopsida** Bartl.
 
-#### Order **Lycopodiales** DC. ex Bercht. & J.Presl
+### Order **Lycopodiales** DC. ex Bercht. & J.Presl
 
 ##### Family **Lycopodiaceae** P.Beauv. ex Mirb.
 
@@ -53,31 +53,31 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Spinulum* A.Haines
 
-#### Order **Isoetales** Prantl
+### Order **Isoetales** Prantl
 
 ##### Family **Isoetaceae** Dumort.
 
 *Isoetes* L.
 
-#### Order **Selaginellales** Prantl
+### Order **Selaginellales** Prantl
 
 ##### Family **Selaginellaceae** Willk.
 
 *Selaginella* P.Beauv.
 
-## Class **Polypodiopsida** Cronquist, Takht. & W.Zimm.
+# Class **Polypodiopsida** Cronquist, Takht. & W.Zimm.
 
-### Subclass **Equisetidae** Warm.
+## Subclass **Equisetidae** Warm.
 
-#### Order **Equisetales** DC. ex Bercht. & J.Presl
+### Order **Equisetales** DC. ex Bercht. & J.Presl
 
 ##### Family **Equisetaceae** Michx. ex DC.
 
 *Equisetum* L.
 
-### Subclass **Ophioglossidae** Klinge
+## Subclass **Ophioglossidae** Klinge
 
-#### Order **Psilotales** Prantl
+### Order **Psilotales** Prantl
 
 ##### Family **Psilotaceae** J.W.Griff. & Henfr.
 
@@ -85,7 +85,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Tmesipteris* Bernh.
 
-#### Order **Ophioglossales** Link
+### Order **Ophioglossales** Link
 
 ##### Family **Ophioglossaceae** Martinov
 
@@ -119,9 +119,9 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Ophioglossum* L.
 
-### Subclass **Marattiidae** Klinge
+## Subclass **Marattiidae** Klinge
 
-#### Order **Marattiales** Link
+### Order **Marattiales** Link
 
 ##### Family **Marattiaceae** Kaulf.
 
@@ -137,9 +137,9 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Ptisana* Murdock
 
-### Subclass **Polypodiidae** Cronquist, Takht. & W.Zimm.
+## Subclass **Polypodiidae** Cronquist, Takht. & W.Zimm.
 
-#### Order **Osmundales** Link
+### Order **Osmundales** Link
 
 ##### Family **Osmundaceae** Martinov
 
@@ -159,7 +159,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Todea* Willd.
 
-#### Order **Hymenophyllales** A.B.Frank
+### Order **Hymenophyllales** A.B.Frank
 
 ##### Family **Hymenophyllaceae** Mart.
 
@@ -185,7 +185,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Vandenboschia* Copel.
 
-#### Order **Gleicheniales** Link
+### Order **Gleicheniales** Link
 
 ##### Family **Gleicheniaceae** C.Presl
 
@@ -215,7 +215,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Dipteris* Reinw.
 
-#### Order **Schizaeales** Schimp.
+### Order **Schizaeales** Schimp.
 
 ##### Family **Lygodiaceae** M.Roem.
 
@@ -233,7 +233,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Anemia* Sw.
 
-#### Order **Salviniales** Link
+### Order **Salviniales** Link
 
 ##### Family **Salviniaceae** Martinov
 
@@ -249,7 +249,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Regnellidium* Lindm.
 
-#### Order **Cyatheales** A.B.Frank
+### Order **Cyatheales** A.B.Frank
 
 ##### Family **Thyrsopteridaceae** C.Presl
 
@@ -295,11 +295,15 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Sphaeropteris* Bernh.
 
-#### Order **Polypodiales** Link
+### Order **Polypodiales** Link
+
+#### Suborder **Saccolomatineae** Hovenkamp
 
 ##### Family **Saccolomataceae** Doweld
 
 *Saccoloma* Kaulf.
+
+#### Suborder **Lindsaeineae** Lehtonen & Tuomisto
 
 ##### Family **Cystodiaceae** J.R.Croft
 
@@ -326,6 +330,8 @@ For more information about WFO, see [here](wfo.qmd).
 *Tapeinidium* (Presl) C.Chr.
 
 *Xyropteris* K.U.Kramer
+
+#### Suborder **Pteridineae** J.Prado & Schuettp.
 
 ##### Family **Pteridaceae** E.D.M.Kirchn.
 
@@ -453,6 +459,8 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Vittaria* Sm.
 
+#### Suborder **Dennstaedtiineae** Schwartsb. & Hovenkamp
+
 ##### Family **Dennstaedtiaceae** Lotsy
 
 ###### Subfamily **Dennstaedtioideae** Pic.Serm.
@@ -482,6 +490,8 @@ For more information about WFO, see [here](wfo.qmd).
 ###### Subfamily **Monachosoroideae** Crabbe, Jermy & Mickel
 
 *Monachosorum* Kunze
+
+#### Suborder **Aspleniineae** H.Schneid. & C.J.Rothf.
 
 ##### Family **Cystopteridaceae** (Payer) Shmakov
 
@@ -697,6 +707,8 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Woodwardia* Sm.
 
+#### Suborder **Polypodiineae** Dumort.
+
 ##### Family **Hypodematiaceae** Ching
 
 *Hypodematium* Kunze
@@ -731,7 +743,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Stigmatopteris* C.Chr.
 
-###### Subfamily **Elaphoglossoideae** Crabbe, Jermy & Mickel
+###### Subfamily **Elaphoglossoideae** (Pic.Serm.) Crabbe, Jermy & Mickel
 
 *Bolbitis* Schott
 
@@ -937,21 +949,21 @@ For more information about WFO, see [here](wfo.qmd).
 
 ###### Subfamily **Microsoroideae** B.K.Nayar
 
-####### Tribe **Goniophlebieae** C.C.Chen & H.Schneid.
+Tribe **Goniophlebieae** C.C.Chen & H.Schneid.
 
 *Goniophlebium* (Blume) C.Presl
 
-####### Tribe **Lecanoptereae** C.C.Chen & H.Schneid.
+Tribe **Lecanoptereae** C.C.Chen & H.Schneid.
 
 *Bosmania* Testo
 
 *Lecanopteris* Reinw.
 
-####### Tribe **Lepisoreae** Ching ex E.Hennipman, P.Veldhoen & K.U.Kramer
+Tribe **Lepisoreae** Ching ex E.Hennipman, P.Veldhoen & K.U.Kramer
 
 *Lepisorus* (J.Sm.) Ching
 
-####### Tribe **Microsoreae** V.N.Tu
+Tribe **Microsoreae** V.N.Tu
 
 *Leptochilus* Kaulf.
 
@@ -959,7 +971,7 @@ For more information about WFO, see [here](wfo.qmd).
 
 *Podosorus* Holttum
 
-####### Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
+Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
 
 *Thylacopteris* Kunze ex J.Sm.
 
