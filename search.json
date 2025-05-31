@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "wfo.html",
-    "href": "wfo.html",
-    "title": "World Flora Online",
-    "section": "",
-    "text": "World Flora Online (WFO) is a digital flora including all land plants (bryophytes and vascular plants). It was initiated during the 11th Conference of the Parties to the Convention on Biological Diversity in October 2012 in response to Target 1 (“An online flora of all known plants”) of the Global Strategy for Plant Conservation (GSPC) of the U.N. Convention on Biological Diversity.\nThe WFO is a collaborative, international project that is supported by multiple institutions, including the Missouri Botanical Garden, the New York Botanical Garden, the Royal Botanic Garden Edinburgh, and the Royal Botanic Gardens, Kew.\nWFO data are widely used, including major databases such as Catalog of Life (CoL) and the Global Biodiversity Information Facility (GBIF)."
-  },
-  {
-    "objectID": "wfo.html#about-wfo",
-    "href": "wfo.html#about-wfo",
-    "title": "World Flora Online",
-    "section": "",
-    "text": "World Flora Online (WFO) is a digital flora including all land plants (bryophytes and vascular plants). It was initiated during the 11th Conference of the Parties to the Convention on Biological Diversity in October 2012 in response to Target 1 (“An online flora of all known plants”) of the Global Strategy for Plant Conservation (GSPC) of the U.N. Convention on Biological Diversity.\nThe WFO is a collaborative, international project that is supported by multiple institutions, including the Missouri Botanical Garden, the New York Botanical Garden, the Royal Botanic Garden Edinburgh, and the Royal Botanic Gardens, Kew.\nWFO data are widely used, including major databases such as Catalog of Life (CoL) and the Global Biodiversity Information Facility (GBIF)."
-  },
-  {
-    "objectID": "wfo.html#about-tens",
-    "href": "wfo.html#about-tens",
-    "title": "World Flora Online",
-    "section": "About TENs",
-    "text": "About TENs\nWFO does not take a “top-down” approach to taxonomy. Rather, the data in WFO are maintained by Taxonomic Expert Networks, or TENs. Each TEN is composed of expert taxonomists for a certain group of plants (for example, Fabaceae).\nPPG is the TEN for ferns and lycophytes in WFO."
-  },
-  {
-    "objectID": "wfo.html#accessing-wfo-data",
-    "href": "wfo.html#accessing-wfo-data",
-    "title": "World Flora Online",
-    "section": "Accessing WFO data",
-    "text": "Accessing WFO data\n\nPublic-facing portals\nThere are two public-facing portals (websites) for accessing WFO data, https://www.worldfloraonline.org/ and https://wfoplantlist.org/.\nThese two websites show the most recent snapshot (version) of the data. Snapshots are taken twice per year, at the solstices (December and June).\nNote that once a snapshot is taken, https://wfoplantlist.org/ gets updated first; https://www.worldfloraonline.org/ is also updated, but lags by a few weeks to months1.\n\n\nRhakhis\nRhakhis is the online interface to the WFO database (Figure 1).\nThe key difference between Rhakhis and the public-facing WFO portals is that Rhakhis shows the current data, whereas the portals show snapshots of the data.\nThe primary function of Rhakhis is to edit the WFO taxonomic data; however, you may also use it to browse the current data.\nRhakhis requires a ORCID for login. Anybody may create an OCRID at https://orcid.org/register.\nAlthough anybody with an ORCID may login to Rhakhis and browse the data, only authorized users may edit the data.\n\n\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\nFigure 1: Rhakhis interface for Crepidomanes. See the corresponding entry in the public-facing portal.\n\n\n\n\n\nPPG and Rhakhis\nPPG will use Rhakhis as its database management system.\nYou can see an overview of the PPG taxonomy exported from Rhakhis on the Taxonomic Treatment.\nDuring Phase II, PPG members will be granted permission to edit names within taxonomic groups of their expertise (typically within a family or genus/genera).\nOnly members of the coordinating committee will have permission to edit names at higher taxonomic levels (family and above).\nThis will enable us to maintain names at the species level in an effective manner.\nInstructions on how to use Rhakhis for editing will be posted once Phase II begins."
-  },
-  {
-    "objectID": "wfo.html#footnotes",
-    "href": "wfo.html#footnotes",
-    "title": "World Flora Online",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThere is no real need to have two websites; this is an historical artifact that arose from the way WFO was developed. Eventually these two will be unified into single site.↩︎"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pteridophyte Phylogeny Group",
@@ -215,6 +180,41 @@
     "title": "Project Guidelines",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nFor Phase One at least. A committee-based model may still be used for Phase Two↩︎\nInfraspecific taxa will also be treated.↩︎"
+  },
+  {
+    "objectID": "wfo.html",
+    "href": "wfo.html",
+    "title": "World Flora Online",
+    "section": "",
+    "text": "World Flora Online (WFO) is a digital flora including all land plants (bryophytes and vascular plants). It was initiated during the 11th Conference of the Parties to the Convention on Biological Diversity in October 2012 in response to Target 1 (“An online flora of all known plants”) of the Global Strategy for Plant Conservation (GSPC) of the U.N. Convention on Biological Diversity.\nThe WFO is a collaborative, international project that is supported by multiple institutions, including the Missouri Botanical Garden, the New York Botanical Garden, the Royal Botanic Garden Edinburgh, and the Royal Botanic Gardens, Kew.\nWFO data are widely used, including major databases such as Catalog of Life (CoL) and the Global Biodiversity Information Facility (GBIF)."
+  },
+  {
+    "objectID": "wfo.html#about-wfo",
+    "href": "wfo.html#about-wfo",
+    "title": "World Flora Online",
+    "section": "",
+    "text": "World Flora Online (WFO) is a digital flora including all land plants (bryophytes and vascular plants). It was initiated during the 11th Conference of the Parties to the Convention on Biological Diversity in October 2012 in response to Target 1 (“An online flora of all known plants”) of the Global Strategy for Plant Conservation (GSPC) of the U.N. Convention on Biological Diversity.\nThe WFO is a collaborative, international project that is supported by multiple institutions, including the Missouri Botanical Garden, the New York Botanical Garden, the Royal Botanic Garden Edinburgh, and the Royal Botanic Gardens, Kew.\nWFO data are widely used, including major databases such as Catalog of Life (CoL) and the Global Biodiversity Information Facility (GBIF)."
+  },
+  {
+    "objectID": "wfo.html#about-tens",
+    "href": "wfo.html#about-tens",
+    "title": "World Flora Online",
+    "section": "About TENs",
+    "text": "About TENs\nWFO does not take a “top-down” approach to taxonomy. Rather, the data in WFO are maintained by Taxonomic Expert Networks, or TENs. Each TEN is composed of expert taxonomists for a certain group of plants (for example, Fabaceae).\nPPG is the TEN for ferns and lycophytes in WFO."
+  },
+  {
+    "objectID": "wfo.html#accessing-wfo-data",
+    "href": "wfo.html#accessing-wfo-data",
+    "title": "World Flora Online",
+    "section": "Accessing WFO data",
+    "text": "Accessing WFO data\n\nPublic-facing portals\nThere are two public-facing portals (websites) for accessing WFO data, https://www.worldfloraonline.org/ and https://wfoplantlist.org/.\nThese two websites show the most recent snapshot (version) of the data. Snapshots are taken twice per year, at the solstices (December and June).\nNote that once a snapshot is taken, https://wfoplantlist.org/ gets updated first; https://www.worldfloraonline.org/ is also updated, but lags by a few weeks to months1.\n\n\nRhakhis\nRhakhis is the online interface to the WFO database (Figure 1).\nThe key difference between Rhakhis and the public-facing WFO portals is that Rhakhis shows the current data, whereas the portals show snapshots of the data.\nThe primary function of Rhakhis is to edit the WFO taxonomic data; however, you may also use it to browse the current data.\nRhakhis requires a ORCID for login. Anybody may create an OCRID at https://orcid.org/register.\nAlthough anybody with an ORCID may login to Rhakhis and browse the data, only authorized users may edit the data.\n\n\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\nFigure 1: Rhakhis interface for Crepidomanes. See the corresponding entry in the public-facing portal.\n\n\n\n\n\nPPG and Rhakhis\nPPG will use Rhakhis as its database management system.\nYou can see an overview of the PPG taxonomy exported from Rhakhis on the Taxonomic Treatment.\nDuring Phase II, PPG members will be granted permission to edit names within taxonomic groups of their expertise (typically within a family or genus/genera).\nOnly members of the coordinating committee will have permission to edit names at higher taxonomic levels (family and above).\nThis will enable us to maintain names at the species level in an effective manner.\nInstructions on how to use Rhakhis for editing will be posted once Phase II begins."
+  },
+  {
+    "objectID": "wfo.html#footnotes",
+    "href": "wfo.html#footnotes",
+    "title": "World Flora Online",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThere is no real need to have two websites; this is an historical artifact that arose from the way WFO was developed. Eventually these two will be unified into single site.↩︎"
   },
   {
     "objectID": "ppg.html",
