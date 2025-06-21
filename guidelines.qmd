@@ -53,7 +53,7 @@ Much of the success of Phase One will depend on PPG members making clear and inf
 For example, we want to avoid a set of similar proposals that differ only in their argumentation while proposing the same or similar changes.
 With that goal in mind, please follow these guidelines (**if a proposal does not meet at least the first two guidelines below it may be removed from consideration without a vote**):
 
-1. **Any higher-level taxon (genus and above) proposed for recognition needs to be published\*** (taxa "in press", etc., are not allowed).
+1. **Any higher-level taxon (genus and above) proposed for recognition needs to be published** (taxa "in press", etc., are not allowed).
 Similarly, all supporting studies should be published.
 For example, if one is advocating for a name change based upon the non-monophyly of a taxon recognized in PPG I [-@ppg2016], the phylogeny demonstrating non-monophyly needs to be published.
 2. **Each proposal should take PPG I [-@ppg2016] as the starting point** (i.e., only _changes_ to PPG I should be proposed).
@@ -66,8 +66,6 @@ These people are also probably in the best position to write a comprehensive pro
 6. Each proposal should be comprehensive: it should include all relevant details to allow other PPG members to make an informed decision about the proposal.
 Those details include summaries (with citations) of the arguments supporting a particular proposal, and, ideally, a discussion of the main counter arguments.
 Take the time to write a comprehensive proposal the first time, so that there is no need to mention additional information during the discussion—the proposal itself should ideally contain all the information that PPG members need to come to a conclusion.
-
-\* There is one exception to Rule 1: in the case that the proposed taxon is only a change in rank and not accompanied by any new supporting data, it may be submitted as a proposal even if a combination has not yet been published (for example, proposing to recognize subgenus _Paramochaete_ as a genus, even though the name has not yet been published at the rank of genus).
 
 ### Guidelines for effective discussion
 
