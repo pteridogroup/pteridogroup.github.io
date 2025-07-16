@@ -24,10 +24,14 @@ This platform will allow all PPG members to contribute to any discussion or prop
 Secondly, in conjunction with this new platform, we are moving away from the committee-based model^[For [Phase One](#phase-one) at least. A committee-based model may still be used for [Phase Two](#phase-two)] (each committee made a proposal for the classification of their focal taxon, and those proposals were then voted upon by the full PPG community).
 Instead, **each proposal will have a period of open discussion, and then we will have a direct vote by the PPG membership**: proposals will be adopted if at least ⅔ of the votes are in favor.
 
-## The PPG website and PPG GitHub repo
+## Relevant Websites
 
-The PPG website ([https://pteridogroup.github.io](https://pteridogroup.github.io)) provides documentation about the maintenance of PPG and will serve as a user-friendly portal to the data once PPG II is ready.
-The PPG GitHub repo ([https://github.com/pteridogroup/ppg](https://github.com/pteridogroup/ppg)) houses the raw data and is used as a forum for discussing taxonomic proposals.
+- [The PPG website](https://pteridogroup.github.io) provides documentation about the maintenance of PPG and serves as a [user-friendly portal to the data](ppg.qmd).
+
+- [The PPG GitHub repo](https://github.com/pteridogroup/ppg) houses the [raw data](https://github.com/pteridogroup/ppg/releases) and is used as a forum for discussing [taxonomic proposals](https://github.com/pteridogroup/ppg/issues).
+
+- [World Flora Online (WFO)](https://about.worldfloraonline.org/) provides an interface to edit the data, [Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html).
+For more information, see the [World Flora Online section](wfo.qmd).
 
 ## Phase One
 
@@ -94,6 +98,8 @@ All proposals receiving >⅔ of the votes will be deemed accepted by the PPG com
 
 Our initial database is based on Michael Hassler's [World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list) list (thank you Michael!). Joel Nitta [has written a script](https://github.com/pteridogroup/ppg-import) that converts this list into Darwin Core format. Note that this database includes various changes relative to PPG I [-@ppg2016] made by Michael, but none of these will be considered official until they have been approved via the process outlined [above](#voting).
 
+As of 2025-06, the data have been imported into [World Flora Online](https://about.worldfloraonline.org/) and are maintained using their online taxonomic database editor, [Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html).
+
 ## Phase Two
 
 The major difference between Phase One and Phase Two is that Phase One is at the genus (and higher) level, whereas Phase Two is at the species (and higher) level^[Infraspecific taxa will also be treated.].
@@ -105,16 +111,14 @@ In addition, we anticipate one other paper, led by Joel Nitta, describing the bi
 
 ### Process
 
-The details of the process that we will use to achieve this ambitious goal are still being worked out, but the process will revolve heavily around a set of scripts that Joel Nitta has created and which will be available online.
-These scripts provide user access to an underlying database of fern taxa.
-Basically, every taxon will be an entry in a big text file (A CSV file in [Darwin Core format](https://dwc.tdwg.org/terms/#taxon)), and the data associated with that taxon (such as its parent taxon, its publication details, its rank, etc.) are stored in different fields in that entry.
+We anticipate that the number of taxonomic changes needed at the species level will far exceed the amount that can be reasonably debated and voted upon by the whole PPG community as was done during Phase I.
 
-As with Phase One, the initial database will be courtesy of Michael Hassler and based on his [World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list) list, modified as necessary to be consistent with the Phase One higher classification.
+Therefore, during Phase II, PPG members will adopt individual taxa (e.g., genera) with which they have expertise and take on responsibility for maintaining the species-level data for those taxa.
 
-Joel’s scripts will allow a user to download portions of the big text file (say, all the species in a given family or genus), edit them, and upon re-upload, will run a series of checks and adjust the rest of the master classification file as necessary (for example, but making sure that synonyms map to an accepted species, etc).
+All editing of the data will take place on World Flora Online's online taxonomic database editing system, [Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html).
+For more information about WFO and Rhakhis, see the [WFO section](wfo.qmd).
 
-Our rough plan is that PPG members will adopt individual taxa with which they have expertise and vet/refine the species lists for those taxa.
-They will then "push" their proposed changes back to the master list, where we’ll apply some sort of vetting (maybe by a geographically representative set of reviewers) to ensure a baseline degree of quality and consistency.
+More details about how to use Rhakhis will be posted once Phase II begins.
 
 ## Versioning
 
