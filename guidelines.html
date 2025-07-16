@@ -152,7 +152,7 @@ div.csl-indent {
    
   <ul>
   <li><a href="#overview-and-philosophy" id="toc-overview-and-philosophy" class="nav-link active" data-scroll-target="#overview-and-philosophy">Overview and philosophy</a></li>
-  <li><a href="#the-ppg-website-and-ppg-github-repo" id="toc-the-ppg-website-and-ppg-github-repo" class="nav-link" data-scroll-target="#the-ppg-website-and-ppg-github-repo">The PPG website and PPG GitHub repo</a></li>
+  <li><a href="#relevant-websites" id="toc-relevant-websites" class="nav-link" data-scroll-target="#relevant-websites">Relevant Websites</a></li>
   <li><a href="#phase-one" id="toc-phase-one" class="nav-link" data-scroll-target="#phase-one">Phase One</a>
   <ul class="collapse">
   <li><a href="#intended-products" id="toc-intended-products" class="nav-link" data-scroll-target="#intended-products">Intended products</a></li>
@@ -215,9 +215,13 @@ div.csl-indent {
 <p>As with the original PPG, we aspire to be inclusive, community-driven, and consensus-oriented. <strong>Monophyly is a primary criterion for taxon acceptance</strong>; non-monophyletic taxa may be recognized (and flagged as such) when no exclusively monophyletic treatment is available (e.g., taxa that have not been subject to phylogenetic analysis, etc.).</p>
 <p>Based on our experiences with PPG I, and due to the greatly expanded scope of PPG II, we are opting for some changes to our process. First and foremost, <strong>we are moving our discussion and proposal platform away from deliberation over email to a PPG-wide GitHub-based platform</strong> (described <a href="#github-interface-for-communication-and-coordination">below</a>; see also the <a href="https://pteridogroup.github.io/github.html">GitHub Guide</a>). This platform will allow all PPG members to contribute to any discussion or proposal, and will archive those discussions in perpetuity. Secondly, in conjunction with this new platform, we are moving away from the committee-based model<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> (each committee made a proposal for the classification of their focal taxon, and those proposals were then voted upon by the full PPG community). Instead, <strong>each proposal will have a period of open discussion, and then we will have a direct vote by the PPG membership</strong>: proposals will be adopted if at least ⅔ of the votes are in favor.</p>
 </section>
-<section id="the-ppg-website-and-ppg-github-repo" class="level2">
-<h2 class="anchored" data-anchor-id="the-ppg-website-and-ppg-github-repo">The PPG website and PPG GitHub repo</h2>
-<p>The PPG website (<a href="https://pteridogroup.github.io">https://pteridogroup.github.io</a>) provides documentation about the maintenance of PPG and will serve as a user-friendly portal to the data once PPG II is ready. The PPG GitHub repo (<a href="https://github.com/pteridogroup/ppg">https://github.com/pteridogroup/ppg</a>) houses the raw data and is used as a forum for discussing taxonomic proposals.</p>
+<section id="relevant-websites" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-websites">Relevant Websites</h2>
+<ul>
+<li><p><a href="https://pteridogroup.github.io">The PPG website</a> provides documentation about the maintenance of PPG and serves as a <a href="./ppg.html">user-friendly portal to the data</a>.</p></li>
+<li><p><a href="https://github.com/pteridogroup/ppg">The PPG GitHub repo</a> houses the <a href="https://github.com/pteridogroup/ppg/releases">raw data</a> and is used as a forum for discussing <a href="https://github.com/pteridogroup/ppg/issues">taxonomic proposals</a>.</p></li>
+<li><p><a href="https://about.worldfloraonline.org/">World Flora Online (WFO)</a> provides an interface to edit the data, <a href="https://list.worldfloraonline.org/rhakhis/ui/index.html">Rhakhis</a>. For more information, see the <a href="./wfo.html">World Flora Online section</a>.</p></li>
+</ul>
 </section>
 <section id="phase-one" class="level2">
 <h2 class="anchored" data-anchor-id="phase-one">Phase One</h2>
@@ -260,6 +264,7 @@ div.csl-indent {
 <section id="data-sources" class="level3">
 <h3 class="anchored" data-anchor-id="data-sources">Data sources</h3>
 <p>Our initial database is based on Michael Hassler’s <a href="https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list">World Ferns</a> list (thank you Michael!). Joel Nitta <a href="https://github.com/pteridogroup/ppg-import">has written a script</a> that converts this list into Darwin Core format. Note that this database includes various changes relative to PPG I <span class="citation" data-cites="ppg2016">(<a href="#ref-ppg2016" role="doc-biblioref">2016</a>)</span> made by Michael, but none of these will be considered official until they have been approved via the process outlined <a href="#voting">above</a>.</p>
+<p>As of 2025-06, the data have been imported into <a href="https://about.worldfloraonline.org/">World Flora Online</a> and are maintained using their online taxonomic database editor, <a href="https://list.worldfloraonline.org/rhakhis/ui/index.html">Rhakhis</a>.</p>
 </section>
 </section>
 <section id="phase-two" class="level2">
@@ -271,10 +276,10 @@ div.csl-indent {
 </section>
 <section id="process" class="level3">
 <h3 class="anchored" data-anchor-id="process">Process</h3>
-<p>The details of the process that we will use to achieve this ambitious goal are still being worked out, but the process will revolve heavily around a set of scripts that Joel Nitta has created and which will be available online. These scripts provide user access to an underlying database of fern taxa. Basically, every taxon will be an entry in a big text file (A CSV file in <a href="https://dwc.tdwg.org/terms/#taxon">Darwin Core format</a>), and the data associated with that taxon (such as its parent taxon, its publication details, its rank, etc.) are stored in different fields in that entry.</p>
-<p>As with Phase One, the initial database will be courtesy of Michael Hassler and based on his <a href="https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list">World Ferns</a> list, modified as necessary to be consistent with the Phase One higher classification.</p>
-<p>Joel’s scripts will allow a user to download portions of the big text file (say, all the species in a given family or genus), edit them, and upon re-upload, will run a series of checks and adjust the rest of the master classification file as necessary (for example, but making sure that synonyms map to an accepted species, etc).</p>
-<p>Our rough plan is that PPG members will adopt individual taxa with which they have expertise and vet/refine the species lists for those taxa. They will then “push” their proposed changes back to the master list, where we’ll apply some sort of vetting (maybe by a geographically representative set of reviewers) to ensure a baseline degree of quality and consistency.</p>
+<p>We anticipate that the number of taxonomic changes needed at the species level will far exceed the amount that can be reasonably debated and voted upon by the whole PPG community as was done during Phase I.</p>
+<p>Therefore, during Phase II, PPG members will adopt individual taxa (e.g., genera) with which they have expertise and take on responsibility for maintaining the species-level data for those taxa.</p>
+<p>All editing of the data will take place on World Flora Online’s online taxonomic database editing system, <a href="https://list.worldfloraonline.org/rhakhis/ui/index.html">Rhakhis</a>. For more information about WFO and Rhakhis, see the <a href="./wfo.html">WFO section</a>.</p>
+<p>More details about how to use Rhakhis will be posted once Phase II begins.</p>
 </section>
 </section>
 <section id="versioning" class="level2">
