@@ -68,7 +68,7 @@ Only members of the coordinating committee will have permission to edit names at
 
 This will enable us to maintain names at the species level in an effective manner.
 
-### Rhakhis resources
+## Rhakhis resources
 
 - [User manual](https://plant-list-docs.rbge.info/rhakhis/)
 
