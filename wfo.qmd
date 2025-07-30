@@ -56,7 +56,7 @@ Rhakhis interface for *[Crepidomanes](https://rhakhis.rbge.info/rhakhis/ui/#wfo-
 See the [corresponding entry](https://www.worldfloraonline.org/taxon/wfo-4000009670) in the public-facing portal.
 :::
 
-### PPG and Rhakhis
+## PPG and Rhakhis
 
 PPG will use [Rhakhis](https://list.worldfloraonline.org/rhakhis) as its database management system.
 
