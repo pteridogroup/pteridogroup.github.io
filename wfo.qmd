@@ -72,4 +72,7 @@ This will enable us to maintain names at the species level in an effective manne
 
 - [User manual](https://plant-list-docs.rbge.info/rhakhis/)
 
-- [Workshop slides](assets/botany-2025-rhakhis.pdf)
+- Workshop at [Botany 2025](https://botanyconference.org/)
+  - [Workshop slides](assets/botany-2025-rhakhis.pdf)
+  - [Workshop recording](https://youtu.be/TrcwQNu665w)
+  - Correction to the workshop materials: Only Rhakhis users who have been granted editing permissions may edit the data in the "sandbox". We thought anybody with an [ORCID](https://orcid.org/) could edit data in the sandbox, but that was mistaken. So there was no "hands-on" session.
