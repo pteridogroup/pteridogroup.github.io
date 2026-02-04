@@ -1,0 +1,138 @@
+---
+title: "PPG Curator's Guide"
+author: "PPG Coordinating Committee"
+toc: true
+date: "2026-02-03"
+bibliography: references.yaml
+---
+
+Starting with PPG II, the PPG classification extends to the species and infraspecific levels. 
+However, there are too many such taxa to broadly apply our proposal and voting system. 
+Instead, we seek volunteers from PPG to curate individual taxa in their areas of expertise (**Curators**). 
+For their adopted taxa, Curators decide which species and infraspecific taxa to recognize and which to sink into synonymy, correct errors (typos in taxon names, etc.), and perform general nomenclatural checks. 
+Those checks include verifying that the names (including authors) are formatted correctly, and that the correct basionym is indicated.
+
+We ask that PPG Curators take a generally conservative approach and avoid deviating strongly from the status quo. 
+If a taxonomic decision is likely to be contentious, it can be resolved using the proposal and voting system that we used for the higher-level classification.
+Remember that the PPG classification will be used by a broad community, including as the taxonomic system for the [PteridoPortal](https://www.pteridoportal.org/portal/index.php) and potentially for the ferns and lycophytes in [iNaturalist](https://www.inaturalist.org/).
+
+The PPG classification is edited using [World Flora Online](https://www.worldfloraonline.org/)’s online editing tool, **Rhakhis**.
+
+## Getting started
+
+Potential Curators need to first indicate the taxa that they are interested in curating. 
+If someone interested in being a Curator missed the initial survey (or wishes to change their taxa of interest), they may email Carl ([carl.rothfels@usu.edu](mailto:carl.rothfels@usu.edu)), Joel ([joelnitta@gmail.com](mailto:joelnitta@gmail.com)), or Eric ([schuettpelze@icloud.com](mailto:schuettpelze@icloud.com)). 
+The PPG coordinating committee will work to ensure that all taxa are covered and will give individual Curators editorial access to their adopted taxa in Rhakhis.
+
+To access Rhakhis, you need an ORCID iD, available at [https://orcid.org/](https://orcid.org/). 
+These IDs are ways to uniquely identify researchers and have been adopted by a variety of applications (e.g., journals and funding organizations), so having one may be useful beyond providing access to Rhakhis.
+
+## Resources
+
+This is webpage is not meant a comprehensive manual for Rhakhis; rather we try to briefly cover the main topics of interest to most Curators.
+
+We strongly recommend consulting the below resources in addition to reading this webpage.
+
+### User manual
+
+The [Rhakhis user manual](https://plant-list-docs.rbge.info/rhakhis/) was written by the developers at World Flora Online and should be considered the official source of information for using Rhakhis.
+Note that it does not include content specific to PPG, as Rhakhis is also used by curators of other plant groups.
+
+### Workshop
+
+At Botany 2025, there was a workshop on using Rhakhis for PPG. 
+There are [slides](https://pteridogroup.github.io/assets/botany-2025-rhakhis.pdf) and a [video](https://youtu.be/TrcwQNu665w) available.
+Watching the video is highly recommended before you start using Rhakhis.
+
+There is one correction to the workshop materials: only Rhakhis users who have been granted editing permissions may edit the data in the "sandbox". 
+We thought anybody with an [ORCID](https://orcid.org/) could edit data in the sandbox, but that was mistaken. 
+So there was no "hands-on" session.
+
+## Using Rhakhis
+
+Rhakhis has two interfaces: a sandbox (AKA the "Staging Server"), where users can experiment without risking messing anything up, and the main site, where changes are immediately reflected in the PPG (and WFO) classification.
+
+* Sandbox: <https://rhakhis.rbge.info/rhakhis/ui/>  
+* Main site: <https://list.worldfloraonline.org/rhakhis/ui/index.html>
+
+::: {.callout-warning}
+One thing to keep in mind: **there are no "Undo" or "Save" buttons** in Rhakhis.
+Any change you make happens immediately and is permanent (that said, you can subsequently make another change to effectively reverse something if needed).
+:::
+
+We recommend first using the "Sandbox" (@fig-server) for practice until you get used to the interface, as any changes made there are not actually used in PPG or WFO, and it gets reset nightly.
+
+[![Sandbox server. Note the blue bar at the top, which is absent from the real server.](images/curator-staging-server.png){#fig-server}](images/curator-staging-server.png)
+
+### Taxonomic rules in Rhakhis
+
+Rhakhis uses **"taxonomic logic"**: that is, relationships between names have to make sense taxonomically (see [YouTube clip at 40:45](https://youtu.be/TrcwQNu665w?si=2Qho57GCOE3M_Yeq&t=2445)).
+For example, a synonym cannot be listed under another synonym, only an accepted name.
+Another rule is that only names with "valid" nomenclatural status can be accepted.
+
+Rhakhis *will not explicitly tell you if what you are trying to do breaks a rule*; you simply won't be able to do it (the menu item will be greyed-out).
+
+So one of the most important parts about using Rhakhis is to understand these rules and use your taxonomic logic when making changes.
+
+### Placing a name into the classification
+
+You might think a common task would be add new names to the database.
+
+However, this is actually quite rare. Instead, WFO has a system whereby it regularly checks [IPNI](https://www.ipni.org/) and incorporates any new names it finds.
+This is great because author names are automatically standardized to IPNI and other information (such as publication) is also automatically imported.
+
+These names, however, come into Rhakhis as "unplaced"---they are present in the database but are not connected to the taxonomic hierarchy. 
+So one of the first steps as a Curator is to search Rhakhis for unplaced names. 
+
+Search for each of your higher-level taxa (i.e., families and genera). 
+Then scroll down and after the Nomenclatural References section will be a list of unplaced names (@fig-unplaced). 
+Select each name and either recognize it, move it to synonymy under a recognized name, and/or change its status to "invalid" or whatever designation is appropriate. 
+Note that you won’t be able to accept a name unless its nomenclatural status is "valid". 
+
+[![Unplaced names in *Angiopteris*](images/curator-unplaced-names.png){#fig-unplaced}](images/curator-unplaced-names.png)
+
+::: {.callout-warning}
+Most unplaced names will have a nomenclatural status of "unknown", meaning that nobody has verified them yet.
+
+A name cannot be recognized as accepted unless the nomenclatural status is set to "valid".
+
+After inspecting the name, if it looks good, set the nomenclatural status to "valid", **then** choose the appropriate placement under the "Placement" menu.
+:::
+
+### Raising a name from synonymy
+
+To raise a name from synonymy, go to the name (by searching for it, or by selecting it from the list of synonyms under the currently accepted name) and under placement choose "Raise to accepted taxon within" and then select the appropriate parent taxon (@fig-raise). 
+Note, the name that you are raising must be "valid" (under Nomenclatural Status), and the new parental taxon must be an accepted taxon (it cannot be itself a synonym of another name). 
+So there may be some other edits that you might have to do before you can raise the name. 
+After raising the new name, be sure to transfer any synonyms of that name to it, rather than leaving them as synonyms of the old name; this won’t happen automatically.
+
+[![Raising a taxon to accepted status](images/curator-raise-to-accepted.png){#fig-raise}](images/curator-raise-to-accepted.png)
+
+### Reducing a name to synonymy
+
+The steps to reduce an accepted name to synonymy are similar to those for raising a taxon: select the name, and then, under "Placement", select "Sink into synonymy within". 
+You can then select the name that your focal taxon is a synonym of (that name must itself be an accepted name). 
+NOTE: before you can reduce a name to synonymy, **you have to re-map all existing synonyms of that name to the new accepted name, and all subordinate taxa.** 
+This is very tedious to do one name at a time.
+
+::: {.callout-tip}
+
+### Tip: bulk transfer of names
+
+Fortunately, **there is a shortcut**: you can click on the small blue number that indicates the number of synonyms (see [YouTube clip at 51:05](https://youtu.be/TrcwQNu665w?si=Sdw9ZDjgHqrHsU30&t=3065)).
+This brings up a menu that allows you to move *all* the synonyms at once to another name.
+Notice the bulk move still leaves the original accepted name in place; you have to move that one separately.
+
+:::
+
+### Other annotations
+
+To is helpful to indicate the basionym of each name, which helps the system track homotypic names, etc. 
+There’s an "Add basionym" button on the right hand side, which will even provide you with a list of candidate names to select from. 
+For hybrid taxa, the taxon name is entered without the "x"; hybridity is indicated by selecting the "is hybrid taxon" button under "taxon status", on the right-hand side.
+
+### Duplicate names and other names that are just wrong
+
+If you find a name that is duplicated---perhaps one version is a typo of the other---send that information to Joel or Carl, and we’ll ask the WFO folks to erase that name (there is no interface for a user to delete a name).
+
+For all changes, it would be helpful to add a note in the comments describing what was done and the underlying justification. 

@@ -38,7 +38,7 @@ Note that once a snapshot is taken, <https://wfoplantlist.org/> gets updated fir
 
 ### Rhakhis
 
-[Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html) is the online interface to the WFO database (@fig-1).
+[Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html) is the online interface to the WFO database (@fig-1), and by extension, the data underlying PPG.
 
 The key difference between Rhakhis and the public-facing WFO portals is that Rhakhis shows the **current data**, whereas the portals show snapshots of the data.
 
@@ -56,23 +56,12 @@ Rhakhis interface for *[Crepidomanes](https://rhakhis.rbge.info/rhakhis/ui/#wfo-
 See the [corresponding entry](https://www.worldfloraonline.org/taxon/wfo-4000009670) in the public-facing portal.
 :::
 
-## PPG and Rhakhis
+## Curating data in Rhakhis
 
-PPG will use [Rhakhis](https://list.worldfloraonline.org/rhakhis) as its database management system.
+PPG uses [Rhakhis](https://list.worldfloraonline.org/rhakhis) as its database management system.
 
-You can see an overview of the PPG taxonomy exported from Rhakhis on the [Taxonomic Treatment](ppg.qmd).
+PPG members volunteer as "curators" for taxonomic groups of their expertise (typically within a family or genus/genera), and are responsible for maintaining data for those groups in Rhakhis.
 
-During [Phase II](guidelines.qmd#phase-two), PPG members will be granted permission to edit names within taxonomic groups of their expertise (typically within a family or genus/genera).
+Only members of the coordinating committee have permission to edit names at higher taxonomic levels (family and above).
 
-Only members of the coordinating committee will have permission to edit names at higher taxonomic levels (family and above).
-
-This will enable us to maintain names at the species level in an effective manner.
-
-## Rhakhis resources
-
-- [User manual](https://plant-list-docs.rbge.info/rhakhis/)
-
-- Workshop at [Botany 2025](https://botanyconference.org/)
-  - [Workshop slides](assets/botany-2025-rhakhis.pdf)
-  - [Workshop recording](https://youtu.be/TrcwQNu665w)
-  - Correction to the workshop materials: Only Rhakhis users who have been granted editing permissions may edit the data in the "sandbox". We thought anybody with an [ORCID](https://orcid.org/) could edit data in the sandbox, but that was mistaken. So there was no "hands-on" session.
+Please see the [curator's guide](curators.qmd) for more information.
