@@ -41,7 +41,7 @@ Note that it does not include content specific to PPG, as Rhakhis is also used b
 ### Workshop
 
 At Botany 2025, there was a workshop on using Rhakhis for PPG. 
-There are [slides](https://pteridogroup.github.io/assets/botany-2025-rhakhis.pdf) and a [video](https://youtu.be/TrcwQNu665w) available.
+There are [slides](assets/botany-2025-rhakhis.pdf) and a [video](https://youtu.be/TrcwQNu665w) available.
 Watching the video is highly recommended before you start using Rhakhis.
 
 There is one correction to the workshop materials: only Rhakhis users who have been granted editing permissions may edit the data in the "sandbox". 
