@@ -28,6 +28,8 @@ If you think such a change is needed, please contact a member of the [coordinati
 4. Follow [IPNI](https://www.ipni.org/) when writing author names and publications. If you think IPNI is incorrect, [there is a process to contact them and request a correction](#formatting-of-author-names-and-publications).
 5. Generally, fertile allopolyploids should not be marked as hybrids; nothotaxa refer solely to sterile hybrids.
 
+Failure to adhere to the above guidelines or the [PPG Code of Conduct](coc.qmd) may result in loss of editing privileges in Rhakhis, at the discretion of the coordinating committee. 
+
 ## Getting started
 
 Potential Curators need to first indicate the taxa that they are interested in curating. 
