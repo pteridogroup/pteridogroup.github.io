@@ -29,7 +29,7 @@ These IDs are ways to uniquely identify researchers and have been adopted by a v
 
 ## Resources
 
-This is webpage is not meant a comprehensive manual for Rhakhis; rather we try to briefly cover the main topics of interest to most Curators.
+This is webpage is not meant to be a comprehensive manual for Rhakhis; rather we try to briefly cover the main topics of interest to most Curators.
 
 We strongly recommend consulting the below resources in addition to reading this webpage.
 
@@ -68,7 +68,7 @@ We recommend first using the "Sandbox" (@fig-server) for practice until you get 
 
 Rhakhis uses **"taxonomic logic"**: that is, relationships between names have to make sense taxonomically (see [YouTube clip at 40:45](https://youtu.be/TrcwQNu665w?si=2Qho57GCOE3M_Yeq&t=2445)).
 For example, a synonym cannot be listed under another synonym, only an accepted name.
-Another rule is that only names with "valid" nomenclatural status can be accepted.
+Another rule is that only names with "valid" nomenclatural status can be accepted (this is not needed for synonyms).
 
 Rhakhis *will not explicitly tell you if what you are trying to do breaks a rule*; you simply won't be able to do it (the menu item will be greyed-out).
 
@@ -96,7 +96,7 @@ Most unplaced names will have a nomenclatural status of "unknown", meaning that 
 
 A name cannot be recognized as accepted unless the nomenclatural status is set to "valid".
 
-After inspecting the name, if it looks good, set the nomenclatural status to "valid", **then** choose the appropriate placement under the "Placement" menu.
+If the name appears correct and you want to include it as accepted, set the nomenclatural status to "valid", **then** choose the appropriate placement under the "Placement" menu.
 :::
 
 ### Raising a name from synonymy
@@ -112,12 +112,13 @@ After raising the new name, be sure to transfer any synonyms of that name to it,
 
 The steps to reduce an accepted name to synonymy are similar to those for raising a taxon: select the name, and then, under "Placement", select "Sink into synonymy within". 
 You can then select the name that your focal taxon is a synonym of (that name must itself be an accepted name). 
-NOTE: before you can reduce a name to synonymy, **you have to re-map all existing synonyms of that name to the new accepted name, and all subordinate taxa.** 
-This is very tedious to do one name at a time.
+**NOTE:** before you can reduce a name to synonymy, **you have to re-map all existing synonyms of that name to the new accepted name.** 
 
 ::: {.callout-tip}
 
 ### Tip: bulk transfer of names
+
+It is tedious to transfer one name at a time when there are a large number of synonyms.
 
 Fortunately, **there is a shortcut**: you can click on the small blue number that indicates the number of synonyms (see [YouTube clip at 51:05](https://youtu.be/TrcwQNu665w?si=Sdw9ZDjgHqrHsU30&t=3065)).
 This brings up a menu that allows you to move *all* the synonyms at once to another name.
@@ -125,14 +126,24 @@ Notice the bulk move still leaves the original accepted name in place; you have 
 
 :::
 
-### Other annotations
+### Setting the basionym
 
-To is helpful to indicate the basionym of each name, which helps the system track homotypic names, etc. 
+It is helpful to indicate the basionym of each name, which helps the system track homotypic names, etc. 
 There’s an "Add basionym" button on the right hand side, which will even provide you with a list of candidate names to select from. 
-For hybrid taxa, the taxon name is entered without the "x"; hybridity is indicated by selecting the "is hybrid taxon" button under "taxon status", on the right-hand side.
+
+### Indicating hybrid status
+
+For hybrid taxa, the taxon name is entered without the "×"; hybridity is indicated by selecting the "is hybrid taxon" button under "taxon status", on the right-hand side.
+
+Currently, many hybrids lack correct hybrid status.
+We appreciate curators checking and clicking the "is hybrid taxon" when appropriate.
 
 ### Duplicate names and other names that are just wrong
 
 If you find a name that is duplicated---perhaps one version is a typo of the other---send that information to Joel or Carl, and we’ll ask the WFO folks to erase that name (there is no interface for a user to delete a name).
 
-For all changes, it would be helpful to add a note in the comments describing what was done and the underlying justification. 
+### Adding comments
+
+There is a comments section for every taxon.
+You are free to enter any relevant text here.
+For example, notes about why a particular species is recognized as accepted, if the current treatment needs more attention, etc.
