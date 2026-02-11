@@ -148,8 +148,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#placing-a-name-into-the-classification" id="toc-placing-a-name-into-the-classification" class="nav-link" data-scroll-target="#placing-a-name-into-the-classification">Placing a name into the classification</a></li>
   <li><a href="#raising-a-name-from-synonymy" id="toc-raising-a-name-from-synonymy" class="nav-link" data-scroll-target="#raising-a-name-from-synonymy">Raising a name from synonymy</a></li>
   <li><a href="#reducing-a-name-to-synonymy" id="toc-reducing-a-name-to-synonymy" class="nav-link" data-scroll-target="#reducing-a-name-to-synonymy">Reducing a name to synonymy</a></li>
-  <li><a href="#other-annotations" id="toc-other-annotations" class="nav-link" data-scroll-target="#other-annotations">Other annotations</a></li>
+  <li><a href="#setting-the-basionym" id="toc-setting-the-basionym" class="nav-link" data-scroll-target="#setting-the-basionym">Setting the basionym</a></li>
+  <li><a href="#indicating-hybrid-status" id="toc-indicating-hybrid-status" class="nav-link" data-scroll-target="#indicating-hybrid-status">Indicating hybrid status</a></li>
   <li><a href="#duplicate-names-and-other-names-that-are-just-wrong" id="toc-duplicate-names-and-other-names-that-are-just-wrong" class="nav-link" data-scroll-target="#duplicate-names-and-other-names-that-are-just-wrong">Duplicate names and other names that are just wrong</a></li>
+  <li><a href="#adding-comments" id="toc-adding-comments" class="nav-link" data-scroll-target="#adding-comments">Adding comments</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -198,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="resources" class="level2">
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>This is webpage is not meant a comprehensive manual for Rhakhis; rather we try to briefly cover the main topics of interest to most Curators.</p>
+<p>This is webpage is not meant to be a comprehensive manual for Rhakhis; rather we try to briefly cover the main topics of interest to most Curators.</p>
 <p>We strongly recommend consulting the below resources in addition to reading this webpage.</p>
 <section id="user-manual" class="level3">
 <h3 class="anchored" data-anchor-id="user-manual">User manual</h3>
@@ -244,7 +246,7 @@ Figure&nbsp;1: Sandbox server. Note the blue bar at the top, which is absent fro
 </div>
 <section id="taxonomic-rules-in-rhakhis" class="level3">
 <h3 class="anchored" data-anchor-id="taxonomic-rules-in-rhakhis">Taxonomic rules in Rhakhis</h3>
-<p>Rhakhis uses <strong>“taxonomic logic”</strong>: that is, relationships between names have to make sense taxonomically (see <a href="https://youtu.be/TrcwQNu665w?si=2Qho57GCOE3M_Yeq&amp;t=2445">YouTube clip at 40:45</a>). For example, a synonym cannot be listed under another synonym, only an accepted name. Another rule is that only names with “valid” nomenclatural status can be accepted.</p>
+<p>Rhakhis uses <strong>“taxonomic logic”</strong>: that is, relationships between names have to make sense taxonomically (see <a href="https://youtu.be/TrcwQNu665w?si=2Qho57GCOE3M_Yeq&amp;t=2445">YouTube clip at 40:45</a>). For example, a synonym cannot be listed under another synonym, only an accepted name. Another rule is that only names with “valid” nomenclatural status can be accepted (this is not needed for synonyms).</p>
 <p>Rhakhis <em>will not explicitly tell you if what you are trying to do breaks a rule</em>; you simply won’t be able to do it (the menu item will be greyed-out).</p>
 <p>So one of the most important parts about using Rhakhis is to understand these rules and use your taxonomic logic when making changes.</p>
 </section>
@@ -276,7 +278,7 @@ Warning
 <div class="callout-body-container callout-body">
 <p>Most unplaced names will have a nomenclatural status of “unknown”, meaning that nobody has verified them yet.</p>
 <p>A name cannot be recognized as accepted unless the nomenclatural status is set to “valid”.</p>
-<p>After inspecting the name, if it looks good, set the nomenclatural status to “valid”, <strong>then</strong> choose the appropriate placement under the “Placement” menu.</p>
+<p>If the name appears correct and you want to include it as accepted, set the nomenclatural status to “valid”, <strong>then</strong> choose the appropriate placement under the “Placement” menu.</p>
 </div>
 </div>
 </section>
@@ -296,7 +298,7 @@ Figure&nbsp;3: Raising a taxon to accepted status
 </section>
 <section id="reducing-a-name-to-synonymy" class="level3">
 <h3 class="anchored" data-anchor-id="reducing-a-name-to-synonymy">Reducing a name to synonymy</h3>
-<p>The steps to reduce an accepted name to synonymy are similar to those for raising a taxon: select the name, and then, under “Placement”, select “Sink into synonymy within”. You can then select the name that your focal taxon is a synonym of (that name must itself be an accepted name). NOTE: before you can reduce a name to synonymy, <strong>you have to re-map all existing synonyms of that name to the new accepted name, and all subordinate taxa.</strong> This is very tedious to do one name at a time.</p>
+<p>The steps to reduce an accepted name to synonymy are similar to those for raising a taxon: select the name, and then, under “Placement”, select “Sink into synonymy within”. You can then select the name that your focal taxon is a synonym of (that name must itself be an accepted name). <strong>NOTE:</strong> before you can reduce a name to synonymy, <strong>you have to re-map all existing synonyms of that name to the new accepted name.</strong></p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -307,18 +309,27 @@ Figure&nbsp;3: Raising a taxon to accepted status
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p>It is tedious to transfer one name at a time when there are a large number of synonyms.</p>
 <p>Fortunately, <strong>there is a shortcut</strong>: you can click on the small blue number that indicates the number of synonyms (see <a href="https://youtu.be/TrcwQNu665w?si=Sdw9ZDjgHqrHsU30&amp;t=3065">YouTube clip at 51:05</a>). This brings up a menu that allows you to move <em>all</em> the synonyms at once to another name. Notice the bulk move still leaves the original accepted name in place; you have to move that one separately.</p>
 </div>
 </div>
 </section>
-<section id="other-annotations" class="level3">
-<h3 class="anchored" data-anchor-id="other-annotations">Other annotations</h3>
-<p>To is helpful to indicate the basionym of each name, which helps the system track homotypic names, etc. There’s an “Add basionym” button on the right hand side, which will even provide you with a list of candidate names to select from. For hybrid taxa, the taxon name is entered without the “x”; hybridity is indicated by selecting the “is hybrid taxon” button under “taxon status”, on the right-hand side.</p>
+<section id="setting-the-basionym" class="level3">
+<h3 class="anchored" data-anchor-id="setting-the-basionym">Setting the basionym</h3>
+<p>It is helpful to indicate the basionym of each name, which helps the system track homotypic names, etc. There’s an “Add basionym” button on the right hand side, which will even provide you with a list of candidate names to select from.</p>
+</section>
+<section id="indicating-hybrid-status" class="level3">
+<h3 class="anchored" data-anchor-id="indicating-hybrid-status">Indicating hybrid status</h3>
+<p>For hybrid taxa, the taxon name is entered without the “×”; hybridity is indicated by selecting the “is hybrid taxon” button under “taxon status”, on the right-hand side.</p>
+<p>Currently, many hybrids lack correct hybrid status. We appreciate curators checking and clicking the “is hybrid taxon” when appropriate.</p>
 </section>
 <section id="duplicate-names-and-other-names-that-are-just-wrong" class="level3">
 <h3 class="anchored" data-anchor-id="duplicate-names-and-other-names-that-are-just-wrong">Duplicate names and other names that are just wrong</h3>
 <p>If you find a name that is duplicated—perhaps one version is a typo of the other—send that information to Joel or Carl, and we’ll ask the WFO folks to erase that name (there is no interface for a user to delete a name).</p>
-<p>For all changes, it would be helpful to add a note in the comments describing what was done and the underlying justification.</p>
+</section>
+<section id="adding-comments" class="level3">
+<h3 class="anchored" data-anchor-id="adding-comments">Adding comments</h3>
+<p>There is a comments section for every taxon. You are free to enter any relevant text here. For example, notes about why a particular species is recognized as accepted, if the current treatment needs more attention, etc.</p>
 
 
 </section>
