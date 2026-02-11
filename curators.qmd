@@ -50,7 +50,7 @@ So there was no "hands-on" session.
 
 ## Using Rhakhis
 
-Rhakhis has two interfaces: a sandbox (AKA the "Staging Server"), where users can experiment without risking messing anything up, and the main site, where changes are immediately reflected in the PPG (and WFO) classification.
+Rhakhis has two interfaces: a sandbox (AKA the "Staging Server"), where users can experiment without risking messing anything up, and the main site, where changes are immediately^[There is a lag of ca. 1 week before changes in Rhakhis appear in the most recent PPG data.] reflected in the PPG classification.
 
 * Sandbox: <https://rhakhis.rbge.info/rhakhis/ui/>  
 * Main site: <https://list.worldfloraonline.org/rhakhis/ui/index.html>

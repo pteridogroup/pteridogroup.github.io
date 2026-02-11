@@ -1,0 +1,17 @@
+---
+title: "Database Viewer"
+toc: true
+toc-depth: 6
+execute: 
+  echo: false
+  message: false
+  warning: false
+---
+
+The **PPG Taxonomic Database Viewer** is a web-app that can be used to browse the current PPG data (@fig-viewer).
+
+[Click here](https://pteridogroup.shinyapps.io/shinyppg/){target="_blank"} to open the app.
+
+Please note that the server has extremely limited bandwidth and may be slow or inaccessible.
+
+![Screenshot of the PPG Taxonomic Database Viewer.](images/data-viewer.png){#fig-viewer}
