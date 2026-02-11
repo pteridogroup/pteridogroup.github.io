@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Guide to GitHub for PPG – Pteridophyte Phylogeny Group</title>
+<title>Database Viewer – Pteridophyte Phylogeny Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4261294b44a2e482ba1884ee2623d7a5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Project Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./github.html" aria-current="page"> 
+    <a class="nav-link" href="./github.html"> 
 <span class="menu-text">GitHub Guide</span></a>
   </li>  
   <li class="nav-item">
@@ -140,35 +140,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#why-github" id="toc-why-github" class="nav-link active" data-scroll-target="#why-github">Why GitHub?</a></li>
-  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
-  <li><a href="#background-information" id="toc-background-information" class="nav-link" data-scroll-target="#background-information">Background information</a>
-  <ul class="collapse">
-  <li><a href="#about-repos" id="toc-about-repos" class="nav-link" data-scroll-target="#about-repos">About repos</a></li>
-  <li><a href="#about-issues" id="toc-about-issues" class="nav-link" data-scroll-target="#about-issues">About issues</a></li>
-  <li><a href="#about-markdown" id="toc-about-markdown" class="nav-link" data-scroll-target="#about-markdown">About markdown</a></li>
-  </ul></li>
-  <li><a href="#the-ppg-repo" id="toc-the-ppg-repo" class="nav-link" data-scroll-target="#the-ppg-repo">The PPG repo</a></li>
-  <li><a href="#creating-a-new-issue" id="toc-creating-a-new-issue" class="nav-link" data-scroll-target="#creating-a-new-issue">Creating a new issue</a></li>
-  <li><a href="#searching-for-an-issue" id="toc-searching-for-an-issue" class="nav-link" data-scroll-target="#searching-for-an-issue">Searching for an issue</a></li>
-  <li><a href="#commenting-on-an-issue" id="toc-commenting-on-an-issue" class="nav-link" data-scroll-target="#commenting-on-an-issue">Commenting on an issue</a></li>
-  <li><a href="#general-discussions" id="toc-general-discussions" class="nav-link" data-scroll-target="#general-discussions">General discussions</a></li>
-  <li><a href="#voting" id="toc-voting" class="nav-link" data-scroll-target="#voting">Voting</a></li>
-  <li><a href="#notifications" id="toc-notifications" class="nav-link" data-scroll-target="#notifications">Notifications</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Guide to GitHub for PPG</h1>
+<h1 class="title">Database Viewer</h1>
 </div>
 
 
@@ -185,279 +165,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="why-github" class="level2">
-<h2 class="anchored" data-anchor-id="why-github">Why GitHub?</h2>
-<p>GitHub provides tools to allow us to have open, collaborative discussions of taxonomic proposals, and to maintain a record of those discussions publicly available in perpetuity.</p>
-</section>
-<section id="setup" class="level2">
-<h2 class="anchored" data-anchor-id="setup">Setup</h2>
-<p>In order to participate in PPG discussion you will need to <a href="https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account">obtain a GitHub account</a> (the free account is fine). Anyone can browse the discussions, but only GitHub account-holders can contribute to them.</p>
-</section>
-<section id="background-information" class="level2">
-<h2 class="anchored" data-anchor-id="background-information">Background information</h2>
-<section id="about-repos" class="level3">
-<h3 class="anchored" data-anchor-id="about-repos">About repos</h3>
-<p>A <strong>repository</strong> (or “<strong>repo</strong>” for short) is a project—a collection of files in a single folder (that may contain subfolders) that is tracked by a piece of version-control software called “git”. Git can be thought of as a fancy “undo” tool—it keeps track of all previous versions of your documents so you can always go back to earlier versions if you want to. GitHub is a web service to host repos in the cloud (online) so that anybody can access them. For our purposes, one need not know anything about git—just think of GitHub as a website that can host our classification and our discussions.</p>
-</section>
-<section id="about-issues" class="level3">
-<h3 class="anchored" data-anchor-id="about-issues">About issues</h3>
-<p><strong>Issues</strong> are the tool that GitHub uses to track “to-do” items related to the project. A repo will have a list of issues (like a to-do list), each of which can be <strong>open</strong> or <strong>closed</strong>. Open issues still need to be completed. Closed issues have been resolved. Issues can be commented on in a discussion, and the discussion will remain online in perpetuity, even after the issue is closed.</p>
-</section>
-<section id="about-markdown" class="level3">
-<h3 class="anchored" data-anchor-id="about-markdown">About markdown</h3>
-<p>When you create a new issue or add a comment on an existing issue, you can only use plain text (no bold, italics, etc). In order to add formatting, you need to use a syntax called markdown. In markdown, you indicate how the text should be formatted with special characters, such as asterisks around words to be shown in italics. That is why any dialog box to enter text in GitHub has two tabs, “Write” and “Preview”. You enter the text in the “Write” tab and click on “Preview” to see how the formatted text will appear. For more on writing with markdown, see this <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github">help doc</a>.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Tip: No markdown needed
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you don’t want to bother with markdown formatting, you don’t need to use it! Feel free just to write with plain text.</p>
-</div>
-</div>
-</section>
-</section>
-<section id="the-ppg-repo" class="level2">
-<h2 class="anchored" data-anchor-id="the-ppg-repo">The PPG repo</h2>
-<p>We will use a GitHub repo to maintain the PPG classification (in the form of a CSV file) and to organize and maintain a record of all community discussions using issues<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. It is located at <a href="https://github.com/pteridogroup/ppg" class="uri">https://github.com/pteridogroup/ppg</a>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>In order to be able to complete each of the steps yourself, you will need a GitHub account (see <a href="#setup">Setup</a>).</p>
-</div>
-</div>
-<p>There are three basic things to learn: <a href="#creating-a-new-issue">creating a new issue</a>, <a href="#searching-for-an-issue">searching for an issue</a>, and <a href="#commenting-on-an-issue">commenting on an issue</a>.</p>
-</section>
-<section id="creating-a-new-issue" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="creating-a-new-issue">Creating a new issue</h2>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Before submitting a new issue, please <a href="#searching-for-an-issue">search the existing issues</a> to see if one already exists.</p>
-</div>
-</div>
-<ol type="1">
-<li>Click on “Issues” in the top navigation bar of the <a href="https://github.com/pteridogroup/ppg">repo homepage</a> (<a href="#fig-1" class="quarto-xref">Figure&nbsp;1</a>).</li>
-</ol>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>The <strong>PPG Taxonomic Database Viewer</strong> is a web-app that can be used to browse the current PPG data (<a href="#fig-viewer" class="quarto-xref">Figure&nbsp;1</a>).</p>
+<p><a href="https://pteridogroup.shinyapps.io/shinyppg/" target="_blank">Click here</a> to open the app.</p>
+<p>Please note that the server has extremely limited bandwidth and may be slow or inaccessible.</p>
+<div id="fig-viewer" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_1.png"><img src="images/fig_1.png" class="img-fluid figure-img"></a>
+<div aria-describedby="fig-viewer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/data-viewer.png" class="img-fluid figure-img">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Repo homepage
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-viewer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Screenshot of the PPG Taxonomic Database Viewer.
 </figcaption>
 </figure>
 </div>
-</div></div><ol start="2" type="1">
-<li>Click on the green “New issue” button (<a href="#fig-2" class="quarto-xref">Figure&nbsp;2</a>)</li>
-</ol>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-2" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_2.png"><img src="images/fig_2.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Issues page
-</figcaption>
-</figure>
-</div>
-</div></div><ol start="3" type="1">
-<li>Click on the “Get started” button next to “Taxonomic proposal” (<a href="#fig-3" class="quarto-xref">Figure&nbsp;3</a>)</li>
-</ol>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-3" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_3.png"><img src="images/fig_3.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Issues templates page
-</figcaption>
-</figure>
-</div>
-</div></div><ol start="4" type="1">
-<li>Fill out the form provided (<a href="#fig-4" class="quarto-xref">Figure&nbsp;4</a>). It includes fields to ensure that proposals to update PPG are sufficiently informative for productive discussion. When you are done filling out the form, hit the “Submit new issue” button. You’re done!</li>
-</ol>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Tip: Include the taxon name in the issue title
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It will make it easier to find issues if you include the name of the taxon in the title (e.g., “Add Gastoniella”)</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Tip: Add a PDF
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you want, you can upload a PDF (or <a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files">other file</a>) by dragging it into the text box. It will automatically upload to GitHub and a link will be added. Click “Preview” to see how the link will look.</p>
-</div>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-4" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_4.png"><img src="images/fig_4.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: Issue form
-</figcaption>
-</figure>
-</div>
-</div></div></section>
-<section id="searching-for-an-issue" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="searching-for-an-issue">Searching for an issue</h2>
-<ol type="1">
-<li><p>Click on “Issues” in the top navigation bar (<a href="#fig-1" class="quarto-xref">Figure&nbsp;1</a>), which will take you to the “Issues” page (<a href="#fig-2" class="quarto-xref">Figure&nbsp;2</a>). You will see issues in chronological order.</p></li>
-<li><p>Use the search bar (<a href="#fig-5" class="quarto-xref">Figure&nbsp;5</a>) to find an issue you are interested in. Note that the search only includes open issues by default; pressing on the button listing the number of closed issues will bring them up instead.</p></li>
-</ol>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-5" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_5.png"><img src="images/fig_5.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;5: Issue search bar
-</figcaption>
-</figure>
-</div>
-</div></div></section>
-<section id="commenting-on-an-issue" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="commenting-on-an-issue">Commenting on an issue</h2>
-<p>Anyone with a GitHub account can comment on an issue.</p>
-<ol type="1">
-<li><p>First, find an issue you are interested in (it could be one you created). See “<a href="#searching-for-an-issue">Searching for an issue</a>” for how to do that.</p></li>
-<li><p>Once you find an issue you are interested in, click it. You should see the page for the issue, with a dialog box at the bottom (<a href="#fig-6" class="quarto-xref">Figure&nbsp;6</a>).</p></li>
-</ol>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-6" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_6.png"><img src="images/fig_6.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6: Commenting on an issue
-</figcaption>
-</figure>
-</div>
-</div></div><ol start="3" type="1">
-<li>Fill out the dialog box with your comment and press the green “Comment” button. Keep in mind that we will maintain this discussion thread in perpetuity, and want it to be maximally useful for all users. Of course, civility is essential, and please make the extra effort to ensure that each comment has the maximal amount of information—refrain from contributing to long threads of simple agreements, or unfocused discussions.</li>
-</ol>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Tip: Don’t press “Close issue” (usually)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You may notice there is also a “Close issue” button. This will only be available to the person who created the issue and to the maintainers of the repo. Generally you should not press the “Close issue” button—the maintainers of the repo will take care of that, after <a href="#voting">voting</a> is complete.</p>
-</div>
-</div>
-</section>
-<section id="general-discussions" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="general-discussions">General discussions</h2>
-<p>So far this guide has focused on using issues as a forum for discussing taxonomic proposals. If you have something else you want to talk about, for example, discussing how PPG is maintained, asking a question about using GitHub, etc., please use the <a href="https://github.com/pteridogroup/ppg/discussions">Discussions</a> feature, available at <a href="https://github.com/pteridogroup/ppg/discussions" class="uri">https://github.com/pteridogroup/ppg/discussions</a>.</p>
-<p>To start a discussion, click the green “New discussion” button, select a category, and fill out the text box.</p>
-<p>The interface is very similar to issues, but general discussions don’t get marked as “open” or “closed”. We want to separate taxonomic proposals from general discussions to make it easy to track which proposals have been approved and implemented<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-7" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_7.png"><img src="images/fig_7.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7: The Discussions forum
-</figcaption>
-</figure>
-</div>
-</div></div></section>
-<section id="voting" class="level2">
-<h2 class="anchored" data-anchor-id="voting">Voting</h2>
-<p>GitHub is not used for voting. For more details on how voting is carried out, see the <a href="https://pteridogroup.github.io/guidelines.html#voting">PPG Guidelines</a>.</p>
-<p>After voting, the results will be indicated on each proposal (issue) that was up for a vote, including the tally of votes for and against. The issue will not be closed at this point, however. Issues will only be closed once they have been implemented in the data.</p>
-</section>
-<section id="notifications" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="notifications">Notifications</h2>
-<p>It is a good idea to subscribe to GitHub notifications so you don’t miss anything. We recommend receiving email notifications for all activity on the <a href="https://github.com/pteridogroup/ppg/">PPG repo</a>. To do this, first <a href="https://github.com/login">log in to GitHub</a>. Next, go to <a href="https://github.com/pteridogroup/ppg/" class="uri">https://github.com/pteridogroup/ppg/</a> and click on the “Watch/Unwatch” button and select “All Activity” (<a href="#fig-8" class="quarto-xref">Figure&nbsp;8</a>). Finally, to make sure that you receive notifications as emails, go to <a href="https://github.com/settings/notifications" class="uri">https://github.com/settings/notifications</a>, and make sure “Email” is checked under “Subscriptions” (<a href="#fig-9" class="quarto-xref">Figure&nbsp;9</a>).</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-8" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_8.png"><img src="images/fig_8.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;8: The Watch/Unwatch button
-</figcaption>
-</figure>
-</div>
-</div><div class="">
-<div id="fig-9" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/fig_9.png"><img src="images/fig_9.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;9: Subscription options
-</figcaption>
-</figure>
-</div>
-</div></div>
 
 
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>There was a demonstration repo originally set up for testing purposes at <a href="https://github.com/pteridogroup/ppg-demo" class="uri">https://github.com/pteridogroup/ppg-demo</a>. The demonstration repo is no longer active, but is still online for reference.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>If you notice a bug in the PPG database, filing an issue is appropriate way to let us know about it. Generally, issues are something that can be marked as completed and closed, whereas discussions are more open-ended<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
