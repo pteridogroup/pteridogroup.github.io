@@ -48,6 +48,7 @@ In addition to a different [decision-making process](#voting), this publication 
 PPG II will be constructed communally using the online hosting service GitHub, which will provide all PPG members the opportunity to make proposals and to comment on them, and will additionally archive all proposals and discussion in perpetuity.
 GitHub is easy to use, the only requirement being that each participant needs to create a free account; detailed instructions are available in the [GitHub Guide](https://pteridogroup.github.io/github.html#setup).
 If any PPG members are not comfortable participating in this format, they can send proposals to any of the [PPG coordinators](#coordinating-committee), who can then post that proposal on their behalf.
+
 There are two primary activities supported by our PPG GitHub site: 1) A [discussion forum](https://github.com/pteridogroup/ppg/discussions), for the discussion of any matter pteridophyte-related, including PPG organization, etc; 2) A [proposal forum](https://github.com/pteridogroup/ppg/issues) (known as "Issues" in GitHub parlance), where anyone can propose a modification to the PPG I classification, and where those proposals can then be discussed.
 Voting on proposals will happen after the discussion period, via a Google Forms survey circulated on the PPG mailing list.
 
@@ -104,6 +105,8 @@ As of 2025-06, the data have been imported into [World Flora Online](https://abo
 
 The major difference between Phase One and Phase Two is that Phase One is at the genus (and higher) level, whereas Phase Two is at the species (and higher) level^[Infraspecific taxa will also be treated.].
 
+Note that the proposal and voting process initiated during Phase One will continue indefinitely, regardless of the start of Phase Two.
+
 ### Intended products
 
 The primary product of Phase Two will be a database of species for each of the higher taxa recognized as a result of Phase One.
@@ -115,10 +118,9 @@ We anticipate that the number of taxonomic changes needed at the species level w
 
 Therefore, during Phase II, PPG members will adopt individual taxa (e.g., genera) with which they have expertise and take on responsibility for maintaining the species-level data for those taxa.
 
-All editing of the data will take place on World Flora Online's online taxonomic database editing system, [Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html).
-For more information about WFO and Rhakhis, see the [WFO section](wfo.qmd).
+All editing of the data will take place on [World Flora Online](wfo.qmd)'s online taxonomic database editing system, [Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html).
 
-More details about how to use Rhakhis will be posted once Phase II begins.
+If you wish to participate in Phase II, please see the [Curator's Guide](curators.qmd).
 
 ## Versioning
 

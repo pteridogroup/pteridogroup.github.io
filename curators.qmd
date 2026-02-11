@@ -6,22 +6,32 @@ date: "2026-02-03"
 bibliography: references.yaml
 ---
 
-Starting with PPG II, the PPG classification extends to the species and infraspecific levels. 
-However, there are too many such taxa to broadly apply our proposal and voting system. 
+Starting with PPG II, the PPG classification [extends to the species and infraspecific levels](guidelines.qmd#phase-two). 
+However, there are too many such taxa to broadly apply our [proposal and voting system](guidelines.qmd#phase-one). 
 Instead, we seek volunteers from PPG to curate individual taxa in their areas of expertise (**Curators**). 
 For their adopted taxa, Curators decide which species and infraspecific taxa to recognize and which to sink into synonymy, correct errors (typos in taxon names, etc.), and perform general nomenclatural checks. 
 Those checks include verifying that the names (including authors) are formatted correctly, and that the correct basionym is indicated.
 
-We ask that PPG Curators take a generally conservative approach and avoid deviating strongly from the status quo. 
+The PPG classification is edited using [World Flora Online](https://www.worldfloraonline.org/)’s online editing tool, **Rhakhis**.
+
+## Guidelines for Curators
+
+We request that PPG Curators abide by the following guidelines:
+
+1. Take a generally conservative approach and avoid deviating strongly from the status quo. 
 If a taxonomic decision is likely to be contentious, it can be resolved using the proposal and voting system that we used for the higher-level classification.
 Remember that the PPG classification will be used by a broad community, including as the taxonomic system for the [PteridoPortal](https://www.pteridoportal.org/portal/index.php) and potentially for the ferns and lycophytes in [iNaturalist](https://www.inaturalist.org/).
-
-The PPG classification is edited using [World Flora Online](https://www.worldfloraonline.org/)’s online editing tool, **Rhakhis**.
+2. Refrain from making changes at the level of genus and higher.
+For example, please do not sink a genus into synonymy or raise one from synonymy to accepted status (moving species between genera is fine).
+If you think such a change is needed, please contact a member of the [coordinating committee](guidelines.qmd#coordinating-committee).
+3. If you have not previously used Rhakhis, please begin with the [sandbox version](#using-rhakhis) and proceed to the [main site](#using-rhakhis) only once you are comfortable using it.
+4. Follow [IPNI](https://www.ipni.org/) when writing author names and publications. If you think IPNI is incorrect, [there is a process to contact them and request a correction](#formatting-of-author-names-and-publications).
+5. Generally, fertile allopolyploids should not be marked as hybrids; nothotaxa refer solely to sterile hybrids.
 
 ## Getting started
 
 Potential Curators need to first indicate the taxa that they are interested in curating. 
-If someone interested in being a Curator missed the initial survey (or wishes to change their taxa of interest), they may email Carl ([carl.rothfels@usu.edu](mailto:carl.rothfels@usu.edu)), Joel ([joelnitta@gmail.com](mailto:joelnitta@gmail.com)), or Eric ([schuettpelze@icloud.com](mailto:schuettpelze@icloud.com)). 
+If someone interested in being a Curator missed the initial survey (or wishes to change their taxa of interest), they may contact a member of the [coordinating committee](guidelines.qmd#coordinating-committee). 
 The PPG coordinating committee will work to ensure that all taxa are covered and will give individual Curators editorial access to their adopted taxa in Rhakhis.
 
 To access Rhakhis, you need an ORCID iD, available at [https://orcid.org/](https://orcid.org/). 
@@ -62,7 +72,7 @@ Any change you make happens immediately and is permanent (that said, you can sub
 
 We recommend first using the "Sandbox" (@fig-server) for practice until you get used to the interface, as any changes made there are not actually used in PPG or WFO, and it gets reset nightly.
 
-[![Sandbox server. Note the blue bar at the top, which is absent from the real server.](images/curator-staging-server.png){#fig-server}](images/curator-staging-server.png)
+![Sandbox server. Note the blue bar at the top, which is absent from the real server.](images/curator-staging-server.png){#fig-server}
 
 ### Taxonomic rules in Rhakhis
 
@@ -89,7 +99,7 @@ Then scroll down and after the Nomenclatural References section will be a list o
 Select each name and either recognize it, move it to synonymy under a recognized name, and/or change its status to "invalid" or whatever designation is appropriate. 
 Note that you won’t be able to accept a name unless its nomenclatural status is "valid". 
 
-[![Unplaced names in *Angiopteris*](images/curator-unplaced-names.png){#fig-unplaced}](images/curator-unplaced-names.png)
+![Unplaced names in *Angiopteris*](images/curator-unplaced-names.png){#fig-unplaced}
 
 ::: {.callout-warning}
 Most unplaced names will have a nomenclatural status of "unknown", meaning that nobody has verified them yet.
@@ -106,7 +116,7 @@ Note, the name that you are raising must be "valid" (under Nomenclatural Status)
 So there may be some other edits that you might have to do before you can raise the name. 
 After raising the new name, be sure to transfer any synonyms of that name to it, rather than leaving them as synonyms of the old name; this won’t happen automatically.
 
-[![Raising a taxon to accepted status](images/curator-raise-to-accepted.png){#fig-raise}](images/curator-raise-to-accepted.png)
+![Raising a taxon to accepted status](images/curator-raise-to-accepted.png){#fig-raise}
 
 ### Reducing a name to synonymy
 
@@ -138,9 +148,18 @@ For hybrid taxa, the taxon name is entered without the "×"; hybridity is indica
 Currently, many hybrids lack correct hybrid status.
 We appreciate curators checking and clicking the "is hybrid taxon" when appropriate.
 
+### Formatting of author names and publications
+
+Generally, formatting of authors of scientific names and publications should follow [IPNI](https://www.ipni.org/).
+If the formatting of the author name or publication does not match that in IPNI, a warning will appear under the IPNI Notifier menu (@fig-ipni).
+In this case, the Curator needs to use their judgement to assess if the data should be edited to match IPNI, or if the IPNI format is incorrect.
+If the IPNI data are incorrect, please contact IPNI to notify them by clicking on the "Start email" button under the IPNI Notifier menu (@fig-ipni).
+
+![The IPNI Notifier menu. Note the "Start email" button in lower-right.](images/curator-ipni.png){#fig-ipni}
+
 ### Duplicate names and other names that are just wrong
 
-If you find a name that is duplicated---perhaps one version is a typo of the other---send that information to Joel or Carl, and we’ll ask the WFO folks to erase that name (there is no interface for a user to delete a name).
+If you find a name that is duplicated---perhaps one version is a typo of the other---send that information to a member of the [coordinating committee](guidelines.qmd#coordinating-committee), and we’ll ask the WFO folks to erase that name (there is no interface for a user to delete a name).
 
 ### Adding comments
 
