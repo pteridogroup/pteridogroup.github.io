@@ -70,6 +70,8 @@ After reviewing all accepted names within your adopted taxon/taxa and confirming
 Beyond identifying the correct number of accepted species, there are many tasks for Curators, such as [placing unplaced names](#placing-a-name-into-the-classification), [specifying basionyms](#setting-the-basionym), and [flagging hybrid taxa](#indicating-hybrid-status).
 New names are continuously being imported from [IPNI](https://www.ipni.org/), so please check periodically and edit the data as needed.
 
+Note that the data in the [Google Sheet](https://docs.google.com/spreadsheets/d/1E4ROaW30dj4Hig3KH8qy4p1QUuXAAUUGrZ3voGUu3hM/edit?usp=sharing) is also made publicly available at the [ppg-curators](https://github.com/pteridogroup/ppg-curators) GitHub repo if anybody needs to access it that way.
+
 ## Resources
 
 This is webpage is not meant to be a comprehensive manual for Rhakhis; rather we try to briefly cover the main topics of interest to most Curators.
