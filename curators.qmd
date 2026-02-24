@@ -201,3 +201,28 @@ If you find a name that is duplicated---perhaps one version is a typo of the oth
 There is a comments section for every taxon.
 You are free to enter any relevant text here.
 For example, notes about why a particular species is recognized as accepted, if the current treatment needs more attention, etc.
+
+## FAQ
+
+- **Q: Do we need more Curators?**
+
+- A: Yes! We’ve had a great response so far but there are also many taxa without a Curator yet, and other taxa where more curatorial help would be appreciated.
+If you have expertise in a group of pteridophytes, please volunteer to be a Curator!
+
+- **Q: What is the deadline?**
+
+- A: There is no formal deadline to complete the species-level work. However, we would appreciate it if you can complete the "first pass" (initial check of names in your group and editing of the data so that the total number of accepted species is correct) within a month of becoming a Curator. However, larger taxa will likely take more time.
+
+- **Q: What if I am an expert on the pteridophyte flora of a particular region, rather than a particular genus or family?**
+
+- A: Due to the way Rhakhis is set up, we cannot assign Curators by region.
+We request in this case that you log in to Rhakhis, examine the data, and if you see something that needs editing, contact the Curator responsible for that group.
+However, if there are a substantial number of species of a group in your region of expertise, you may apply to be Curator of that taxon—many taxa (especially those with many species) will be curated by a set of Curators, each with expertise on a subset of the species. 
+
+- **Q: Is there a limit to the number of Curators for a particular taxon?**
+
+- A: No. If there are multiple Curators for the same genus or family, we encourage them to contact each other to coordinate their work.
+
+- **Q: To synonymize a name, is it required that that treatment has already been published?**
+
+- A: No, as long as all names are validly published under the Code, please use your best judgement as a Curator as to which names to recognize and which to synonymize.
