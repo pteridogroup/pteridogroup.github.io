@@ -163,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#setting-the-basionym" id="toc-setting-the-basionym" class="nav-link" data-scroll-target="#setting-the-basionym">Setting the basionym</a></li>
   <li><a href="#indicating-hybrid-status" id="toc-indicating-hybrid-status" class="nav-link" data-scroll-target="#indicating-hybrid-status">Indicating hybrid status</a></li>
   <li><a href="#formatting-of-author-names-and-publications" id="toc-formatting-of-author-names-and-publications" class="nav-link" data-scroll-target="#formatting-of-author-names-and-publications">Formatting of author names and publications</a></li>
-  <li><a href="#duplicate-names-and-other-names-that-are-just-wrong" id="toc-duplicate-names-and-other-names-that-are-just-wrong" class="nav-link" data-scroll-target="#duplicate-names-and-other-names-that-are-just-wrong">Duplicate names and other names that are just wrong</a></li>
+  <li><a href="#deleting-names" id="toc-deleting-names" class="nav-link" data-scroll-target="#deleting-names">Deleting names</a></li>
   <li><a href="#adding-comments" id="toc-adding-comments" class="nav-link" data-scroll-target="#adding-comments">Adding comments</a></li>
   </ul></li>
   <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a></li>
@@ -383,9 +383,9 @@ Figure&nbsp;4: The IPNI Notifier menu. Note the “Start email” button in lowe
 </figure>
 </div>
 </section>
-<section id="duplicate-names-and-other-names-that-are-just-wrong" class="level3">
-<h3 class="anchored" data-anchor-id="duplicate-names-and-other-names-that-are-just-wrong">Duplicate names and other names that are just wrong</h3>
-<p>If you find a name that is duplicated—perhaps one version is a typo of the other—send that information to a member of the <a href="./guidelines.html#coordinating-committee">coordinating committee</a>, and we’ll ask the WFO folks to erase that name (there is no interface for a user to delete a name).</p>
+<section id="deleting-names" class="level3">
+<h3 class="anchored" data-anchor-id="deleting-names">Deleting names</h3>
+<p>If you find a name that should be deleted, either due to error or duplication, first remove it from the taxonomy (“Placement” -&gt; “Remove from taxonomy”), then set the nomenclatural status to “deprecated”. This means it will not appear in the public data, cannot be put back in the taxonomy, and will have a warning added that it should not be used anymore. That is, setting the status to “deprecated” is basically the same as deleting it (Rhakhis lacks an interface for curators to truly delete data).</p>
 </section>
 <section id="adding-comments" class="level3">
 <h3 class="anchored" data-anchor-id="adding-comments">Adding comments</h3>
@@ -399,8 +399,10 @@ Figure&nbsp;4: The IPNI Notifier menu. Note the “Start email” button in lowe
 <li><p>A: Yes! We’ve had a great response so far but there are also many taxa without a Curator yet, and other taxa where more curatorial help would be appreciated. If you have expertise in a group of pteridophytes, please volunteer to be a Curator!</p></li>
 <li><p><strong>Q: What is the deadline?</strong></p></li>
 <li><p>A: There is no formal deadline to complete the species-level work. However, we would appreciate it if you can complete the “first pass” (initial check of names in your group and editing of the data so that the total number of accepted species is correct) within a month of becoming a Curator. However, larger taxa will likely take more time.</p></li>
+<li><p><strong>Q: What if I need to make a change but lack the permission to do so?</strong></p></li>
+<li><p>A: For example, this may occur if you need to synonymize a species to an accepted name that you are not a curator for, or you may simply notice something that needs correction in another group. Please <a href="https://github.com/pteridogroup/ppg/issues/new?template=taxonomic-request.yml">submit a taxonomic request</a>, and one of the curators responsible for the group will then handle your request.</p></li>
 <li><p><strong>Q: What if I am an expert on the pteridophyte flora of a particular region, rather than a particular genus or family?</strong></p></li>
-<li><p>A: Due to the way Rhakhis is set up, we cannot assign Curators by region. We request in this case that you log in to Rhakhis, examine the data, and if you see something that needs editing, contact the Curator responsible for that group. However, if there are a substantial number of species of a group in your region of expertise, you may apply to be Curator of that taxon—many taxa (especially those with many species) will be curated by a set of Curators, each with expertise on a subset of the species.</p></li>
+<li><p>A: Due to the way Rhakhis is set up, we cannot assign Curators by region. We request in this case that you log in to Rhakhis, examine the data, and if you see something that needs editing, <a href="https://github.com/pteridogroup/ppg/issues/new?template=taxonomic-request.yml">submit a taxonomic request</a> as described above. However, if there are a substantial number of species of a group in your region of expertise, you may apply to be Curator of that taxon—many taxa (especially those with many species) will be curated by a set of Curators, each with expertise on a subset of the species.</p></li>
 <li><p><strong>Q: Is there a limit to the number of Curators for a particular taxon?</strong></p></li>
 <li><p>A: No.&nbsp;If there are multiple Curators for the same genus or family, we encourage them to contact each other to coordinate their work.</p></li>
 <li><p><strong>Q: To synonymize a name, is it required that that treatment has already been published?</strong></p></li>
