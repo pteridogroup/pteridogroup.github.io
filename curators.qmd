@@ -192,9 +192,11 @@ If the IPNI data are incorrect, please contact IPNI to notify them by clicking o
 
 ![The IPNI Notifier menu. Note the "Start email" button in lower-right.](images/curator-ipni.png){#fig-ipni}
 
-### Duplicate names and other names that are just wrong
+### Deleting names
 
-If you find a name that is duplicated---perhaps one version is a typo of the other---send that information to a member of the [coordinating committee](guidelines.qmd#coordinating-committee), and we’ll ask the WFO folks to erase that name (there is no interface for a user to delete a name).
+If you find a name that should be deleted, either due to error or duplication, first remove it from the taxonomy ("Placement" -> "Remove from taxonomy"), then set the nomenclatural status to "deprecated".
+This means it will not appear in the public data, cannot be put back in the taxonomy, and will have a warning added that it should not be used anymore.
+That is, setting the status to "deprecated" is basically the same as deleting it (Rhakhis lacks an interface for curators to truly delete data).
 
 ### Adding comments
 
@@ -213,10 +215,15 @@ If you have expertise in a group of pteridophytes, please volunteer to be a Cura
 
 - A: There is no formal deadline to complete the species-level work. However, we would appreciate it if you can complete the "first pass" (initial check of names in your group and editing of the data so that the total number of accepted species is correct) within a month of becoming a Curator. However, larger taxa will likely take more time.
 
+- **Q: What if I need to make a change but lack the permission to do so?**
+
+- A: For example, this may occur if you need to synonymize a species to an accepted name that you are not a curator for, or you may simply notice something that needs correction in another group.
+Please [submit a taxonomic request](https://github.com/pteridogroup/ppg/issues/new?template=taxonomic-request.yml), and one of the curators responsible for the group will then handle your request.
+
 - **Q: What if I am an expert on the pteridophyte flora of a particular region, rather than a particular genus or family?**
 
 - A: Due to the way Rhakhis is set up, we cannot assign Curators by region.
-We request in this case that you log in to Rhakhis, examine the data, and if you see something that needs editing, contact the Curator responsible for that group.
+We request in this case that you log in to Rhakhis, examine the data, and if you see something that needs editing, [submit a taxonomic request](https://github.com/pteridogroup/ppg/issues/new?template=taxonomic-request.yml) as described above.
 However, if there are a substantial number of species of a group in your region of expertise, you may apply to be Curator of that taxon—many taxa (especially those with many species) will be curated by a set of Curators, each with expertise on a subset of the species. 
 
 - **Q: Is there a limit to the number of Curators for a particular taxon?**
