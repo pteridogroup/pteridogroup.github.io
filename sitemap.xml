@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pteridogroup.github.io/wfo.html</loc>
-    <lastmod>2026-06-11T04:16:51.375Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/coc.html</loc>
-    <lastmod>2026-06-11T04:16:51.338Z</lastmod>
-  </url>
-  <url>
     <loc>https://pteridogroup.github.io/curators.html</loc>
-    <lastmod>2026-06-11T04:16:51.338Z</lastmod>
+    <lastmod>2026-06-12T04:18:59.798Z</lastmod>
   </url>
   <url>
-    <loc>https://pteridogroup.github.io/dataviewer.html</loc>
-    <lastmod>2026-06-11T04:16:51.338Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/guidelines.html</loc>
-    <lastmod>2026-06-11T04:16:51.339Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/index.html</loc>
-    <lastmod>2026-06-11T04:16:51.374Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/ppg.html</loc>
-    <lastmod>2026-06-11T04:16:51.374Z</lastmod>
+    <loc>https://pteridogroup.github.io/wfo.html</loc>
+    <lastmod>2026-06-12T04:18:59.836Z</lastmod>
   </url>
   <url>
     <loc>https://pteridogroup.github.io/github.html</loc>
-    <lastmod>2026-06-11T04:16:51.338Z</lastmod>
+    <lastmod>2026-06-12T04:18:59.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/dataviewer.html</loc>
+    <lastmod>2026-06-12T04:18:59.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/coc.html</loc>
+    <lastmod>2026-06-12T04:18:59.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/guidelines.html</loc>
+    <lastmod>2026-06-12T04:18:59.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/ppg.html</loc>
+    <lastmod>2026-06-12T04:18:59.834Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/index.html</loc>
+    <lastmod>2026-06-12T04:18:59.834Z</lastmod>
   </url>
 </urlset>
