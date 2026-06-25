@@ -97,8 +97,8 @@ So there was no "hands-on" session.
 
 Rhakhis has two interfaces: a sandbox (AKA the "Staging Server"), where users can experiment without risking messing anything up, and the main site, where changes are immediately^[There is a lag of ca. 1 week before changes in Rhakhis appear in the most recent PPG data.] reflected in the PPG classification.
 
-* Sandbox: <https://rhakhis.rbge.info/rhakhis/ui/>  
-* Main site: <https://list.worldfloraonline.org/rhakhis/ui/index.html>
+* Sandbox: <https://rhakhis-test.rbge.info/>  
+* Main site: <https://rhakhis-live.rbge.info/>
 
 ::: {.callout-warning}
 One thing to keep in mind: **there are no "Undo" or "Save" buttons** in Rhakhis.
