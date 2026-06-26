@@ -3,3 +3,4 @@
 working
 .DS_Store
 _freeze
+**/*.quarto_ipynb

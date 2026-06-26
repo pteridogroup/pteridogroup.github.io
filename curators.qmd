@@ -35,7 +35,7 @@ For example, please do not synonymize a genus or reinstate one from synonymy (mo
 If you believe a higher-level change is needed, please contact a member of the [Coordinating Committee](guidelines.qmd#coordinating-committee).
 
 - **Familiarize yourself with Rhakhis before editing the real data.**
-If you have not previously used Rhakhis, please begin with the [sandbox version](#using-rhakhis) and move to the [main site](#using-rhakhis) only once you are comfortable with the interface.
+If you have not previously used Rhakhis, please begin with the [test server](#using-rhakhis) and move to the [main site](#using-rhakhis) only once you are comfortable with the interface.
 
 - **Follow IPNI for author names and publications.**
 If you believe [IPNI](https://www.ipni.org/) contains an error, [there is a process to contact them and request a correction](#formatting-of-author-names-and-publications).
@@ -89,15 +89,15 @@ At Botany 2025, there was a workshop on using Rhakhis for PPG.
 There are [slides](assets/botany-2025-rhakhis.pdf) and a [video](https://youtu.be/TrcwQNu665w) available.
 Watching the video is highly recommended before you start using Rhakhis.
 
-There is one correction to the workshop materials: only Rhakhis users who have been granted editing permissions may edit the data in the "sandbox". 
-We thought anybody with an [ORCID iD](https://orcid.org/) could edit data in the sandbox, but that was mistaken. 
+There is one correction to the workshop materials: only Rhakhis users who have been granted editing permissions may edit the data in the test server (referred to as the "sandbox" in the video). 
+We thought anybody with an [ORCID iD](https://orcid.org/) could edit data in the test server, but that was mistaken. 
 So there was no "hands-on" session.
 
 ## Using Rhakhis
 
-Rhakhis has two interfaces: a sandbox (AKA the "Staging Server"), where users can experiment without risking messing anything up, and the main site, where changes are immediately^[There is a lag of ca. 1 week before changes in Rhakhis appear in the most recent PPG data.] reflected in the PPG classification.
+Rhakhis has two interfaces: a test server, where users can experiment without risking messing anything up, and the main site, where changes are immediately^[There is a lag of ca. 1 week before changes in Rhakhis appear in the most recent PPG data.] reflected in the PPG classification.
 
-* Sandbox: <https://rhakhis-test.rbge.info/>  
+* Test server: <https://rhakhis-test.rbge.info/>  
 * Main site: <https://rhakhis-live.rbge.info/>
 
 ::: {.callout-warning}
@@ -105,9 +105,9 @@ One thing to keep in mind: **there are no "Undo" or "Save" buttons** in Rhakhis.
 Any change you make happens immediately and is permanent (that said, you can subsequently make another change to effectively reverse something if needed).
 :::
 
-We recommend first using the "Sandbox" (@fig-server) for practice until you get used to the interface, as any changes made there are not actually used in PPG or WFO, and it gets reset nightly.
+We recommend first using the test server (@fig-server) for practice until you get used to the interface, as any changes made there are not actually used in PPG or WFO, and it gets reset nightly.
 
-![Sandbox server. Note the blue bar at the top, which is absent from the real server.](images/curator-staging-server.png){#fig-server}
+![Test server. Note the grey bar at the top, which is absent from the real server.](images/curator-staging-server.png){#fig-server}
 
 ### Taxonomic rules in Rhakhis
 
