@@ -298,7 +298,7 @@
     "href": "world-ferns.html",
     "title": "World Ferns Comparison",
     "section": "",
-    "text": "World Ferns is an another taxonomic database for ferns and lycophytes, and contributed to the initial seeding of the PPG data.\nTo facilitate easy comparison between PPG and WF data, we have set up a web-app that compares the two (Figure 1).\nClick here to open the app.\nPlease note that the server has extremely limited bandwidth and may be slow or inaccessible.\n\n\n\n\n\n\nFigure 1: Screenshot of the WF vs PPG Comparison App."
+    "text": "World Ferns is a taxonomic database for ferns and lycophytes maintained by Michael Hassler, and contributed to the initial seeding of the PPG data.\nTo facilitate easy comparison between PPG and WF data, we have set up a web-app that compares the two (Figure 1).\nClick here to open the app.\nPlease note that the server has extremely limited bandwidth and may be slow or inaccessible.\n\n\n\n\n\n\nFigure 1: Screenshot of the WF vs PPG Comparison App."
   },
   {
     "objectID": "index.html",
