@@ -17,10 +17,12 @@ website:
         text: World Flora Online
       - text: Classification
         menu:
-          - href: dataviewer.qmd
-            text: Database Viewer
           - href: ppg.qmd
             text: PPG Classification
+          - href: dataviewer.qmd
+            text: Database Viewer
+          - href: world-ferns.qmd
+            text: World Ferns Comparison
       - href: coc.qmd
         text: Code of Conduct
   page-footer: "All content by Pteridophyte Phylogeny Group is licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/) unless otherwise noted" 
