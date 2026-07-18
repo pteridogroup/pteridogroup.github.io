@@ -8,7 +8,7 @@ execute:
   warning: false
 ---
 
-**[World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list)** is an another taxonomic database for ferns and lycophytes, and contributed to the initial seeding of the PPG data.
+**[World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list)** is a taxonomic database for ferns and lycophytes maintained by Michael Hassler, and contributed to the initial seeding of the PPG data.
 
 To facilitate easy comparison between PPG and WF data, we have set up a web-app that compares the two (@fig-comparison).
 
