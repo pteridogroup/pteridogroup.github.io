@@ -1,22 +1,47 @@
 ---
-title: "Classification (IN PROGRESS)"
+title: "Classification"
 toc: true
 toc-depth: 6
-execute: 
+execute:
   echo: false
   message: false
   warning: false
 ---
 
-Please note that this is a **work in progress**. The official PPG II has not been released yet. **Please do not cite this** as PPG II until it is officially released.
+```{r}
+#| include: false
+release <- jsonlite::fromJSON(
+  "https://api.github.com/repos/pteridogroup/ppg/releases/latest"
+)
+tag <- release$tag_name
 
-To see details such as synonyms, please browse the data using the [PPG Database Viewer](dataviewer.qmd). You may also access the data through [Rhakhis](https://list.worldfloraonline.org/rhakhis) (live data) or [World Flora Online (WFO)](https://wfoplantlist.org) (biannual snapshots).
+# Concept DOI 10.5281/zenodo.22760360 covers all versions of the PPG
+# Zenodo record; look up the specific version whose DOI matches this
+# release (falling back to the most recently published version if none
+# matches, e.g. due to sync lag between GitHub and Zenodo).
+zenodo_versions <- jsonlite::fromJSON(
+  "https://zenodo.org/api/records?q=conceptrecid:22760360&all_versions=true"
+)$hits$hits
+
+match_idx <- which(zenodo_versions$metadata$version == tag)
+zenodo <- if (length(match_idx) > 0) {
+  zenodo_versions[match_idx[1], ]
+} else {
+  zenodo_versions[which.max(as.Date(zenodo_versions$metadata$publication_date)), ]
+}
+```
+
+This classification below is PPG `r tag` ([DOI: `r zenodo$doi`](`r zenodo$links$doi`)) and only shows accepted names at the rank of genus and higher. See the [Project Guidelines](guidelines.qmd#versioning) for details on versioning.
+
+To see details such as species-level names, synonyms, etc., please browse the data using the [PPG Database Viewer](dataviewer.qmd). You may also access the data through [Rhakhis](https://list.worldfloraonline.org/rhakhis) (live data) or [World Flora Online (WFO)](https://wfoplantlist.org) (biannual snapshots).
 For more information about WFO, see [here](wfo.qmd).
 
 ```{r}
 #| results: asis
 lines <- readr::read_lines(
-  "https://raw.githubusercontent.com/pteridogroup/ppg/refs/heads/main/data/ppg.md"
+  glue::glue(
+    "https://raw.githubusercontent.com/pteridogroup/ppg/refs/tags/{tag}/data/ppg.md"
+  )
 )
 
 lines <- lines[lines != "# PPG"]
