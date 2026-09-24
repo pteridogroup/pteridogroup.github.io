@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pteridogroup.github.io/ppg.html</loc>
-    <lastmod>2026-09-23T03:58:37.157Z</lastmod>
+    <loc>https://pteridogroup.github.io/dataviewer.html</loc>
+    <lastmod>2026-09-24T03:52:26.072Z</lastmod>
   </url>
   <url>
     <loc>https://pteridogroup.github.io/wfo.html</loc>
-    <lastmod>2026-09-23T03:58:37.158Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/curators.html</loc>
-    <lastmod>2026-09-23T03:58:37.118Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/index.html</loc>
-    <lastmod>2026-09-23T03:58:37.157Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/github.html</loc>
-    <lastmod>2026-09-23T03:58:37.118Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/coc.html</loc>
-    <lastmod>2026-09-23T03:58:37.118Z</lastmod>
+    <lastmod>2026-09-24T03:52:26.108Z</lastmod>
   </url>
   <url>
     <loc>https://pteridogroup.github.io/guidelines.html</loc>
-    <lastmod>2026-09-23T03:58:37.119Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/dataviewer.html</loc>
-    <lastmod>2026-09-23T03:58:37.118Z</lastmod>
+    <lastmod>2026-09-24T03:52:26.073Z</lastmod>
   </url>
   <url>
     <loc>https://pteridogroup.github.io/world-ferns.html</loc>
-    <lastmod>2026-09-23T03:58:37.158Z</lastmod>
+    <lastmod>2026-09-24T03:52:26.108Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/coc.html</loc>
+    <lastmod>2026-09-24T03:52:26.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/index.html</loc>
+    <lastmod>2026-09-24T03:52:26.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/curators.html</loc>
+    <lastmod>2026-09-24T03:52:26.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/ppg.html</loc>
+    <lastmod>2026-09-24T03:52:26.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/github.html</loc>
+    <lastmod>2026-09-24T03:52:26.073Z</lastmod>
   </url>
 </urlset>
