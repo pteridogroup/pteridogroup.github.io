@@ -10,7 +10,23 @@ execute:
 
 ```{r}
 #| include: false
-release <- jsonlite::fromJSON(
+# GitHub and Zenodo occasionally fail to respond on the first try (e.g.
+# transient network errors during the scheduled build); retry before
+# giving up.
+fetch_json <- function(url, tries = 5, pause = 5) {
+  for (i in seq_len(tries)) {
+    result <- tryCatch(jsonlite::fromJSON(url), error = function(e) e)
+    if (!inherits(result, "error")) {
+      return(result)
+    }
+    if (i < tries) {
+      Sys.sleep(pause)
+    }
+  }
+  stop(result)
+}
+
+release <- fetch_json(
   "https://api.github.com/repos/pteridogroup/ppg/releases/latest"
 )
 tag <- release$tag_name
@@ -19,7 +35,7 @@ tag <- release$tag_name
 # Zenodo record; look up the specific version whose DOI matches this
 # release (falling back to the most recently published version if none
 # matches, e.g. due to sync lag between GitHub and Zenodo).
-zenodo_versions <- jsonlite::fromJSON(
+zenodo_versions <- fetch_json(
   "https://zenodo.org/api/records?q=conceptrecid:22760360&all_versions=true"
 )$hits$hits
 
