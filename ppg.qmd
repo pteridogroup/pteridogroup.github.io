@@ -60,7 +60,7 @@ cat(glue::glue(
 ))
 ```
 
-This classification below only displays accepted names at the rank of genus and higher. To see details such as species-level names, synonyms, etc., please browse the data using the [PPG Database Viewer](dataviewer.qmd).
+This classification below only displays accepted names at the rank of genus and higher. To see details such as species-level names, synonyms, etc., please browse the data using the [PPG Database Browser](databrowser.qmd).
 
 You may also access the data through [Rhakhis](https://list.worldfloraonline.org/rhakhis) (live data) or [World Flora Online (WFO)](https://wfoplantlist.org) (biannual snapshots).
 For more information about WFO, see [here](wfo.qmd).

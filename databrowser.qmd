@@ -1,0 +1,72 @@
+---
+title: "Database Browser"
+pagetitle: "Database Browser"
+toc: false
+aliases:
+  - dataviewer.html
+page-layout: full
+---
+
+Browse, filter and download the current PPG taxonomic data.
+
+::: {.panel-tabset}
+
+## Data Browser
+
+<div id="viewer-version" class="text-muted mb-2">Loading PPG version…</div>
+<div id="viewer-status" class="alert alert-secondary py-2" role="status">Loading data…</div>
+
+```{=html}
+<div class="d-flex flex-wrap gap-2 align-items-center mb-2">
+<input type="search" id="viewer-search" class="form-control" style="flex: 1 1 24rem; max-width: 32rem;" placeholder="Search names, authors, publications" aria-label="Search all columns" disabled>
+<span id="viewer-count" class="text-muted" aria-live="polite"></span>
+</div>
+```
+
+<div class="d-flex flex-wrap gap-2 mb-2" id="viewer-buttons">
+<button id="btn-select-none" class="btn btn-outline-secondary btn-sm" disabled>Select None</button>
+<button id="btn-parent" class="btn btn-outline-secondary btn-sm" disabled>Jump to parent</button>
+<button id="btn-accepted" class="btn btn-outline-secondary btn-sm" disabled>Jump to accepted</button>
+<button id="btn-synonyms" class="btn btn-outline-secondary btn-sm" disabled>Show synonyms</button>
+<button id="btn-children" class="btn btn-outline-secondary btn-sm" disabled>Show children</button>
+<button id="btn-higher" class="btn btn-outline-secondary btn-sm" disabled>Show higher taxa</button>
+<button id="btn-reset" class="btn btn-outline-secondary btn-sm" disabled>Reset</button>
+<button id="btn-download" class="btn btn-primary btn-sm" disabled>Download CSV</button>
+</div>
+
+<div id="viewer-filter-note" class="alert alert-info py-2" hidden>
+<span id="viewer-filter-text"></span>
+</div>
+
+<div id="viewer-table"></div>
+
+## How to Use
+
+**Filtering.** Each column has a box under its heading. Type to show only rows
+containing that text (case-insensitive); the *Rank* and status columns are drop-down
+lists. Filters combine, and the search box above the table searches several
+columns at once.
+
+**Navigation.** Click a row to select it (one at a time). Then:
+
+- **Select None**: deselect the current row.
+- **Jump to parent**: show the parent taxon of the selected row.
+- **Jump to accepted**: for a synonym, show its accepted name.
+- **Show synonyms**: list all synonyms of the selected accepted name.
+- **Show children**: list the direct children of the selected taxon.
+
+A button is greyed out when it does not apply to the selected row.
+
+**Other buttons.**
+
+- **Show / Hide higher taxa**: toggle the Class, Subclass, Order, Suborder,
+  Family, Subfamily and Genus columns.
+- **Reset**: clear all filters and the selection.
+- **Download CSV**: download the rows currently shown (after filtering and
+  sorting), with all columns.
+
+If you use these data, please cite the PPG version shown (with its DOI) shown on the Data Browser tab.
+
+:::
+
+<script type="module" src="databrowser.js"></script>
