@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -165,12 +165,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content" tabindex="-1">
+<main class="content column-page" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -192,6 +192,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Resolve a list of fern and lycophyte species names against the current <a href="./ppg.html">PPG classification</a>: names are matched to PPG (allowing for minor spelling and author-citation differences), and synonyms are resolved to their accepted names. Matching is done by the <a href="https://github.com/joelnitta/taxastand">taxastand</a> R package, which runs <strong>entirely in your browser</strong> (via <a href="https://docs.r-wasm.org/webr/latest/">webR</a>). Your names are never sent to a server.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Name Resolver</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">How to Use</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div id="resolver-version" class="text-muted mb-2">
 Loading PPG version…
 </div>
@@ -249,25 +253,25 @@ Download results (CSV)
 <table id="resolver-table" class="table table-sm" hidden="">
 <thead>
 <tr>
-<th>
+<th data-sort="query">
 Query
 </th>
-<th>
+<th data-sort="resolved_name">
 Resolved name
 </th>
-<th>
+<th data-sort="matched_name">
 Matched name
 </th>
-<th>
+<th data-sort="resolved_status">
 Resolved status
 </th>
-<th>
+<th data-sort="matched_status">
 Matched status
 </th>
-<th>
+<th data-sort="match_type">
 Match type
 </th>
-<th>
+<th data-sort="note">
 Note
 </th>
 </tr>
@@ -276,21 +280,33 @@ Note
 </tbody>
 </table>
 </div>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ol type="1">
+<li>Wait for the status bar to say <strong>Ready</strong> (the first visit has to load R, which can take a minute).</li>
+<li>Type or paste species names, one per line, or upload a <code>.txt</code>, <code>.csv</code> or <code>.tsv</code> file. For a table with several columns, choose the column that contains the names. Authors are optional, but help distinguish homonyms.</li>
+<li>Adjust the options if needed, then click <strong>Resolve names</strong>.</li>
+<li>Click a column header to sort the results. Download them as CSV with <strong>Download results (CSV)</strong>; the file also records the PPG version and DOI.</li>
+</ol>
+<p>Row colors: yellow rows are fuzzy or genus-corrected matches (check these before use), blue rows have multiple hits, and red rows are unresolved.</p>
+<section id="notes" class="level3">
+<h3 class="anchored" data-anchor-id="notes">Notes</h3>
 <ul>
 <li>The first visit downloads the R runtime and packages (a few tens of MB), which your browser then caches. Only the PPG data for the genera in your list is downloaded.</li>
 <li>Only the species name and, optionally, authors need to be given; infraspecific names (e.g.&nbsp;<em>Genus species</em> var. <em>variety</em>) are supported. Names with only a genus cannot be resolved.</li>
 <li>Fuzzy matching only happens <strong>within</strong> a genus: if the genus is misspelled, the name is reported as “genus not found”, with suggestions.</li>
-<li><strong>Match type</strong> values are those of <a href="https://github.com/camwebb/taxon-tools/blob/master/doc/matchnames.md#matching-rules-and-output-codes">taxon-tools</a> (<code>exact</code>, <code>auto_punct</code>, <code>auto_fuzzy</code>, …). <code>no_match</code> means no name in PPG was close enough. If a name matches several names that resolve to <em>different</em> accepted names (e.g.&nbsp;the same name published by different authors), it is listed as “multiple hits” and left unresolved; use “Show all” to see each hit.</li>
+<li><strong>Match type</strong> values are those of <a href="https://joelnitta.github.io/taxastand/reference/ts_match_names.html#match-types-1">taxastand</a> (<code>exact</code>, <code>auto_punct</code>, <code>auto_fuzzy</code>, …). <code>no_match</code> means no name in PPG was close enough. If a name matches several names that resolve to <em>different</em> accepted names (e.g.&nbsp;the same name published by different authors), it is listed as “multiple hits” and left unresolved; use “Show all” to see each hit.</li>
 <li>Names given without authors are matched with authors ignored if the full-name match fails, so that small spelling differences are still found.</li>
 <li>Always check fuzzy matches (<code>auto_fuzzy</code>) before using them.</li>
 </ul>
-<p>If you use this tool, please cite the PPG version shown above (with its DOI) and <a href="https://github.com/joelnitta/taxastand">taxastand</a>.</p>
+<p>If you use this tool, please cite the PPG version shown on the Name Resolver tab (with its DOI) and <a href="https://github.com/joelnitta/taxastand">taxastand</a>.</p>
+</section>
+</div>
+</div>
+</div>
 <script type="module" src="resolve.js"></script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
