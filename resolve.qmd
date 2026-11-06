@@ -1,0 +1,107 @@
+---
+title: "Name Resolver"
+pagetitle: "Name Resolver"
+toc: false
+---
+
+Resolve a list of fern and lycophyte species names against the current
+[PPG classification](ppg.qmd): names are matched to PPG (allowing for minor
+spelling and author-citation differences), and synonyms are resolved to their
+accepted names. Matching is done by the
+[taxastand](https://github.com/joelnitta/taxastand) R package, which runs
+**entirely in your browser** (via [webR](https://docs.r-wasm.org/webr/latest/)).
+Your names are never sent to a server.
+
+<div id="resolver-version" class="text-muted mb-2">Loading PPG version…</div>
+<div id="resolver-status" class="alert alert-secondary py-2" role="status">Starting…</div>
+<div id="resolver-progress" class="progress mb-3" role="progressbar" aria-label="Resolving names" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden>
+<div class="progress-bar" style="width: 0%"></div>
+</div>
+
+<div class="row">
+<div class="col-md-7">
+
+<label for="resolver-input" class="fw-bold">Species names (one per line)</label>
+
+<textarea id="resolver-input" class="form-control" rows="10" spellcheck="false"
+  placeholder="Asplenium rhizophorum L.&#10;Polypodium vulgare&#10;Dryopteris filix-mas (L.) Schott"></textarea>
+
+<div class="mt-2">
+<label for="resolver-file">Or upload a file (.txt or .csv)</label>
+<input type="file" id="resolver-file" class="form-control" accept=".txt,.csv,.tsv,text/plain,text/csv">
+</div>
+
+<div id="resolver-column-box" class="mt-2" hidden>
+<label for="resolver-column">Column containing names</label>
+<select id="resolver-column" class="form-select"></select>
+</div>
+
+</div>
+<div class="col-md-5">
+
+<p class="fw-bold mb-1">Options</p>
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" id="opt-noauth" checked>
+<label class="form-check-label" for="opt-noauth">Accept names without authors when unambiguous</label>
+</div>
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" id="opt-genus">
+<label class="form-check-label" for="opt-genus">Also try the closest genus when the genus is not found (marked <code>genus_corrected</code>)</label>
+</div>
+
+<div class="mt-2">
+<label for="opt-dist">Maximum edit distance (spelling differences allowed)</label>
+<input type="number" id="opt-dist" class="form-control" value="3" min="0" max="10" step="1" style="max-width: 8rem;">
+</div>
+
+</div>
+</div>
+
+<div class="mt-3">
+<button id="resolver-run" class="btn btn-primary" disabled>Resolve names</button>
+<button id="resolver-download" class="btn btn-outline-secondary" disabled>Download results (CSV)</button>
+</div>
+
+<div id="resolver-summary" class="mt-3" aria-live="polite"></div>
+<div id="resolver-showall-box" class="form-check mt-2" hidden>
+<input class="form-check-input" type="checkbox" id="opt-showall">
+<label class="form-check-label" for="opt-showall">Show all hits for names with multiple hits</label>
+</div>
+<div class="table-responsive mt-2">
+<table id="resolver-table" class="table table-sm" hidden>
+<thead>
+<tr>
+<th>Query</th><th>Resolved name</th><th>Matched name</th>
+<th>Resolved status</th><th>Matched status</th><th>Match type</th><th>Note</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+
+## Notes
+
+- The first visit downloads the R runtime and packages (a few tens of MB), which
+  your browser then caches. Only the PPG data for the genera in your list is
+  downloaded.
+- Only the species name and, optionally, authors need to be given; infraspecific
+  names (e.g. *Genus species* var. *variety*) are supported. Names with only a
+  genus cannot be resolved.
+- Fuzzy matching only happens **within** a genus: if the genus is misspelled, the
+  name is reported as "genus not found", with suggestions.
+- **Match type** values are those of
+  [taxon-tools](https://github.com/camwebb/taxon-tools/blob/master/doc/matchnames.md#matching-rules-and-output-codes)
+  (`exact`, `auto_punct`, `auto_fuzzy`, …). `no_match` means no name in PPG was
+  close enough. If a name matches several names that resolve to *different*
+  accepted names (e.g. the same name published by different authors), it is
+  listed as "multiple hits" and left unresolved; use "Show all" to see each hit.
+- Names given without authors are matched with authors ignored if the full-name
+  match fails, so that small spelling differences are still found.
+- Always check fuzzy matches (`auto_fuzzy`) before using them.
+
+If you use this tool, please cite the PPG version shown above (with its DOI)
+and [taxastand](https://github.com/joelnitta/taxastand).
+
+<script type="module" src="resolve.js"></script>

@@ -1,1 +1,8 @@
 /* css styles */
+
+/* Name resolver: row highlighting. Set on cells explicitly because the
+   Bootstrap table-variant classes leave cell backgrounds transparent here. */
+#resolver-table tbody tr.row-fuzzy > td { background-color: #fff3cd; }
+#resolver-table tbody tr.row-multi > td { background-color: #cff4fc; }
+#resolver-table tbody tr.row-unresolved > td { background-color: #f8d7da; }
+#resolver-table tbody tr.hit-row > td { background-color: #f1f3f5; }
