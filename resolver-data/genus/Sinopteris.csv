@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001117780","wfo-0001124016","synonym","Sinopteris albofusca (Baker) Ching","Sinopteris albofusca"
+"wfo-0001123556","wfo-0001335393","synonym","Sinopteris grevilleoides (Christ) C.Chr. & Ching","Sinopteris grevilleoides"
+"wfo-0001123557","wfo-0001124016","synonym","Sinopteris hopeiensis C.Chr. & Ching","Sinopteris hopeiensis"
+"wfo-0001124016",NA,"accepted","Aleuritopteris albofusca (Baker) Pic.Serm.","Aleuritopteris albofusca"
+"wfo-0001335393",NA,"accepted","Aleuritopteris grevilleoides (Christ) G.M.Zhang & X.C.Zhang","Aleuritopteris grevilleoides"

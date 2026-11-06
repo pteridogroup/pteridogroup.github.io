@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001112334",NA,"accepted","Loxsomopsis pearcei (Baker) Maxon","Loxsomopsis pearcei"
+"wfo-0001112336","wfo-0001112334","synonym","Loxsomopsis lehmannii Hieron.","Loxsomopsis lehmannii"
+"wfo-0001116333","wfo-0001112334","synonym","Loxsomopsis costaricensis Christ","Loxsomopsis costaricensis"
+"wfo-0001121408","wfo-0001112334","synonym","Loxsomopsis notabilis Sloss.","Loxsomopsis notabilis"
+"wfo-0001373191","wfo-0001112334","synonym","Loxsomopsis lehmannii var. crespiana Bosco","Loxsomopsis lehmannii var. crespiana"
+"wfo-0001373192","wfo-0001112334","synonym","Loxsomopsis lehmannii var. glabra Bosco","Loxsomopsis lehmannii var. glabra"

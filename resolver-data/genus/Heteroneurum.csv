@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000146738",NA,"accepted","Bolbitis × arguta (Fée) Ching","Bolbitis × arguta"
+"wfo-0000147072","wfo-0001117296","synonym","Heteroneurum cuspidatum (C.Presl) C.Presl","Heteroneurum cuspidatum"
+"wfo-0001035511","wfo-0000146738","synonym","Heteroneurum argutum (Fée) C.Presl","Heteroneurum argutum"
+"wfo-0001117296",NA,"accepted","Bolbitis heteroclita (Pr.) Ching","Bolbitis heteroclita"

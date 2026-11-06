@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000140805","wfo-0001118652","synonym","Bakeropteris petiolata (Fée) Kuntze","Bakeropteris petiolata"
+"wfo-0000140808","wfo-0001118652","synonym","Bakeropteris pinnata Kuntze","Bakeropteris pinnata"
+"wfo-0000140810","wfo-0001120310","synonym","Bakeropteris triphylla Kuntze","Bakeropteris triphylla"
+"wfo-0000154897","wfo-0001035710","synonym","Bakeropteris gleichenioides (Gardner) Kuntze","Bakeropteris gleichenioides"
+"wfo-0001035710",NA,"accepted","Ormopteris gleichenioides J.Sm.","Ormopteris gleichenioides"
+"wfo-0001118652",NA,"accepted","Ormopteris pinnata (Kaulf.) Lellinger","Ormopteris pinnata"
+"wfo-0001120310",NA,"accepted","Doryopteris triphylla (Lam.) Christ","Doryopteris triphylla"

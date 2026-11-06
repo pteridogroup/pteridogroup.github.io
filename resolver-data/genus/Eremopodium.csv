@@ -1,0 +1,4 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000161267",NA,"accepted","Asplenium vittaeforme Cav.","Asplenium vittaeforme"
+"wfo-0000162905","wfo-0000161267","synonym","Eremopodium vittaeforme Trevis.","Eremopodium vittaeforme"
+"wfo-0001233308","wfo-0000161267","synonym","Eremopodium sundense Trevis.","Eremopodium sundense"

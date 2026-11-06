@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000150665","wfo-0000150900","synonym","Copelandiopteris endoneura (Price) B.C.Stone","Copelandiopteris endoneura"
+"wfo-0000150817",NA,"accepted","Pteris calocarpa (Copel.) M.G.Price","Pteris calocarpa"
+"wfo-0000150900",NA,"accepted","Pteris endoneura M.G.Price","Pteris endoneura"
+"wfo-0000151054",NA,"accepted","Pteris pachysora (Copel.) M.G.Price","Pteris pachysora"
+"wfo-0001235399","wfo-0000150817","synonym","Copelandiopteris calocarpa (Copel.) B.C.Stone","Copelandiopteris calocarpa"
+"wfo-0001235402","wfo-0000151054","synonym","Copelandiopteris pachysora (Copel.) B.C.Stone","Copelandiopteris pachysora"

@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000140773",NA,"accepted","Austrogramme asplenioides (Holttum) Hennipman","Austrogramme asplenioides"
+"wfo-0001117761",NA,"accepted","Austrogramme boerlageana (Alderw.) Hennipman","Austrogramme boerlageana"
+"wfo-0001119700",NA,"accepted","Austrogramme decipiens (Mett.) Hennipman","Austrogramme decipiens"
+"wfo-0001230011","wfo-0001119700","synonym","Aspleniopsis decipiens Mett.","Aspleniopsis decipiens"
+"wfo-0001235494","wfo-0000140773","synonym","Aspleniopsis asplenioides (Holttum) Pic.Serm.","Aspleniopsis asplenioides"
+"wfo-0001235496","wfo-0001117761","synonym","Aspleniopsis boerlageana (Alderw.) Pic.Serm.","Aspleniopsis boerlageana"
+"wfo-1000067899","wfo-0001119700","synonym","Aspleniopsis gymnogramme Mett.","Aspleniopsis gymnogramme"

@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001117200",NA,"accepted","Woodwardia harlandii Hook.","Woodwardia harlandii"
+"wfo-0001117207",NA,"accepted","Woodwardia kempii Copel.","Woodwardia kempii"
+"wfo-0001121804",NA,"accepted","Woodwardia martinezii Maxon ex Weath.","Woodwardia martinezii"
+"wfo-0001122450","wfo-0001117200","synonym","Chieniopteris harlandii (Hook.) Ching","Chieniopteris harlandii"
+"wfo-0001122451","wfo-0001117207","synonym","Chieniopteris kempii (Copel.) Ching","Chieniopteris kempii"
+"wfo-0001235513","wfo-0001121804","synonym","Chieniopteris martinezii (Weath.) Pic.Serm.","Chieniopteris martinezii"

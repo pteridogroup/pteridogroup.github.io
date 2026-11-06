@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000142402","wfo-1000079331","synonym","Atalopteris ekmanii Maxon","Atalopteris ekmanii"
+"wfo-0001114891","wfo-1000079331","synonym","Atalopteris aspidioides (Griseb.) Maxon & C.Chr.","Atalopteris aspidioides"
+"wfo-0001128328","wfo-1000079331","synonym","Atalopteris maxonii (Christ) C.Chr.","Atalopteris maxonii"
+"wfo-1000079331",NA,"accepted","Ctenitis cubensis C.Sánchez","Ctenitis cubensis"

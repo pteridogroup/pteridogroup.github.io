@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148619","wfo-0001343859","synonym","Merinthosorus hieronymi (Brause) Copel.","Merinthosorus hieronymi"
+"wfo-0000148620","wfo-0001343858","synonym","Merinthosorus thomsonii (Baker) Copel.","Merinthosorus thomsonii"
+"wfo-0001273197","wfo-0001343858","synonym","Merinthosorus drynarioides (Hook.) Copel.","Merinthosorus drynarioides"
+"wfo-0001343858",NA,"accepted","Drynaria drynarioides (Hook.) Christenh.","Drynaria drynarioides"
+"wfo-0001343859",NA,"accepted","Drynaria hieronymi (Brause) Christenh.","Drynaria hieronymi"

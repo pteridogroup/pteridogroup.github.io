@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000139807","wfo-1200103313","synonym","Cormophyllum capense (L.f.) Newman","Cormophyllum capense"
+"wfo-0000139808","wfo-0001118731","synonym","Cormophyllum horridum Newman","Cormophyllum horridum"
+"wfo-0001108904",NA,"accepted","Cyathea arborea (L.) Sm.","Cyathea arborea"
+"wfo-0001118731",NA,"accepted","Cyathea horrida (L.) Sm.","Cyathea horrida"
+"wfo-0001125049","wfo-0001108904","synonym","Cormophyllum arboreum (L.) Newman","Cormophyllum arboreum"
+"wfo-1200103313",NA,"accepted","Gymnosphaera capensis subsp. capensis (L.f.) S.Y.Dong","Gymnosphaera capensis subsp. capensis"

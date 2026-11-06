@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001111933",NA,"accepted","Trichomanes martiusii C.Presl","Trichomanes martiusii"
+"wfo-0001119104",NA,"accepted","Trichomanes anomalum Maxon & C.V.Morton","Trichomanes anomalum"
+"wfo-0001235539","wfo-0001119104","synonym","Pteromanes anomala (Maxon & C.V.Morton) Pic.Serm.","Pteromanes anomala"
+"wfo-0001235540","wfo-0001111933","synonym","Pteromanes martiusii (C.Presl) Pic.Serm.","Pteromanes martiusii"

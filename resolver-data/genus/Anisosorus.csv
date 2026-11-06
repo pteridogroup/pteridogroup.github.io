@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001107809",NA,"accepted","Lonchitis occidentalis Baker","Lonchitis occidentalis"
+"wfo-0001107810","wfo-0001107809","synonym","Anisosorus occidentalis (Baker) C.Chr.","Anisosorus occidentalis"
+"wfo-0001109162",NA,"accepted","Lonchitis hirsuta L.","Lonchitis hirsuta"
+"wfo-0001109927","wfo-0001107809","synonym","Anisosorus occidentalis Kuhn","Anisosorus occidentalis"
+"wfo-0001112624","wfo-0001109162","synonym","Anisosorus hirsutus (L.) Underw. & Maxon","Anisosorus hirsutus"
+"wfo-1000067865","wfo-0001109162","synonym","Anisosorus laciniatus (Willd.) Trevis.","Anisosorus laciniatus"
+"wfo-1200101799","wfo-0001107809","synonym","Anisosorus occidentalis var. malgassicus C.Chr.","Anisosorus occidentalis var. malgassicus"

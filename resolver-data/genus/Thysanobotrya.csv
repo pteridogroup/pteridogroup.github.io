@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000140403","wfo-0001255560","synonym","Thysanobotrya dubia (Alderw.) Posth.","Thysanobotrya dubia"
+"wfo-0000140404","wfo-1000004254","synonym","Thysanobotrya scandens (Brause) Posth.","Thysanobotrya scandens"
+"wfo-0001255558","wfo-0001255560","synonym","Thysanobotrya arfakensis (A.Gepp) Alderw.","Thysanobotrya arfakensis"
+"wfo-0001255560",NA,"accepted","Gymnosphaera biformis (Rosenst.) Copel.","Gymnosphaera biformis"
+"wfo-1000004254",NA,"accepted","Gymnosphaera scandens (Brause) S.Y.Dong","Gymnosphaera scandens"

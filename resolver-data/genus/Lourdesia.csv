@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001256621",NA,"accepted","Odontosoria retusa (Cav.) J.Sm.","Odontosoria retusa"
+"wfo-0001341055",NA,"accepted","Odontosoria alutacea (Mett.) Perrie & L.D.Sheph.","Odontosoria alutacea"
+"wfo-1000068772","wfo-0001341055","synonym","Lourdesia alutacea (Mett.) Barcelona & Hickey comb. ined.","Lourdesia alutacea"
+"wfo-1000068773","wfo-1000075032","synonym","Lourdesia celebesiana Barcelona & Hickey","Lourdesia celebesiana"
+"wfo-1000068774","wfo-0001256621","synonym","Lourdesia retusa (Cav.) Barcelona & Hickey","Lourdesia retusa"
+"wfo-1000075032",NA,"accepted","Odontosoria celebesiana (Barcelona & Hickey) comb. ined.","Odontosoria celebesiana"

@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148223","wfo-0001238026","synonym","Galeoglossa obovata C.Presl","Galeoglossa obovata"
+"wfo-0000148224","wfo-0001238026","synonym","Galeoglossa rotundifolia C.Presl","Galeoglossa rotundifolia"
+"wfo-0001035565","wfo-0001238026","synonym","Galeoglossa nummulariifolia C.Presl","Galeoglossa nummulariifolia"
+"wfo-0001238026",NA,"accepted","Pyrrosia nummulariifolia (Sw.) Ching","Pyrrosia nummulariifolia"

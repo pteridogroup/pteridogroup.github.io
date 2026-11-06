@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000149751",NA,"accepted","Pityrogramma × herzogii (Rosenst.) L.D.Gómez","Pityrogramma × herzogii"
+"wfo-0000150026","wfo-1200107329","synonym","Pityromeria florentina L.D.Gómez","Pityromeria florentina"
+"wfo-0001226280","wfo-1200107330","synonym","Pityromeria longipes (Baker) L.D.Gómez","Pityromeria longipes"
+"wfo-0001226281","wfo-1200107330","synonym","Pityromeria concolor (Baker) L.D.Gómez","Pityromeria concolor"
+"wfo-0001226282","wfo-0000149751","synonym","Pityromeria herzogii (Rosenst.) L.D.Gómez","Pityromeria herzogii"
+"wfo-1200107329",NA,"accepted","Pityrogramma florentina (L. D. Gómez) comb. ined.","Pityrogramma florentina"
+"wfo-1200107330",NA,"accepted","Pityrogramma × longipes (Baker) Z.H.Feng & Z.J.Huang","Pityrogramma × longipes"

@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000141287",NA,"accepted","Microlepia strigosa Prantl","Microlepia strigosa"
+"wfo-0000141411","wfo-0000141287","synonym","Scyphofilix strigosa (Thunb.) Farw.","Scyphofilix strigosa"
+"wfo-0001107361",NA,"accepted","Microlepia speluncae (L.) T.Moore","Microlepia speluncae"
+"wfo-0001107649","wfo-0001107361","synonym","Scyphofilix speluncae (L.) Farw.","Scyphofilix speluncae"
+"wfo-0001377623","wfo-0001107361","synonym","Scyphofilix speluncae var. jamaicensis Farw.","Scyphofilix speluncae var. jamaicensis"

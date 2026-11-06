@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148182",NA,"accepted","Drynaria parkinsonii (Baker) Diels","Drynaria parkinsonii"
+"wfo-0000148366","wfo-0000148182","synonym","Holostachyum buchananii (Copel.) Ching","Holostachyum buchananii"
+"wfo-0001117905",NA,"unchecked","Holostachyum hieronymi Copel.","Holostachyum hieronymi"
+"wfo-0001117906","wfo-0001343861","synonym","Holostachyum hieronymi var. latipinna C.Chr.","Holostachyum hieronymi var. latipinna"
+"wfo-0001343861",NA,"accepted","Drynaria latipinna (C.Chr.) Christenh.","Drynaria latipinna"

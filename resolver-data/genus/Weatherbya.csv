@@ -1,0 +1,4 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148413",NA,"accepted","Lepisorus accedens (Blume) Hosok.","Lepisorus accedens"
+"wfo-0000150359","wfo-0000148413","synonym","Weatherbya damunensis (Rosenst.) Copel.","Weatherbya damunensis"
+"wfo-0001035096","wfo-0000148413","synonym","Weatherbya accedens (Blume) Copel.","Weatherbya accedens"

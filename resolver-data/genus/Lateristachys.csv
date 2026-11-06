@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001035147",NA,"accepted","Lateristachys lateralis (R.Br.) Holub","Lateristachys lateralis"
+"wfo-0001328380",NA,"accepted","Lateristachys diffusa (R.Br.) Holub","Lateristachys diffusa"
+"wfo-0001328381",NA,"accepted","Lateristachys halconensis (Copel.) Holub","Lateristachys halconensis"
+"wfo-0001328382","wfo-0001328380","synonym","Lateristachys ramulosa (Kirk) Holub","Lateristachys ramulosa"

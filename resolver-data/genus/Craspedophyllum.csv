@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000145658","wfo-0000145808","synonym","Craspedophyllum armstrongii (Bak.Hook. & Baker) Rae ex Copel.","Craspedophyllum armstrongii"
+"wfo-0000145659","wfo-0000145808","synonym","Craspedophyllum cheesemanii (Baker) Wakef.","Craspedophyllum cheesemanii"
+"wfo-0000145808",NA,"accepted","Hymenophyllum armstrongii (Baker) Kirk","Hymenophyllum armstrongii"
+"wfo-0001226593",NA,"accepted","Hymenophyllum marginatum Hook. & Grev.","Hymenophyllum marginatum"
+"wfo-0001230984","wfo-0001226593","synonym","Craspedophyllum marginatum (Hook. & Grev.) Copel.","Craspedophyllum marginatum"

@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000145799",NA,"accepted","Hymenophyllum acutum (C.Presl) Ebihara & K.Iwats.","Hymenophyllum acutum"
+"wfo-0000145986",NA,"accepted","Hymenophyllum pallidum (Blume) Ebihara & K.Iwats.","Hymenophyllum pallidum"
+"wfo-0000146288","wfo-0000145986","synonym","Pleuromanes album (Blume) Parris","Pleuromanes album"
+"wfo-0000146289","wfo-0000145986","synonym","Pleuromanes retusum Copel.","Pleuromanes retusum"
+"wfo-0001035532","wfo-0000145799","synonym","Pleuromanes acutum (C.Presl) C.Presl","Pleuromanes acutum"
+"wfo-0001118123","wfo-0000145986","synonym","Pleuromanes pallidum C.Presl","Pleuromanes pallidum"

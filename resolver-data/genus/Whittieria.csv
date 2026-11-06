@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001109035",NA,"accepted","Ophioglossum engelmannii Prantl","Ophioglossum engelmannii"
+"wfo-1000040225","wfo-0001109035","synonym","Whittieria engelmannii (Prantl) Li Bing Zhang, Liang Zhang & Xia Wan","Whittieria engelmannii"
+"wfo-1000074983","wfo-0001109035","synonym","Whittieria engelmannii (Prantl) Li Bing Zhang & Liang Zhang","Whittieria engelmannii"
+"wfo-1000076320","wfo-1000086434","synonym","Whittieria hengduanensis Z.L.Liang & Li Bing Zhang","Whittieria hengduanensis"
+"wfo-1000086434",NA,"accepted","Ophioglossum hengduanense (Z.L.Liang & Li Bing Zhang) R.Kr.Singh & V.K.Rawat","Ophioglossum hengduanense"

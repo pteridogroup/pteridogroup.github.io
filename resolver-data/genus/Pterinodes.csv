@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000154853","wfo-0001109206","synonym","Pterinodes sensibilis (L.) Kuntze","Pterinodes sensibilis"
+"wfo-0001109164",NA,"accepted","Matteuccia struthiopteris (L.) Tod.","Matteuccia struthiopteris"
+"wfo-0001109206",NA,"accepted","Onoclea sensibilis L.","Onoclea sensibilis"
+"wfo-0001232473","wfo-0001109164","synonym","Pterinodes struthiopteris (L.) Kuntze","Pterinodes struthiopteris"
+"wfo-0001232476","wfo-0001232479","synonym","Pterinodes orientalis (Hook.) Kuntze","Pterinodes orientalis"
+"wfo-0001232479",NA,"accepted","Pentarhizidium orientale (Hook.) Hayata","Pentarhizidium orientale"

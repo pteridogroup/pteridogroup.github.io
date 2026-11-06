@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000150239","wfo-0000150310","synonym","Pycnoloma metacoelum (Alderw.) C.Chr.","Pycnoloma metacoelum"
+"wfo-0000150240","wfo-0000150313","synonym","Pycnoloma murudense C.Chr.","Pycnoloma murudense"
+"wfo-0000150310",NA,"accepted","Selliguea metacoela (Alderw.) Parris","Selliguea metacoela"
+"wfo-0000150313",NA,"accepted","Selliguea murudensis (C.Chr.) Parris","Selliguea murudensis"
+"wfo-0001269782","wfo-1000070086","synonym","Pycnoloma rigidum (Hook.) C.Chr.","Pycnoloma rigidum"
+"wfo-1000070086",NA,"accepted","Selliguea rigida (Hook.) Parris","Selliguea rigida"

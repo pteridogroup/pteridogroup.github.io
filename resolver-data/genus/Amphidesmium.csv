@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000147462","wfo-0000147463","synonym","Amphidesmium parkeri Schott","Amphidesmium parkeri"
+"wfo-0000147463",NA,"accepted","Metaxya parkeri (Hook. & Grev.) J.Sm.","Metaxya parkeri"
+"wfo-0001112371",NA,"accepted","Metaxya rostrata (Kunth) C.Presl","Metaxya rostrata"
+"wfo-0001114032","wfo-0001112371","synonym","Amphidesmium rostratum (Kunth) J.Sm.","Amphidesmium rostratum"
+"wfo-0001122325","wfo-0001112371","synonym","Amphidesmium blechnoides Klotzsch","Amphidesmium blechnoides"
+"wfo-0001371235","wfo-0000147463","synonym","Amphidesmium blechnoides var. polycarpum (Hook.) T.Moore","Amphidesmium blechnoides var. polycarpum"
+"wfo-0001371236","wfo-0000147463","synonym","Amphidesmium parkeri var. majus Fée","Amphidesmium parkeri var. majus"

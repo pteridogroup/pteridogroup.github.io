@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000150742","wfo-0000151057","synonym","Ochropteris angusta Fée","Ochropteris angusta"
+"wfo-0000151057",NA,"accepted","Pteris pallens Mett.","Pteris pallens"
+"wfo-0001042289","wfo-0000151057","synonym","Ochropteris bosseri Tardieu","Ochropteris bosseri"
+"wfo-0001107873","wfo-0000151057","synonym","Ochropteris pallens (Sw.) J.Sm.","Ochropteris pallens"
+"wfo-0001107875","wfo-0000151057","synonym","Ochropteris peltigera Fée","Ochropteris peltigera"
+"wfo-0001422008",NA,"accepted","Pteris barklyae (Baker) Mett. ex Kuhn","Pteris barklyae"
+"wfo-1000069147","wfo-0001422008","synonym","Ochropteris barklyae (Baker) Buscal.","Ochropteris barklyae"

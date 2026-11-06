@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000149145","wfo-0001422519","synonym","Polypodiopsis brachypodia (Copel.) Copel.","Polypodiopsis brachypodia"
+"wfo-0000149146","wfo-0001422420","synonym","Polypodiopsis colorata (Copel.) Copel.","Polypodiopsis colorata"
+"wfo-0001272513","wfo-0001422887","synonym","Polypodiopsis proavita (Copel.) Copel.","Polypodiopsis proavita"
+"wfo-0001422420",NA,"accepted","Selliguea cesatiana (Baker) Christenh.","Selliguea cesatiana"
+"wfo-0001422519",NA,"accepted","Selliguea brachypodia (Copel.) Christenh.","Selliguea brachypodia"
+"wfo-0001422887",NA,"accepted","Selliguea proavita (Copel.) Christenh.","Selliguea proavita"

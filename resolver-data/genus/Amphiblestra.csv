@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000141691",NA,"unchecked","Amphiblestra longifolia C.Presl","Amphiblestra longifolia"
+"wfo-0001114510",NA,"accepted","Tectaria panamensis (Hook.) R.M.Tryon & A.F.Tryon","Tectaria panamensis"
+"wfo-0001235420",NA,"accepted","Tectaria amphiblestra R.M.Tryon & A.F.Tryon","Tectaria amphiblestra"
+"wfo-0001235422","wfo-0001235420","synonym","Amphiblestra latifolia (Willd.) C.Presl","Amphiblestra latifolia"
+"wfo-0001263834","wfo-0001114510","synonym","Amphiblestra simplex Fourn.","Amphiblestra simplex"

@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000144736","wfo-0000154487","synonym","Acropterygium loddigesii (Diels ex Engl. & Prantl) Nakai","Acropterygium loddigesii"
+"wfo-0000154487",NA,"accepted","Diplazium filamentosum (Roxb.) Cronk","Diplazium filamentosum"
+"wfo-0001113964",NA,"accepted","Gleichenella pectinata (Willd.) Ching","Gleichenella pectinata"
+"wfo-0001230983","wfo-0001113964","synonym","Acropterygium pectinatum (Willd.) Nakai","Acropterygium pectinatum"
+"wfo-1200101342","wfo-0001113964","synonym","Acropterygium pectinatum var. sublineare (Christ) Nakai","Acropterygium pectinatum var. sublineare"

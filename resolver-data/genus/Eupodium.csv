@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001038942",NA,"accepted","Eupodium pittieri (Maxon) Christenh.","Eupodium pittieri"
+"wfo-0001111945",NA,"accepted","Eupodium kaulfussii J.Sm.","Eupodium kaulfussii"
+"wfo-0001285390",NA,"accepted","Eupodium laeve (Sm.) Murdock","Eupodium laeve"
+"wfo-0001370609","wfo-0001111945","synonym","Eupodium kaulfussii var. acuminatum Fée","Eupodium kaulfussii var. acuminatum"
+"wfo-0001370610","wfo-0001111945","synonym","Eupodium kaulfussii var. macropterum Fée","Eupodium kaulfussii var. macropterum"
+"wfo-1000022551",NA,"accepted","Eupodium cicutifolium (Kaulf.) Lehtonen","Eupodium cicutifolium"

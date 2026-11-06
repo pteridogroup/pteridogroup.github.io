@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001109651",NA,"accepted","Selaginella lepidophylla (Hook. & Grev.) Spring","Selaginella lepidophylla"
+"wfo-0001250386",NA,"accepted","Selaginella novoleonensis Hieron.","Selaginella novoleonensis"
+"wfo-0001274403",NA,"accepted","Selaginella ribae Valdespino","Selaginella ribae"
+"wfo-1000061670","wfo-0001109651","synonym","Lepidoselaginella lepidophylla (Hook. & Grev.) Li Bing Zhang & X.M.Zhou","Lepidoselaginella lepidophylla"
+"wfo-1000061672","wfo-0001250386","synonym","Lepidoselaginella novoleonensis (Hieron.) Li Bing Zhang & X.M.Zhou","Lepidoselaginella novoleonensis"
+"wfo-1000061673","wfo-0001274403","synonym","Lepidoselaginella ribae (Valdespino) Li Bing Zhang & X.M.Zhou","Lepidoselaginella ribae"
+"wfo-1000078393",NA,"unchecked","Lepidoselaginella rzedowskii (Lorea-Hern.) Li Bing Zhang & X.M.Zhou","Lepidoselaginella rzedowskii"

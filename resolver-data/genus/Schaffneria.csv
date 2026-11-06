@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001113161",NA,"unchecked","Schaffneria nigripes Fée","Schaffneria nigripes"
+"wfo-0001113847",NA,"accepted","Asplenium nigripes Hook.","Asplenium nigripes"
+"wfo-0001125539",NA,"accepted","Asplenium delavayi (Franch.) Copel.","Asplenium delavayi"
+"wfo-0001127285","wfo-0001125539","synonym","Schaffneria delavayi (Franch.) Tardieu","Schaffneria delavayi"
+"wfo-1000072174","wfo-0001113847","synonym","Schaffneria nigripes Fée ex T.Moore","Schaffneria nigripes"

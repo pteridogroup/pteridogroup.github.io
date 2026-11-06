@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000144638",NA,"accepted","Tectaria cuspidato-pinnata (Hayata) C.Chr.","Tectaria cuspidato-pinnata"
+"wfo-0001128358","wfo-0001128363","synonym","Camptodium pedatum (Desv.) Fée","Camptodium pedatum"
+"wfo-0001128363",NA,"accepted","Tectaria pedata (Desv.) R.M.Tryon & A.F.Tryon","Tectaria pedata"
+"wfo-0001235424","wfo-0000144638","synonym","Camptodium pinnatum C.Chr.","Camptodium pinnatum"

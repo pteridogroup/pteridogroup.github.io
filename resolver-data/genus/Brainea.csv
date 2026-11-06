@@ -1,0 +1,4 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001122823",NA,"accepted","Brainea insignis (Hook.) J.Sm.","Brainea insignis"
+"wfo-0001126788","wfo-0001122823","synonym","Brainea formosana Hayata","Brainea formosana"
+"wfo-0001126789","wfo-0001122823","synonym","Brainea insignis var. formosana (Hayata) Tagawa","Brainea insignis var. formosana"

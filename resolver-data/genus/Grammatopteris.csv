@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148317","wfo-0001115941","synonym","Grammatopteris pseudodrymoglossum Alderw.","Grammatopteris pseudodrymoglossum"
+"wfo-0001115941",NA,"accepted","Selliguea costulata (Ces.) W.H.Wagner & Grether","Selliguea costulata"
+"wfo-0001269785",NA,"accepted","Selliguea brooksii (Alderw.) Hovenkamp","Selliguea brooksii"
+"wfo-0001269786","wfo-0001269785","synonym","Grammatopteris brooksii Alderw.","Grammatopteris brooksii"
+"wfo-1200103287","wfo-0001115941","synonym","Grammatopteris brooksii var. beguinii Alderw.","Grammatopteris brooksii var. beguinii"

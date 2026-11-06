@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000147728",NA,"accepted","Ophioglossum opacum R.Br.; Carm.","Ophioglossum opacum"
+"wfo-0001109034",NA,"accepted","Ophioglossum crotalophoroides Walter","Ophioglossum crotalophoroides"
+"wfo-1000040222","wfo-0001109034","synonym","Haukia crotalophoroides (Walter) Li Bing Zhang & Liang Zhang","Haukia crotalophoroides"
+"wfo-1000040223","wfo-0000147728","synonym","Haukia opaca (R.Br. ex Carmich.) Li Bing Zhang & Liang Zhang","Haukia opaca"
+"wfo-1000040224","wfo-0001109034","synonym","Haukia tuberosa (Hook. & Arn.) Li Bing Zhang & Liang Zhang","Haukia tuberosa"

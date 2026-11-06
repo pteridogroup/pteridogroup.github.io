@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000151192","wfo-0001116685","synonym","Asplenidictyum curtidens (Christ) Nakai","Asplenidictyum curtidens"
+"wfo-0000151198","wfo-0001119821","synonym","Asplenidictyum purdieanum J.Sm.","Asplenidictyum purdieanum"
+"wfo-0000151199","wfo-0001116685","synonym","Asplenidictyum wilfordii (Mett. ex Kuhn) Nakai","Asplenidictyum wilfordii"
+"wfo-0001035179","wfo-0001118136","synonym","Asplenidictyum finlaysonianum (Hook.) J.Sm.","Asplenidictyum finlaysonianum"
+"wfo-0001116685",NA,"accepted","Asplenium wilfordii Mett.; Kuhn","Asplenium wilfordii"
+"wfo-0001118136",NA,"accepted","Asplenium finlaysonianum Wall. ex Hook.","Asplenium finlaysonianum"
+"wfo-0001119821",NA,"accepted","Asplenium purdieanum Hook.","Asplenium purdieanum"

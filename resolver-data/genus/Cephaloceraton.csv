@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001035144",NA,"unchecked","Cephaloceraton histrix (Bory & Durieu) Gennari","Cephaloceraton histrix"
+"wfo-0001123833",NA,"accepted","Isoetes histrix Bory","Isoetes histrix"
+"wfo-0001421983",NA,"accepted","Isoetes gymnocarpa (Gennari) A.Braun","Isoetes gymnocarpa"
+"wfo-1000068079","wfo-0001421983","synonym","Cephaloceraton gymnocarpum Gennari","Cephaloceraton gymnocarpum"
+"wfo-1200102453","wfo-0001421983","synonym","Cephaloceraton histrix var. subinerme Gennari","Cephaloceraton histrix var. subinerme"
+"wfo-1000068080","wfo-0001421983","synonym","Cephaloceraton pseudohystrix Gennari","Cephaloceraton pseudohystrix"
+"wfo-1000073805","wfo-0001123833","synonym","Cephaloceraton histrix (Bory) Gennari","Cephaloceraton histrix"

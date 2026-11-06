@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000145835",NA,"accepted","Hymenophyllum brassii C.Chr.","Hymenophyllum brassii"
+"wfo-0000146274","wfo-0000145835","synonym","Myriodon brassii (C.Chr.) Copel.","Myriodon brassii"
+"wfo-0000146275","wfo-0000145835","synonym","Myriodon odontophyllus (Copel.) Copel.","Myriodon odontophyllus"
+"wfo-1000069106","wfo-0000145835","synonym","Myriodon odontophyllum (Copel.) Copel.","Myriodon odontophyllum"

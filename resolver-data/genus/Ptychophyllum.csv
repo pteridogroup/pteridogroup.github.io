@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000146307","wfo-0001111486","synonym","Ptychophyllum magellanicum Klotzsch","Ptychophyllum magellanicum"
+"wfo-0000146308","wfo-0001111480","synonym","Ptychophyllum plicatum C.Presl","Ptychophyllum plicatum"
+"wfo-0001111480",NA,"accepted","Hymenophyllum plicatum Kaulf.","Hymenophyllum plicatum"
+"wfo-0001111486",NA,"accepted","Hymenophyllum seselifolium C.Presl","Hymenophyllum seselifolium"

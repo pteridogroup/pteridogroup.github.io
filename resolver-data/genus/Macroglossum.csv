@@ -1,0 +1,4 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000147270",NA,"accepted","Angiopteris smithii Racib.","Angiopteris smithii"
+"wfo-0000147324","wfo-0000147270","synonym","Macroglossum smithii (Rac.) Campbell","Macroglossum smithii"
+"wfo-0001035539","wfo-0000147270","synonym","Macroglossum alidae Copel.","Macroglossum alidae"

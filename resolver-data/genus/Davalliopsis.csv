@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001107537","wfo-0001341870","synonym","Davalliopsis pachyphlebia Copel.","Davalliopsis pachyphlebia"
+"wfo-0001112245",NA,"accepted","Trichomanes elegans Rich.","Trichomanes elegans"
+"wfo-0001112252","wfo-0001112245","synonym","Davalliopsis elegans (Rich.) Copel.","Davalliopsis elegans"
+"wfo-0001341870",NA,"accepted","Abrodictyum pachyphlebium (C.Chr.) Bauret & Dubuisson","Abrodictyum pachyphlebium"
+"wfo-1000068341","wfo-0001112245","synonym","Davalliopsis prieurii (Kunze) Bosch","Davalliopsis prieurii"

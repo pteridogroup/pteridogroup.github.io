@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001114535",NA,"accepted","Microgramma tuberosa (Maxon) Lellinger","Microgramma tuberosa"
+"wfo-0001115899",NA,"accepted","Microgramma bifrons (Hook.) Lellinger","Microgramma bifrons"
+"wfo-0001115901",NA,"accepted","Microgramma brunei (Christ) Lellinger","Microgramma brunei"
+"wfo-0001115983","wfo-0001115901","synonym","Solanopteris brunei (Wercklé) W.H.Wagner","Solanopteris brunei"
+"wfo-0001119958","wfo-0001115899","synonym","Solanopteris bifrons (Hook.) Copel.","Solanopteris bifrons"
+"wfo-0001221417","wfo-0001114535","synonym","Solanopteris bismarckii Rauh","Solanopteris bismarckii"
+"wfo-0001231789","wfo-0001114535","synonym","Solanopteris tuberosa (Maxon) Rauh","Solanopteris tuberosa"

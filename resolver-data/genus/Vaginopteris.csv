@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000145380",NA,"accepted","Oreogrammitis interrupta (Baker) Parris","Oreogrammitis interrupta"
+"wfo-0000153779",NA,"accepted","Vaginularia subfalcata (Hook.) C.Chr.","Vaginularia subfalcata"
+"wfo-0001035175","wfo-0000153779","synonym","Vaginopteris subfalcata (Hook.) T.Nakai","Vaginopteris subfalcata"
+"wfo-1000035964","wfo-0000145380","synonym","Vaginopteris interrupta (Baker) Nakai","Vaginopteris interrupta"

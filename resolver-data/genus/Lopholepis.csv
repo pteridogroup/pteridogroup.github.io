@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148536","wfo-0001116397","synonym","Lopholepis ciliata J.Sm.","Lopholepis ciliata"
+"wfo-0000148537","wfo-0001116397","synonym","Lopholepis tecta (Kaulf.) Paxton","Lopholepis tecta"
+"wfo-0001109168",NA,"accepted","Microgramma piloselloides (L.) Copel.","Microgramma piloselloides"
+"wfo-0001115296",NA,"accepted","Microgramma vacciniifolia (Langsd. & Fisch.) Copel.","Microgramma vacciniifolia"
+"wfo-0001116397",NA,"accepted","Microgramma tecta (Kaulf.) Alston","Microgramma tecta"
+"wfo-0001127730","wfo-0001109168","synonym","Lopholepis piloselloides J.Sm.","Lopholepis piloselloides"
+"wfo-0001128552","wfo-0001115296","synonym","Lopholepis vacciniifolia (Langsd. & Fisch.) J.Sm.","Lopholepis vacciniifolia"

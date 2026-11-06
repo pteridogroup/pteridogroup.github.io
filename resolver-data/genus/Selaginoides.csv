@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001109638",NA,"accepted","Selaginella deflexa Brack.","Selaginella deflexa"
+"wfo-0001118733",NA,"accepted","Selaginella selaginoides (L.) P.Beauv. ex Schrank & Mart.","Selaginella selaginoides"
+"wfo-1000061185","wfo-0001109638","synonym","Selaginoides deflexa (Brack.) Li Bing Zhang & X.M.Zhou","Selaginoides deflexa"
+"wfo-1000061186","wfo-0001118733","synonym","Selaginoides spinulosa (A.Braun ex Döll) Li Bing Zhang & X.M.Zhou","Selaginoides spinulosa"

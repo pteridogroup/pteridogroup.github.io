@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000154779","wfo-0001126299","synonym","Hypochlamys sorgonensis (C.Presl) Fée","Hypochlamys sorgonensis"
+"wfo-0001126299",NA,"accepted","Diplazium sorzogonense (C.Presl) C.Presl","Diplazium sorzogonense"
+"wfo-0001128280",NA,"accepted","Diplazium pectinatum (Fée) C.Chr.","Diplazium pectinatum"
+"wfo-0001128281","wfo-0001128280","synonym","Hypochlamys pectinata Fée","Hypochlamys pectinata"
+"wfo-0001128283","wfo-0001128280","synonym","Hypochlamys squamulosa Fée","Hypochlamys squamulosa"
+"wfo-0001128284","wfo-0001128280","synonym","Hypochlamys tussacii Fée","Hypochlamys tussacii"

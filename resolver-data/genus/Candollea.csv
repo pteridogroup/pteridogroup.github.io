@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000147917","wfo-0001108667","synonym","Candollea heterophylla Mirb.","Candollea heterophylla"
+"wfo-0000147918","wfo-0001120029","synonym","Candollea polypodioides (L.) Mirb.","Candollea polypodioides"
+"wfo-0001108667",NA,"accepted","Pyrrosia lanceolatus (L.) Farw.","Pyrrosia lanceolatus"
+"wfo-0001110154","wfo-0001108667","synonym","Candollea lanceolata (L.) Mirb.","Candollea lanceolata"
+"wfo-0001115925",NA,"accepted","Pyrrosia longifolia (Burm.f.) Morton","Pyrrosia longifolia"
+"wfo-0001120029",NA,"accepted","Pleopeltis polypodioides (L.) E.G.Andrews & Windham","Pleopeltis polypodioides"
+"wfo-0001230468","wfo-0001115925","synonym","Candollea longifolia (Burm.f.) Mirb.","Candollea longifolia"

@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001109602",NA,"accepted","Trichomanes crispum L.","Trichomanes crispum"
+"wfo-0001112318",NA,"accepted","Trichomanes crinitum Sw.","Trichomanes crinitum"
+"wfo-0001112319","wfo-0001112318","synonym","Ragatelus crinitus C.Presl","Ragatelus crinitus"
+"wfo-0001219305","wfo-0001109602","synonym","Ragatelus eriophorus C.Presl","Ragatelus eriophorus"

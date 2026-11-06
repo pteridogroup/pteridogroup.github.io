@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000149136","wfo-0000150254","synonym","Polycampium penangianum C.Presl","Polycampium penangianum"
+"wfo-0000150254",NA,"accepted","Pyrrosia penangiana (Hook.) Holttum","Pyrrosia penangiana"
+"wfo-0000748137",NA,"accepted","Pyrrosia lingua (Thunb.) Farw.","Pyrrosia lingua"
+"wfo-0000748142","wfo-0000748137","synonym","Polycampium lingua (Thunb.) C.Presl","Polycampium lingua"
+"wfo-0001230444",NA,"accepted","Pyrrosia hastata (Houtt.) Ching","Pyrrosia hastata"
+"wfo-0001230446","wfo-0001230444","synonym","Polycampium hastatum (Thunb. ex Houtt.) C.Presl","Polycampium hastatum"

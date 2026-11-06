@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000163505",NA,"unchecked","Lomariobotrys decompositus Fée","Lomariobotrys decompositus"
+"wfo-0000163506",NA,"unchecked","Lomariobotrys meyerianus (Kunze) Fée","Lomariobotrys meyerianus"
+"wfo-0001107879",NA,"accepted","Stenochlaena tenuifolia (Desv.) T.Moore","Stenochlaena tenuifolia"
+"wfo-0001107881","wfo-0001107879","synonym","Lomariobotrys tenuifolia (Desv.) Fée","Lomariobotrys tenuifolia"
+"wfo-1000068757","wfo-0001107879","synonym","Lomariobotrys meyeriana (Kunze) Fée","Lomariobotrys meyeriana"

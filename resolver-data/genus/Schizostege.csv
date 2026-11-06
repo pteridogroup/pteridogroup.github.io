@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000150817",NA,"accepted","Pteris calocarpa (Copel.) M.G.Price","Pteris calocarpa"
+"wfo-0000150994",NA,"accepted","Pteris lydgatei (Hillebr.) Christ","Pteris lydgatei"
+"wfo-0000151054",NA,"accepted","Pteris pachysora (Copel.) M.G.Price","Pteris pachysora"
+"wfo-0000151225","wfo-0000150994","synonym","Schizostege lydgatei Hillebr.","Schizostege lydgatei"
+"wfo-0001035713",NA,"unchecked","Schizostege lidgatii (Baker) Hillebr.","Schizostege lidgatii"
+"wfo-0001235400","wfo-0000150817","synonym","Schizostege calocarpa Copel.","Schizostege calocarpa"
+"wfo-0001235401","wfo-0000151054","synonym","Schizostege pachysora Copel.","Schizostege pachysora"

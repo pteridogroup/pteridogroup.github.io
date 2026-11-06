@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001117751",NA,"accepted","Taenitis hookeri (C.Chr.) Holttum","Taenitis hookeri"
+"wfo-1000068577","wfo-0001117751","synonym","Gymnogramme lanceolata (Hook.) Luerss.","Gymnogramme lanceolata"
+"wfo-1200103305","wfo-1200104868","synonym","Gymnogramme pinnata var. polypodioides Baker","Gymnogramme pinnata var. polypodioides"
+"wfo-1200104868",NA,"accepted","Taenitis pinnata var. polypodioides (Baker) Holttum","Taenitis pinnata var. polypodioides"

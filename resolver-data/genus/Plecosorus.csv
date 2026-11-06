@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000157759","wfo-1000070076","synonym","Plecosorus speciosissimus (Kunze) T.Moore","Plecosorus speciosissimus"
+"wfo-0001112145",NA,"accepted","Hypolepis obtusata (Pr.) Kuhn","Hypolepis obtusata"
+"wfo-0001112150","wfo-0001112145","synonym","Plecosorus peruvianus Fée","Plecosorus peruvianus"
+"wfo-0001113088",NA,"unchecked","Plecosorus speciossisimus (A.Braun ex Kunze) T.Moore","Plecosorus speciossisimus"
+"wfo-0001113735","wfo-1000070076","synonym","Plecosorus mexicanus Fée","Plecosorus mexicanus"
+"wfo-0001124608",NA,"unchecked","Plecosorus leptocladon Fée","Plecosorus leptocladon"
+"wfo-1000070076",NA,"accepted","Polystichum speciosissimum (A.Braun ex Kunze) Copel.","Polystichum speciosissimum"

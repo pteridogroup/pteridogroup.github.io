@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001042066",NA,"accepted","Anisocampium niponicum (Mett.) Yea C.Liu, W.L.Chiou & M.Kato","Anisocampium niponicum"
+"wfo-0001042067",NA,"accepted","Anisocampium cuspidatum (Bedd.) Yea C.Liu, W.L.Chiou & M.Kato","Anisocampium cuspidatum"
+"wfo-0001125715","wfo-0001042067","synonym","Microchlaena cuspidata (Bedd.) Ching","Microchlaena cuspidata"
+"wfo-0001125716","wfo-0001042066","synonym","Microchlaena yunnanensis (Christ) Ching","Microchlaena yunnanensis"

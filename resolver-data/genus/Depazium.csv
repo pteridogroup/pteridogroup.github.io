@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000154365","wfo-0001042412","synonym","Depazium lobatocrenatum (Tagawa) Nakaike","Depazium lobatocrenatum"
+"wfo-0000154366","wfo-0001042410","synonym","Depazium tomitaroanum (Masam.) Nakaike","Depazium tomitaroanum"
+"wfo-0000154367","wfo-0001233349","synonym","Depazium zeylanicum (Hook.) Nakaike","Depazium zeylanicum"
+"wfo-0001042410",NA,"accepted","Deparia tomitaroana (Masam.) R.Sano","Deparia tomitaroana"
+"wfo-0001042412",NA,"accepted","Deparia lobatocrenata (Tagawa) M.Kato","Deparia lobatocrenata"
+"wfo-0001233349",NA,"accepted","Deparia zeylanica (Hook.) M.Kato","Deparia zeylanica"

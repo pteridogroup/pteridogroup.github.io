@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000147679","wfo-0001109064","synonym","Cheiroglossa austrobrasiliensis Brade","Cheiroglossa austrobrasiliensis"
+"wfo-0000147680","wfo-0000147721","synonym","Cheiroglossa louisii (Taton) Pic.Serm.","Cheiroglossa louisii"
+"wfo-0000147681",NA,"accepted","Cheiroglossa malgassica (C.Chr.) Pic.Serm.","Cheiroglossa malgassica"
+"wfo-0000147721",NA,"accepted","Ophioglossum louisii Taton","Ophioglossum louisii"
+"wfo-0001109064",NA,"accepted","Cheiroglossa palmata (L.) C.Presl","Cheiroglossa palmata"
+"wfo-0001109719","wfo-0000147681","synonym","Cheiroglossa palmata var. malgassica C.Chr.","Cheiroglossa palmata var. malgassica"

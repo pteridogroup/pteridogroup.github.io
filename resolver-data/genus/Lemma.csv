@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001035134","wfo-0001109027","synonym","Lemma quadrifolia Desrouss.; Lam.","Lemma quadrifolia"
+"wfo-0001035136","wfo-0001110765","synonym","Lemma minuta (L.) Desr.","Lemma minuta"
+"wfo-0001109027",NA,"accepted","Marsilea quadrifolia L.","Marsilea quadrifolia"
+"wfo-0001110765",NA,"accepted","Marsilea minuta L.","Marsilea minuta"

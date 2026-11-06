@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001109622",NA,"accepted","Lygodium palmatum (Bernh.) Sw.","Lygodium palmatum"
+"wfo-0001114683","wfo-0001109622","synonym","Ramondia palmata (Bernh.) Bosc","Ramondia palmata"
+"wfo-0001115056","wfo-0001115286","synonym","Ramondia flexuosa (L.) Mirb.","Ramondia flexuosa"
+"wfo-0001115286",NA,"accepted","Lygodium flexuosum (L.) Sw.","Lygodium flexuosum"
+"wfo-0001124446","wfo-0001115286","synonym","Ramondia scandens Mirb.","Ramondia scandens"

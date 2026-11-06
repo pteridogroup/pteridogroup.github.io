@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148137",NA,"accepted","Drynaria cornucopia (Copel.) Alderw.","Drynaria cornucopia"
+"wfo-0000148174",NA,"accepted","Drynaria nectarifera (Becc.) Diels","Drynaria nectarifera"
+"wfo-0000150355","wfo-0000148174","synonym","Thayeria nectarifera (Becc.) Copel.","Thayeria nectarifera"
+"wfo-0001117908","wfo-0000148137","synonym","Thayeria cornucopia Copel.","Thayeria cornucopia"

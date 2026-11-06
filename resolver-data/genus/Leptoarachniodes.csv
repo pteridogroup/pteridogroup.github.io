@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000141692",NA,"accepted","Arachniodes × azuminoensis Fujiw., Y.Matsuda, Yu.Abe & Otsuka","Arachniodes × azuminoensis"
+"wfo-0000141715",NA,"accepted","Arachniodes × mitsuyoshiana Sa.Kurata","Arachniodes × mitsuyoshiana"
+"wfo-0000143615","wfo-0000141692","synonym","Leptoarachniodes azuminoensis (Fujiw., Y.Matsuda, Yu.Abe & Otsuka) Nakaike","Leptoarachniodes azuminoensis"
+"wfo-0000143616","wfo-0000141715","synonym","Leptoarachniodes mitsuyoshiana (Sa.Kurata) Nakaike","Leptoarachniodes mitsuyoshiana"
+"wfo-1000003045","wfo-1000067152","synonym","Leptoarachniodes chibaensis (Yashiro) Nakaike","Leptoarachniodes chibaensis"
+"wfo-1000067152",NA,"accepted","Arachniodes × chibaensis Yashiro","Arachniodes × chibaensis"

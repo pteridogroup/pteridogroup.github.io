@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000147289","wfo-1000079480","synonym","Negripteris quezelii Tardieu","Negripteris quezelii"
+"wfo-0000147297","wfo-0001035844","synonym","Negripteris tricholepifera Pic.Serm.","Negripteris tricholepifera"
+"wfo-0001035844",NA,"accepted","Aleuritopteris scioana (Chiov.) Fraser-Jenk. & Dulawat","Aleuritopteris scioana"
+"wfo-0001276561","wfo-0001035844","synonym","Negripteris scioana (Chiov.) Pic.Serm.","Negripteris scioana"
+"wfo-1000079480",NA,"accepted","Aleuritopteris pteridioides (Reichard) Windham & Schuettp.","Aleuritopteris pteridioides"

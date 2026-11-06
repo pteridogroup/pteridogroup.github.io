@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000143353",NA,"accepted","Dryopteris speciosissima Copel.","Dryopteris speciosissima"
+"wfo-0001035087","wfo-0001231474","synonym","Stenolepia tristis (Blume) Alderw.","Stenolepia tristis"
+"wfo-0001231474",NA,"accepted","Dryopteris alpina Rosenst.","Dryopteris alpina"
+"wfo-0001329511","wfo-0000143353","synonym","Stenolepia speciosissima (Copel.) Holttum ex P.J.Edwards","Stenolepia speciosissima"

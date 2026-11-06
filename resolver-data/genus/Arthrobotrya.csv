@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000146735","wfo-0001286904","synonym","Arthrobotrya brightiae (F.Muell.) Pic.Serm.","Arthrobotrya brightiae"
+"wfo-0000146736","wfo-0001257305","synonym","Arthrobotrya wilkesiana (Brack.) Copel.","Arthrobotrya wilkesiana"
+"wfo-0001114889",NA,"accepted","Teratophyllum articulatum (Fée) Kuhn","Teratophyllum articulatum"
+"wfo-0001257130","wfo-0001114889","synonym","Arthrobotrya articulata (Hook.) J.Sm.","Arthrobotrya articulata"
+"wfo-0001257305",NA,"accepted","Teratophyllum wilkesianum (Brack.) Holttum","Teratophyllum wilkesianum"
+"wfo-0001286904",NA,"accepted","Teratophyllum brightiae Holttum","Teratophyllum brightiae"

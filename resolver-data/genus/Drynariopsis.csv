@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148212","wfo-1000068411","synonym","Drynariopsis heraclea (Kunze) Ching","Drynariopsis heraclea"
+"wfo-0000148213","wfo-0001115919","synonym","Drynariopsis morbillosa (C.Presl) Copel.","Drynariopsis morbillosa"
+"wfo-0001115919",NA,"accepted","Drynaria quercifolia (L.) J.Sm.","Drynaria quercifolia"
+"wfo-1000068411",NA,"accepted","Drynaria heraclea (Kunze) T.Moore","Drynaria heraclea"

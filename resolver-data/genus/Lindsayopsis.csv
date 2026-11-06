@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000141172","wfo-0001109204","synonym","Lindsayopsis aculeata (L.) Kuhn","Lindsayopsis aculeata"
+"wfo-0000141173","wfo-0001113068","synonym","Lindsayopsis divaricata (J.Sm.) Kuhn","Lindsayopsis divaricata"
+"wfo-0000141174","wfo-0001274639","synonym","Lindsayopsis scandens (Desv.) Kuhn","Lindsayopsis scandens"
+"wfo-0001109204",NA,"accepted","Odontosoria aculeata (L.) J.Sm.","Odontosoria aculeata"
+"wfo-0001113068",NA,"accepted","Odontosoria schlechtendalii (C.Presl) C.Chr.","Odontosoria schlechtendalii"
+"wfo-0001274639",NA,"accepted","Odontosoria scandens (Desv.) C.Chr.","Odontosoria scandens"

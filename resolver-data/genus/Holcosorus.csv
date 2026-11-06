@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148364","wfo-0000150275","synonym","Holcosorus bisulcatus (Hook.) Ching","Holcosorus bisulcatus"
+"wfo-0000148365","wfo-0000150325","synonym","Holcosorus setaceus (Copel.) Copel.","Holcosorus setaceus"
+"wfo-0000150275",NA,"accepted","Selliguea bisulcata (Hook.) Hovenkamp","Selliguea bisulcata"
+"wfo-0000150325",NA,"accepted","Selliguea setacea (Copel.) Hovenkamp","Selliguea setacea"
+"wfo-0001225945","wfo-0000150275","synonym","Holcosorus pentagonus T.Moore","Holcosorus pentagonus"

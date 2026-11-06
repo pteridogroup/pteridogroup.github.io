@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000144661","wfo-0001107245","synonym","Eriochasma distans (R.Br.) Hereman","Eriochasma distans"
+"wfo-0000144663","wfo-0001110357","synonym","Eriochasma tomentosa (Desv.) Hereman","Eriochasma tomentosa"
+"wfo-0001107245",NA,"accepted","Cheilanthes distans (R.Br.) Mett.","Cheilanthes distans"
+"wfo-0001110357",NA,"accepted","Myriopteris tomentosa (Link) Fée","Myriopteris tomentosa"

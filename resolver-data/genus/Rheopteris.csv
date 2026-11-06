@@ -1,0 +1,4 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000140773",NA,"accepted","Austrogramme asplenioides (Holttum) Hennipman","Austrogramme asplenioides"
+"wfo-0001035082",NA,"accepted","Rheopteris cheesmaniae Alston","Rheopteris cheesmaniae"
+"wfo-0001235495","wfo-0000140773","synonym","Rheopteris asplenioides Holttum","Rheopteris asplenioides"

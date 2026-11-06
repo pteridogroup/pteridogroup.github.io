@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001118733",NA,"accepted","Selaginella selaginoides (L.) P.Beauv. ex Schrank & Mart.","Selaginella selaginoides"
+"wfo-0001120194",NA,"accepted","Selaginella denticulata (L.) Spring","Selaginella denticulata"
+"wfo-1000068785","wfo-0001120194","synonym","Lycopodina denticulata (L.) Bubani","Lycopodina denticulata"
+"wfo-1000068786","wfo-0001118733","synonym","Lycopodina spinulosa (A.Braun ex Döll) Bubani","Lycopodina spinulosa"

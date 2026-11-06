@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148720","wfo-0001425557","synonym","Nevrodium lanceolatum (L.) Fée","Nevrodium lanceolatum"
+"wfo-0000148721","wfo-0001122371","synonym","Nevrodium sinense Christ","Nevrodium sinense"
+"wfo-0001122371",NA,"accepted","Lepisorus sinensis Ching","Lepisorus sinensis"
+"wfo-0001425557",NA,"accepted","Pleopeltis marginata A.R.Sm. & Tejero","Pleopeltis marginata"

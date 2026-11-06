@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001109562",NA,"accepted","Cystopteris montana (Lam.) Bernh. ex Desv.","Cystopteris montana"
+"wfo-0001111000","wfo-0001109562","synonym","Cyste montana (Lam.) Dulac","Cyste montana"
+"wfo-0001111187",NA,"accepted","Cystopteris fragilis subsp. fragilis","Cystopteris fragilis subsp. fragilis"
+"wfo-0001232373","wfo-0001111187","synonym","Cyste fragilis (L.) Dulac","Cyste fragilis"

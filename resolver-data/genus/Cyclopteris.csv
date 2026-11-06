@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000154286","wfo-0001111187","synonym","Cyclopteris dentata (Sm.) Schrad. ex Gray","Cyclopteris dentata"
+"wfo-0000154287","wfo-0001111187","synonym","Cyclopteris regia (L.) Schrad. ex Gray","Cyclopteris regia"
+"wfo-0001110210","wfo-0001111187","synonym","Cyclopteris fragilis (L.) Gray","Cyclopteris fragilis"
+"wfo-0001111187",NA,"accepted","Cystopteris fragilis subsp. fragilis","Cystopteris fragilis subsp. fragilis"
+"wfo-1200102577","wfo-0001111187","synonym","Cyclopteris fragilis var. acuta Gray","Cyclopteris fragilis var. acuta"
+"wfo-1200102578","wfo-0001111187","synonym","Cyclopteris fragilis var. obtusa Gray","Cyclopteris fragilis var. obtusa"
+"wfo-1200102579","wfo-0001111187","synonym","Cyclopteris fragilis var. rhaetica Gray","Cyclopteris fragilis var. rhaetica"

@@ -1,0 +1,4 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001042210",NA,"accepted","Anemia afrorum (L.) Christenh.","Anemia afrorum"
+"wfo-0001264653","wfo-0001042210","synonym","Colina afrorum (L.) Greene","Colina afrorum"
+"wfo-1200116236","wfo-0001042210","synonym","Colina caffrorum (L.) Greene","Colina caffrorum"

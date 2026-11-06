@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001113313","wfo-0001425519","synonym","Adenoderris sororia Maxon","Adenoderris sororia"
+"wfo-0001121897","wfo-0001128303","synonym","Adenoderris viscidula (Mett.) Maxon","Adenoderris viscidula"
+"wfo-0001128302","wfo-0001128303","synonym","Adenoderris glandulosa (C.Presl) J.Sm.","Adenoderris glandulosa"
+"wfo-0001128303",NA,"accepted","Polystichum glandulosum C.Presl","Polystichum glandulosum"
+"wfo-0001425519",NA,"accepted","Dryopteris sororia (Maxon) M.A.McHenry, Sundue & Barrington","Dryopteris sororia"

@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000150144","wfo-0000150691","synonym","Platytaenia diversifolia (Holttum) Pic.Serm.","Platytaenia diversifolia"
+"wfo-0000150691",NA,"accepted","Taenitis diversifolia Holttum","Taenitis diversifolia"
+"wfo-0000150822",NA,"accepted","Taenitis requiniana (Gaudich.) Copel.","Taenitis requiniana"
+"wfo-0001230066","wfo-0000150822","synonym","Platytaenia requiniana (Gaudich.) Kuhn","Platytaenia requiniana"

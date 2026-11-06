@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000154808","wfo-0001042412","synonym","Neotribleparia lobatocrenata (Tagawa) Nakaike","Neotribleparia lobatocrenata"
+"wfo-0000154809","wfo-0001042410","synonym","Neotribleparia tomitaroana (Masam.) Nakaike","Neotribleparia tomitaroana"
+"wfo-0001042410",NA,"accepted","Deparia tomitaroana (Masam.) R.Sano","Deparia tomitaroana"
+"wfo-0001042412",NA,"accepted","Deparia lobatocrenata (Tagawa) M.Kato","Deparia lobatocrenata"

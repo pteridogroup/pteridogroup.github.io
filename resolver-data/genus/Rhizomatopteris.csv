@@ -1,0 +1,6 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001109562",NA,"accepted","Cystopteris montana (Lam.) Bernh. ex Desv.","Cystopteris montana"
+"wfo-0001116137",NA,"accepted","Cystopteris sudetica A.Braun & Milde","Cystopteris sudetica"
+"wfo-0001253918","wfo-0001116137","synonym","Rhizomatopteris sudetica (A.Braun & Milde) A.P.Khokhr.","Rhizomatopteris sudetica"
+"wfo-0001253922","wfo-0001109562","synonym","Rhizomatopteris montana (Lam.) A.P.Khokhr.","Rhizomatopteris montana"
+"wfo-1000049317",NA,"unchecked","Rhizomatopteris intermedia Charit.","Rhizomatopteris intermedia"

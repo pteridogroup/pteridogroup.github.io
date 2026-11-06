@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000152695",NA,"accepted","Asplenium × badense (D.E.Mey.) Jermy","Asplenium × badense"
+"wfo-0000152855",NA,"accepted","Asplenium × barrancense (W.Bennert & D.E.Mey.) Pericás & Rosselló","Asplenium × barrancense"
+"wfo-0000158023",NA,"accepted","Asplenium newmanii Bolle","Asplenium newmanii"
+"wfo-0000161970","wfo-0000152695","synonym","Asplenoceterach badense D.E.Mey.","Asplenoceterach badense"
+"wfo-0000161981","wfo-0000152855","synonym","Asplenoceterach barrancense Bennert & D.E.Mey.","Asplenoceterach barrancense"
+"wfo-0000161991","wfo-0000158023","synonym","Asplenoceterach newmanii (Bolle) D.E.Mey.","Asplenoceterach newmanii"

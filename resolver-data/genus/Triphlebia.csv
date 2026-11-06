@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000155600",NA,"accepted","Asplenium haenkei Copel.","Asplenium haenkei"
+"wfo-0000158994",NA,"accepted","Asplenium scolopendropsis F.Muell.","Asplenium scolopendropsis"
+"wfo-0000163068","wfo-0000158994","synonym","Triphlebia dimorphophylla Baker","Triphlebia dimorphophylla"
+"wfo-0000163069","wfo-0000158994","synonym","Triphlebia linza (Ces.) Baker","Triphlebia linza"
+"wfo-0000163070","wfo-0000155600","synonym","Triphlebia longifolia (Pr.) Baker","Triphlebia longifolia"
+"wfo-0001035189","wfo-0000155600","synonym","Triphlebia pinnata (J.Sm.) Baker","Triphlebia pinnata"

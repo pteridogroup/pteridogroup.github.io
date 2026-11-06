@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001116654",NA,"accepted","Monachosorum flagellare Hayata","Monachosorum flagellare"
+"wfo-0001123294","wfo-0001124684","synonym","Monachosorella maximowiczii (Baker) Hayata","Monachosorella maximowiczii"
+"wfo-0001124684",NA,"accepted","Monachosorum maximowiczii (Baker) Hayata","Monachosorum maximowiczii"
+"wfo-0001124689","wfo-0001116654","synonym","Monachosorella flagellaris (Maxim.) Hayata","Monachosorella flagellaris"
+"wfo-0001124690","wfo-0001124691","synonym","Monachosorella flagellaris var. nipponica (Makino) Tagawa","Monachosorella flagellaris var. nipponica"
+"wfo-0001124691",NA,"accepted","Monachosorum nipponicum Makino","Monachosorum nipponicum"
+"wfo-0001124693","wfo-0001124691","synonym","Monachosorella nipponica Hayata","Monachosorella nipponica"

@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000141081",NA,"accepted","Lindsaea imrayana (Hook.) Perez","Lindsaea imrayana"
+"wfo-0001118866","wfo-0000141081","synonym","Ormoloma imrayanum (Hook.) Maxon","Ormoloma imrayanum"
+"wfo-0001119753","wfo-0000141081","synonym","Ormoloma standleyi Maxon","Ormoloma standleyi"
+"wfo-1000074953","wfo-0000141081","synonym","Ormoloma imrayanum Maxon","Ormoloma imrayanum"

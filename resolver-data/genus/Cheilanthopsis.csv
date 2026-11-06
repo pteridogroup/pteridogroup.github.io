@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001038817","wfo-0001236481","synonym","Cheilanthopsis kangdingensis (H.S.Kung, Li Bing Zhang & X.S.Guo) Shmakov","Cheilanthopsis kangdingensis"
+"wfo-0001115236","wfo-0001125841","synonym","Cheilanthopsis indusiosa (Christ) Ching","Cheilanthopsis indusiosa"
+"wfo-0001125841",NA,"accepted","Woodsia indusiosa Christ","Woodsia indusiosa"
+"wfo-0001127648",NA,"accepted","Woodsia elongata Hook.","Woodsia elongata"
+"wfo-0001127684","wfo-0001127648","synonym","Cheilanthopsis elongata (Hook.) Copel.","Cheilanthopsis elongata"
+"wfo-0001226833","wfo-0001125841","synonym","Cheilanthopsis straminea (Brause) Hieron. ex Copel.","Cheilanthopsis straminea"
+"wfo-0001236481",NA,"accepted","Woodsia kangdingensis H.S.Kung, Li Bing Zhang & X.S.Guo","Woodsia kangdingensis"

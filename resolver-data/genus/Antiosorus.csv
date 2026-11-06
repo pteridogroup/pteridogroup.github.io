@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000140839","wfo-0001109162","synonym","Antiosorus hirsutus Kuhn","Antiosorus hirsutus"
+"wfo-0000140840","wfo-0001107809","synonym","Antiosorus occidentalis Kuhn","Antiosorus occidentalis"
+"wfo-0001107809",NA,"accepted","Lonchitis occidentalis Baker","Lonchitis occidentalis"
+"wfo-0001109162",NA,"accepted","Lonchitis hirsuta L.","Lonchitis hirsuta"

@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001035121","wfo-0001422887","synonym","Polypodiopteris proavita (Copel.) C.F.Reed","Polypodiopteris proavita"
+"wfo-0001035122","wfo-0001422519","synonym","Polypodiopteris brachypodia (Copel.) C.F.Reed","Polypodiopteris brachypodia"
+"wfo-0001035124","wfo-0001422420","synonym","Polypodiopteris colorata (Copel.) C.F.Reed","Polypodiopteris colorata"
+"wfo-0001422420",NA,"accepted","Selliguea cesatiana (Baker) Christenh.","Selliguea cesatiana"
+"wfo-0001422519",NA,"accepted","Selliguea brachypodia (Copel.) Christenh.","Selliguea brachypodia"
+"wfo-0001422887",NA,"accepted","Selliguea proavita (Copel.) Christenh.","Selliguea proavita"

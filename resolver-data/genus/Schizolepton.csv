@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000150672",NA,"accepted","Taenitis cordata (Gaudich.) Holttum","Taenitis cordata"
+"wfo-0001035712","wfo-0000150672","synonym","Schizolepton cordatum (Gaudich.) Fée","Schizolepton cordatum"
+"wfo-0001225950","wfo-1000070086","synonym","Schizolepton rigidum (Hook.) T.Moore","Schizolepton rigidum"
+"wfo-1000070086",NA,"accepted","Selliguea rigida (Hook.) Parris","Selliguea rigida"

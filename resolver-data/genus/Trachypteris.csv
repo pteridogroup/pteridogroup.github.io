@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001107900",NA,"accepted","Trachypteris drakeana C.Chr.","Trachypteris drakeana"
+"wfo-0001112298",NA,"accepted","Trachypteris pinnata (Hook.f.) C.Chr.","Trachypteris pinnata"
+"wfo-0001114238",NA,"accepted","Trachypteris induta (Maxon) R.M.Tryon & A.F.Tryon","Trachypteris induta"
+"wfo-0001121215","wfo-0001112298","synonym","Trachypteris aureonitens (Hook.) Andre","Trachypteris aureonitens"
+"wfo-0001247884",NA,"accepted","Trachypteris gilliana (Baker) Svenson","Trachypteris gilliana"
+"wfo-0001321284","wfo-0001247884","synonym","Trachypteris aureonitens f. gilleana Christ","Trachypteris aureonitens f. gilleana"
+"wfo-0001323591",NA,"unchecked","Trachypteris aureonitens f. gilliana (Baker) Christ","Trachypteris aureonitens f. gilliana"

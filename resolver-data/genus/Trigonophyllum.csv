@@ -1,0 +1,5 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0001112304",NA,"accepted","Trichomanes bicorne Hook.","Trichomanes bicorne"
+"wfo-0001116155",NA,"accepted","Trichomanes arbuscula Desv.","Trichomanes arbuscula"
+"wfo-0001235536","wfo-0001116155","synonym","Trigonophyllum arbuscula (Desv.) Pic.Serm.","Trigonophyllum arbuscula"
+"wfo-0001235537","wfo-0001112304","synonym","Trigonophyllum bicorne (Hook.) Pic.Serm.","Trigonophyllum bicorne"

@@ -1,0 +1,7 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000144181","wfo-0001284568","synonym","Podopeltis plantaginea (Jacq.) Fée","Podopeltis plantaginea"
+"wfo-0000144182","wfo-0001284569","synonym","Podopeltis sinuata J.Sm.","Podopeltis sinuata"
+"wfo-0001035521","wfo-0001267001","synonym","Podopeltis singaporiana (Wall. ex Hook. & Grev.) Fée","Podopeltis singaporiana"
+"wfo-0001267001",NA,"accepted","Tectaria singaporiana (Wall. ex Hook. & Grev.) Copel.","Tectaria singaporiana"
+"wfo-0001284568",NA,"accepted","Dracoglossum plantagineum (Jacq.) Christenh.","Dracoglossum plantagineum"
+"wfo-0001284569",NA,"accepted","Dracoglossum sinuatum (Fée) Christenh.","Dracoglossum sinuatum"

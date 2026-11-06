@@ -1,0 +1,8 @@
+"taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
+"wfo-0000148500",NA,"accepted","Leptochilus ovatus Copel.","Leptochilus ovatus"
+"wfo-0000148795","wfo-0000148500","synonym","Paraleptochilus ovatus (Copel.) Copel.","Paraleptochilus ovatus"
+"wfo-0001115283",NA,"accepted","Leptochilus decurrens Blume","Leptochilus decurrens"
+"wfo-0001117264",NA,"accepted","Leptochilus lanceolatus Fée","Leptochilus lanceolatus"
+"wfo-0001128807","wfo-0001115283","synonym","Paraleptochilus metallicus (Bedd.) Á.Löve & D.Löve","Paraleptochilus metallicus"
+"wfo-0001231022","wfo-0001115283","synonym","Paraleptochilus decurrens (Blume) Copel.","Paraleptochilus decurrens"
+"wfo-0001260601","wfo-0001117264","synonym","Paraleptochilus decurrens var. lanceolata (Fée) R.D.Dixit","Paraleptochilus decurrens var. lanceolata"
