@@ -5,10 +5,13 @@ project:
   pre-render:
     - Rscript scripts/build-resolver-data.R
     - Rscript scripts/build-browser-data.R
+    - Rscript scripts/build-wf-data.R
   resources:
     - resolver-data/
     - browser-data/
+    - wf-data/
     - databrowser.js
+    - worldferns.js
     - resolve.js
     - resolver-lib.js
     - resolve.R

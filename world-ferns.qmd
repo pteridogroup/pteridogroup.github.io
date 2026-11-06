@@ -1,19 +1,43 @@
 ---
 title: "World Ferns Comparison"
-toc: true
-toc-depth: 6
-execute: 
-  echo: false
-  message: false
-  warning: false
+pagetitle: "World Ferns Comparison"
+toc: false
+page-layout: full
 ---
 
 **[World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list)** is a taxonomic database for ferns and lycophytes maintained by Michael Hassler, and contributed to the initial seeding of the PPG data.
 
-To facilitate easy comparison between PPG and WF data, we have set up a web-app that compares the two (@fig-comparison).
+To facilitate easy comparison between PPG and World Ferns (WF), the table below compares how the two treat taxa at the genus level and above.
 
-[Click here](https://pteridogroup.shinyapps.io/ppg-wf-explorer/){target="_blank"} to open the app.
+::: {.panel-tabset}
 
-Please note that the server has extremely limited bandwidth and may be slow or inaccessible.
+## Comparison
 
-![Screenshot of the WF vs PPG Comparison App.](images/wf-ppg-comparison.png){#fig-comparison}
+<div id="wf-version" class="text-muted mb-2">Loading versions…</div>
+<div id="wf-status" class="alert alert-secondary py-2" role="status">Loading data…</div>
+
+```{=html}
+<div class="d-flex flex-wrap gap-2 align-items-center mb-2">
+<button id="wf-toggle" class="btn btn-outline-secondary btn-sm" disabled>Show All Taxa</button>
+<button id="wf-reset" class="btn btn-outline-secondary btn-sm" disabled>Reset</button>
+<button id="wf-download" class="btn btn-primary btn-sm" disabled>Download CSV</button>
+<span id="wf-count" class="text-muted" aria-live="polite"></span>
+</div>
+```
+
+<div id="wf-table"></div>
+
+## How to Use
+
+By default, only taxa that are **treated differently** in WF and PPG are shown (for example, a genus placed in a different family, or accepted in one and not the other). Click **Show All Taxa** to see every genus and higher taxon; the button then changes to **Show Different Treatment Only**.
+
+Columns ending in *(WF)* give the placement according to World Ferns, and those ending in *(PPG)* the placement according to PPG. Each column has a box under its heading; type to show only rows containing that text (case-insensitive). Filters combine.
+
+- **Reset**: clear all column filters and return to the default view.
+- **Download CSV**: download the rows currently shown (after filtering and sorting).
+
+The versions of World Ferns and PPG that were compared are shown above the table.
+
+:::
+
+<script type="module" src="worldferns.js"></script>
