@@ -2,6 +2,7 @@
 title: "Name Resolver"
 pagetitle: "Name Resolver"
 toc: false
+page-layout: full
 ---
 
 Resolve a list of fern and lycophyte species names against the current
@@ -11,6 +12,10 @@ accepted names. Matching is done by the
 [taxastand](https://github.com/joelnitta/taxastand) R package, which runs
 **entirely in your browser** (via [webR](https://docs.r-wasm.org/webr/latest/)).
 Your names are never sent to a server.
+
+::: {.panel-tabset}
+
+## Name Resolver
 
 <div id="resolver-version" class="text-muted mb-2">Loading PPG version…</div>
 <div id="resolver-status" class="alert alert-secondary py-2" role="status">Starting…</div>
@@ -73,15 +78,29 @@ Your names are never sent to a server.
 <table id="resolver-table" class="table table-sm" hidden>
 <thead>
 <tr>
-<th>Query</th><th>Resolved name</th><th>Matched name</th>
-<th>Resolved status</th><th>Matched status</th><th>Match type</th><th>Note</th>
+<th data-sort="query">Query</th><th data-sort="resolved_name">Resolved name</th><th data-sort="matched_name">Matched name</th>
+<th data-sort="resolved_status">Resolved status</th><th data-sort="matched_status">Matched status</th><th data-sort="match_type">Match type</th><th data-sort="note">Note</th>
 </tr>
 </thead>
 <tbody></tbody>
 </table>
 </div>
 
-## Notes
+## How to Use
+
+1. Wait for the status bar to say **Ready** (the first visit has to load R,
+   which can take a minute).
+2. Type or paste species names, one per line, or upload a `.txt`, `.csv` or
+   `.tsv` file. For a table with several columns, choose the column that
+   contains the names. Authors are optional, but help distinguish homonyms.
+3. Adjust the options if needed, then click **Resolve names**.
+4. Click a column header to sort the results. Download them as CSV with
+   **Download results (CSV)**; the file also records the PPG version and DOI.
+
+Row colors: yellow rows are fuzzy or genus-corrected matches (check these
+before use), blue rows have multiple hits, and red rows are unresolved.
+
+### Notes
 
 - The first visit downloads the R runtime and packages (a few tens of MB), which
   your browser then caches. Only the PPG data for the genera in your list is
@@ -92,7 +111,7 @@ Your names are never sent to a server.
 - Fuzzy matching only happens **within** a genus: if the genus is misspelled, the
   name is reported as "genus not found", with suggestions.
 - **Match type** values are those of
-  [taxon-tools](https://github.com/camwebb/taxon-tools/blob/master/doc/matchnames.md#matching-rules-and-output-codes)
+  [taxastand](https://joelnitta.github.io/taxastand/reference/ts_match_names.html#match-types-1)
   (`exact`, `auto_punct`, `auto_fuzzy`, …). `no_match` means no name in PPG was
   close enough. If a name matches several names that resolve to *different*
   accepted names (e.g. the same name published by different authors), it is
@@ -101,7 +120,9 @@ Your names are never sent to a server.
   match fails, so that small spelling differences are still found.
 - Always check fuzzy matches (`auto_fuzzy`) before using them.
 
-If you use this tool, please cite the PPG version shown above (with its DOI)
+If you use this tool, please cite the PPG version shown on the Name Resolver tab (with its DOI)
 and [taxastand](https://github.com/joelnitta/taxastand).
+
+:::
 
 <script type="module" src="resolve.js"></script>
