@@ -165,14 +165,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content" tabindex="-1">
+<main class="content column-page" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -181,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -194,19 +192,39 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong><a href="https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list">World Ferns</a></strong> is a taxonomic database for ferns and lycophytes maintained by Michael Hassler, and contributed to the initial seeding of the PPG data.</p>
-<p>To facilitate easy comparison between PPG and WF data, we have set up a web-app that compares the two (<a href="#fig-comparison" class="quarto-xref">Figure&nbsp;1</a>).</p>
-<p><a href="https://pteridogroup.shinyapps.io/ppg-wf-explorer/" target="_blank">Click here</a> to open the app.</p>
-<p>Please note that the server has extremely limited bandwidth and may be slow or inaccessible.</p>
-<div id="fig-comparison" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-comparison-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/wf-ppg-comparison.png" class="img-fluid figure-img">
+<p>To facilitate easy comparison between PPG and World Ferns (WF), the table below compares how the two treat taxa at the genus level and above.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Comparison</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">How to Use</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div id="wf-version" class="text-muted mb-2">
+Loading versions…
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comparison-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Screenshot of the WF vs PPG Comparison App.
-</figcaption>
-</figure>
+<div id="wf-status" class="alert alert-secondary py-2" role="status">
+Loading data…
 </div>
+<div class="d-flex flex-wrap gap-2 align-items-center mb-2">
+<button id="wf-toggle" class="btn btn-outline-secondary btn-sm" disabled="">Show All Taxa</button>
+<button id="wf-reset" class="btn btn-outline-secondary btn-sm" disabled="">Reset</button>
+<button id="wf-download" class="btn btn-primary btn-sm" disabled="">Download CSV</button>
+<span id="wf-count" class="text-muted" aria-live="polite"></span>
+</div>
+<div id="wf-table">
+
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>By default, only taxa that are <strong>treated differently</strong> in WF and PPG are shown (for example, a genus placed in a different family, or accepted in one and not the other). Click <strong>Show All Taxa</strong> to see every genus and higher taxon; the button then changes to <strong>Show Different Treatment Only</strong>.</p>
+<p>Columns ending in <em>(WF)</em> give the placement according to World Ferns, and those ending in <em>(PPG)</em> the placement according to PPG. Each column has a box under its heading; type to show only rows containing that text (case-insensitive). Filters combine.</p>
+<ul>
+<li><strong>Reset</strong>: clear all column filters and return to the default view.</li>
+<li><strong>Download CSV</strong>: download the rows currently shown (after filtering and sorting).</li>
+</ul>
+<p>The versions of World Ferns and PPG that were compared are shown above the table.</p>
+</div>
+</div>
+</div>
+<script type="module" src="worldferns.js"></script>
 
 
 
