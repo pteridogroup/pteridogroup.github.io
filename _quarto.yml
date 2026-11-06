@@ -15,14 +15,20 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: guidelines.qmd
-        text: Project Guidelines
-      - href: github.qmd
-        text: GitHub Guide
-      - href: curators.qmd
-        text: Curator's Guide
-      - href: wfo.qmd
-        text: World Flora Online
+      - text: About
+        menu:
+          - href: wfo.qmd
+            text: World Flora Online
+          - href: coc.qmd
+            text: Code of Conduct
+      - text: Guides
+        menu:
+          - href: guidelines.qmd
+            text: Project Guidelines
+          - href: github.qmd
+            text: GitHub Guide
+          - href: curators.qmd
+            text: Curator's Guide
       - text: Classification
         menu:
           - href: ppg.qmd
@@ -33,8 +39,6 @@ website:
             text: World Ferns Comparison
       - href: resolve.qmd
         text: Name Resolver
-      - href: coc.qmd
-        text: Code of Conduct
   page-footer: "All content by Pteridophyte Phylogeny Group is licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/) unless otherwise noted" 
 
 format:
