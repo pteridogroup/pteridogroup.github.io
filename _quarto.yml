@@ -1,10 +1,14 @@
 project:
   type: website
-  # Generate the name resolver's data (latest PPG release, sharded by genus)
-  # on every build, including the daily scheduled one.
-  pre-render: Rscript scripts/build-resolver-data.R
+  # Generate the data for the in-browser tools (name resolver, database browser)
+  # from the latest PPG release on every build, including the daily scheduled one.
+  pre-render:
+    - Rscript scripts/build-resolver-data.R
+    - Rscript scripts/build-browser-data.R
   resources:
     - resolver-data/
+    - browser-data/
+    - databrowser.js
     - resolve.js
     - resolver-lib.js
     - resolve.R
@@ -33,8 +37,8 @@ website:
         menu:
           - href: ppg.qmd
             text: PPG Classification
-          - href: dataviewer.qmd
-            text: Database Viewer
+          - href: databrowser.qmd
+            text: Database Browser
           - href: world-ferns.qmd
             text: World Ferns Comparison
       - href: resolve.qmd

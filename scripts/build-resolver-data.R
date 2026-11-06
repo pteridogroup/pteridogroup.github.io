@@ -19,17 +19,7 @@
 # Sharding by genus is lossless for taxastand: every match key embeds the
 # genus, and fuzzy matching only compares names within the same genus.
 
-# GitHub and Zenodo occasionally fail on the first try; retry (as in ppg.qmd).
-fetch_json <- function(url, tries = 5, pause = 5) {
-  for (i in seq_len(tries)) {
-    result <- tryCatch(jsonlite::fromJSON(url), error = function(e) e)
-    if (!inherits(result, "error")) {
-      return(result)
-    }
-    if (i < tries) Sys.sleep(pause)
-  }
-  stop(result)
-}
+source("scripts/ppg-release.R")
 
 out_dir <- "resolver-data"
 # Bump when the output format changes, to force a rebuild.
@@ -37,47 +27,19 @@ schema <- 2L
 
 # Release tag and DOI ----------------------------------------------------
 
-release <- fetch_json(
-  "https://api.github.com/repos/pteridogroup/ppg/releases/latest"
-)
-tag <- release$tag_name
-
-zenodo_versions <- fetch_json(
-  "https://zenodo.org/api/records?q=conceptrecid:22760360&all_versions=true"
-)$hits$hits
-match_idx <- which(zenodo_versions$metadata$version == tag)
-zenodo <- if (length(match_idx) > 0) {
-  zenodo_versions[match_idx[1], ]
-} else {
-  zenodo_versions[
-    which.max(as.Date(zenodo_versions$metadata$publication_date)),
-  ]
-}
+release <- get_ppg_release()
+tag <- release$tag
 
 # Skip the rebuild if the output is already for this release ---------------
 
-meta_path <- file.path(out_dir, "meta.json")
-if (file.exists(meta_path)) {
-  old <- tryCatch(jsonlite::read_json(meta_path), error = function(e) NULL)
-  if (!is.null(old) && identical(old$tag, tag) && identical(old$schema, schema) &&
-        dir.exists(file.path(out_dir, "genus"))) {
-    message("resolver-data already built for PPG ", tag, "; skipping")
-    quit(save = "no", status = 0)
-  }
+if (already_built(out_dir, tag, schema, required = "genus")) {
+  message("resolver-data already built for PPG ", tag, "; skipping")
+  quit(save = "no", status = 0)
 }
 
 # Read and slim the reference ---------------------------------------------
 
-csv_url <- sprintf(
-  "https://raw.githubusercontent.com/pteridogroup/ppg/refs/tags/%s/data/ppg.csv",
-  tag
-)
-ppg <- utils::read.csv(
-  csv_url,
-  colClasses = "character",
-  na.strings = "NA",
-  encoding = "UTF-8"
-)
+ppg <- read_ppg(tag)
 
 has_auth <- !is.na(ppg$scientificNameAuthorship) &
   ppg$scientificNameAuthorship != ""
@@ -154,13 +116,13 @@ jsonlite::write_json(
   list(
     schema = schema,
     tag = tag,
-    doi = zenodo$doi,
-    doi_url = zenodo$links$doi,
+    doi = release$doi,
+    doi_url = release$doi_url,
     n_names = sum(is_sp),
     n_genera = length(genera),
     built = format(Sys.time(), "%Y-%m-%d", tz = "UTC")
   ),
-  meta_path,
+  file.path(out_dir, "meta.json"),
   auto_unbox = TRUE,
   pretty = TRUE
 )

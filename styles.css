@@ -6,3 +6,12 @@
 #resolver-table tbody tr.row-multi > td { background-color: #cff4fc; }
 #resolver-table tbody tr.row-unresolved > td { background-color: #f8d7da; }
 #resolver-table tbody tr.hit-row > td { background-color: #f1f3f5; }
+
+/* Database viewer */
+#viewer-table { font-size: 0.85rem; }
+#viewer-table .tabulator-row.tabulator-selected { background-color: #cfe2ff; }
+#viewer-table .tabulator-row.tabulator-selected:hover { background-color: #b6d4fe; }
+#viewer-table .tabulator-col .tabulator-col-title { white-space: normal; text-overflow: clip; overflow: visible; word-break: normal; overflow-wrap: normal; }
+#viewer-table .tabulator-col .tabulator-col-title-holder { padding-right: 16px; }
+/* Reserve two lines for every heading so the filter boxes line up */
+#viewer-table .tabulator-col .tabulator-col-title-holder { min-height: 44px; }
