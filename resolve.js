@@ -69,7 +69,6 @@ function setProgress(fraction) {
   el.progress.hidden = false;
   el.progress.setAttribute("aria-valuenow", String(pct));
   el.progress.firstElementChild.style.width = `${pct}%`;
-  el.progress.firstElementChild.textContent = `${pct}%`;
 }
 
 function updateRunButton() {
@@ -236,6 +235,7 @@ async function resolve() {
       const item = { orig, norm, send: null, note: "", outcome: "", prefix: "" };
       if (!norm || !hasEpithet(norm)) {
         item.outcome = "unparseable";
+        item.match_type = "unparseable";
         item.note = "Could not parse: need genus and species epithet";
         return item;
       }
@@ -252,6 +252,7 @@ async function resolve() {
         item.note = `Genus corrected from ${g} to ${sugg[0].genus}`;
       } else {
         item.outcome = "genus not found";
+        item.match_type = "genus_not_found";
         item.note = sugg.length ? `Genus not found in PPG. Did you mean: ${sugg.map((s) => s.genus).join(", ")}?` : "Genus not found in PPG";
       }
       return item;
@@ -267,7 +268,7 @@ async function resolve() {
         byGenus.get(g).add(p.send);
       }
       setProgress(0);
-      setStatus(`Loading PPG data for ${byGenus.size} genus/genera…`, "secondary", true);
+      setStatus("Loading PPG data…", "secondary");
       await loadShards(new Set(byGenus.keys()));
       // Resolve one genus at a time: matching never crosses genera, and this
       // lets us report real progress.
@@ -275,7 +276,7 @@ async function resolve() {
       let done = 0;
       const maxDist = clampDist(el.dist.value);
       for (const [g, qs] of byGenus) {
-        setStatus(`Resolving ${g} (${done.toLocaleString()} of ${total.toLocaleString()} names done)…`, "secondary", true);
+        setStatus(`Resolving names… ${Math.round((done / total) * 100)}%`, "secondary");
         // let the browser repaint before the (long) R call
         await new Promise((r) => setTimeout(r, 0));
         const out = await runTaxastand([...qs], [g], maxDist, el.noauth.checked);
@@ -290,14 +291,17 @@ async function resolve() {
 
     const byOrig = new Map();
     for (const p of plan) {
-      const g = { query: p.orig, outcome: p.outcome, note: p.note, resolved_name: "", resolved_status: "", match_type: "", hits: [] };
+      const g = { query: p.orig, outcome: p.outcome, note: p.note, resolved_name: "", resolved_status: "", match_type: p.match_type || "", hits: [] };
       if (p.send) {
         const rows = hitsByQuery.get(p.send);
         if (!rows) {
           g.outcome = "unparseable";
+          g.match_type = "unparseable";
           g.note = "Could not parse as a scientific name";
         } else if (rows.every((r) => r.match_type === "no_match")) {
           g.outcome = "no match";
+          g.match_type = "no_match";
+          g.note = [g.note, "No match in PPG"].filter(Boolean).join("; ");
         } else {
           g.hits = rows.map((r) => ({
             matched_name: r.matched_name,
@@ -325,6 +329,8 @@ async function resolve() {
       byOrig.set(p.orig, g);
     }
     lastRows = original.map((o) => byOrig.get(o));
+    sortState.key = "query";
+    sortState.dir = 1;
     render(lastRows);
     setStatus("Done.", "success");
   } catch (err) {
@@ -357,7 +363,56 @@ function setExpanded(btn, rows, open) {
   for (const r of rows) r.hidden = !open;
 }
 
-function render(rows) {
+const sortState = { key: null, dir: 1 };
+
+function sortValue(g, key) {
+  const first = g.hits.length === 1 ? g.hits[0] : null;
+  switch (key) {
+    case "resolved_name": return g.resolved_name;
+    case "resolved_status": return g.outcome === "resolved" ? g.resolved_status : "";
+    case "matched_name": return first ? first.matched_name : g.hits[0]?.matched_name ?? "";
+    case "matched_status": return first ? first.matched_status : "";
+    case "match_type": return g.match_type;
+    case "note": return g.note;
+    default: return g.query;
+  }
+}
+
+function updateSortIndicators() {
+  for (const th of el.table.querySelectorAll("th[data-sort]")) {
+    const active = th.dataset.sort === sortState.key;
+    th.dataset.label ??= th.textContent;
+    th.setAttribute("aria-sort", active ? (sortState.dir > 0 ? "ascending" : "descending") : "none");
+    // ▲▼ = sortable, not sorted; a single triangle = current sort
+    const arrow = active ? (sortState.dir > 0 ? "▲" : "▼") : "▴▾";
+    th.textContent = `${th.dataset.label} ${arrow}`;
+  }
+}
+
+for (const th of el.table.querySelectorAll("th[data-sort]")) {
+  th.style.cursor = "pointer";
+  th.tabIndex = 0;
+  th.title = "Click to sort";
+  const toggle = () => {
+    if (!lastRows) return;
+    sortState.dir = sortState.key === th.dataset.sort ? -sortState.dir : 1;
+    sortState.key = th.dataset.sort;
+    render(lastRows);
+  };
+  th.addEventListener("click", toggle);
+  th.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); }
+  });
+}
+
+function render(input) {
+  let rows = input;
+  if (sortState.key) {
+    const key = sortState.key;
+    rows = [...input].sort(
+      (a, b) => sortState.dir * String(sortValue(a, key)).localeCompare(String(sortValue(b, key)), undefined, { numeric: true, sensitivity: "base" }),
+    );
+  }
   const tbody = el.table.querySelector("tbody");
   tbody.replaceChildren();
   const counts = { resolved: 0, "multiple hits": 0, other: 0 };
@@ -384,7 +439,7 @@ function render(rows) {
     tr.append(
       td(g.outcome === "resolved" ? g.resolved_status : ""),
       td(first && !multi ? first.matched_status : ""),
-      td(first && !multi ? first.match_type : multi ? [...new Set(g.hits.map((h) => h.match_type))].join(", ") : ""),
+      td(first && !multi ? first.match_type : multi ? [...new Set(g.hits.map((h) => h.match_type))].join(", ") : g.match_type),
       td(g.note),
     );
     tbody.append(tr);
@@ -413,6 +468,7 @@ function render(rows) {
     tr.dataset.multi = multi ? "1" : "";
   }
   el.table.hidden = false;
+  updateSortIndicators();
   el.showAllBox.hidden = !rows.some((g) => g.hits.length > 1);
   el.summary.textContent =
     `${rows.length.toLocaleString()} name(s): ${counts.resolved.toLocaleString()} resolved, ` +
@@ -442,7 +498,7 @@ el.download.addEventListener("click", () => {
         h ? h.matched_name : "",
         multiple ? h.resolved_status : g.resolved_status,
         h ? h.matched_status : "",
-        h ? h.match_type : "",
+        h ? h.match_type : g.match_type,
         g.hits.length,
         g.note,
         meta.tag,
