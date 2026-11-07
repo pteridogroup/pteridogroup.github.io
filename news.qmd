@@ -1,0 +1,73 @@
+---
+title: "News"
+toc: false
+---
+
+## 2026-11-07
+
+- **New Name Resolver.** The [Name Resolver](resolve.qmd) is now available. Upload a list of names to check them against the latest PPG release.
+- **Faster Database Browser and World Ferns comparison.** The [Database Browser](databrowser.qmd) and the [World Ferns comparison](world-ferns.qmd) now run in your browser and load much faster.
+
+## 2026-09-15
+
+- **Citable, versioned classification.** The [PPG classification](ppg.qmd) now shows the PPG version in its title and uses versioned data, including the DOI.
+
+## 2026-07-18
+
+- **PPG–World Ferns comparison.** Added a comparison of the PPG classification with World Ferns.
+
+## 2026-02-25
+
+- **FAQ.** Added an [FAQ](curators.qmd#faq) to the Curator's Guide.
+
+## 2026-02-18
+
+- **Curator's Guide.** Added the [Curator's Guide](curators.qmd) and curator guidelines, along with a database viewer and information about the `ppg-curators` GitHub repository.
+
+## 2025-08-01
+
+- **Rhakhis workshop at Botany 2025.** Held a workshop on using Rhakhis for PPG. The [slides and video](curators.qmd#workshop) are available in the Curator's Guide. Correction to the workshop materials: only Rhakhis users who have been granted editing permissions may edit data in the test server (called the "sandbox" in the video), so there was no hands-on session.
+
+## 2025-07-30
+
+- **Rhakhis resources.** Added a link to the Rhakhis [user manual](curators.qmd#official-user-manual) and the workshop slides (now in the [Curator's Guide](curators.qmd#resources)).
+
+## 2025-07-16
+
+- **Project Guidelines updated.** The [Project Guidelines](guidelines.qmd) now list the relevant websites (PPG website, PPG GitHub repo, and World Flora Online), note that the data were imported into World Flora Online as of 2025-06, and describe Phase II editing in Rhakhis.
+
+## 2025-06-27
+
+- **Guidelines for proposals.** Added a guideline to the [Project Guidelines](guidelines.qmd): only submit proposals that you personally think deserve recognition in PPG and can vouch for during the discussion. Questions about a treatment can go to [GitHub Discussions](https://github.com/pteridogroup/ppg/discussions). Proposals not meeting the guidelines may be removed from voting.
+
+## 2025-05-16
+
+- **Always up to date.** The [PPG classification](ppg.qmd) is now generated dynamically, and the website is rebuilt once per day so it always reflects the latest release.
+
+## 2025-05-01
+
+- **In-progress PPG system.** Added the in-progress PPG system to the [PPG classification](ppg.qmd).
+
+## 2025-04-04
+
+- **Rhakhis and World Flora Online.** Added a [World Flora Online](wfo.qmd) page and sections on Rhakhis.
+
+## 2024-07-24
+
+- **First in-person PPG Workshop.** The first in-person PPG Workshop was held at the [XX International Botanical Congress](https://ibcmadrid2024.com/) in Madrid, Spain
+
+## 2023-05-12
+
+- **Nothotaxa.** Added guidelines for nothotaxa to the [Project Guidelines](guidelines.qmd).
+
+## 2023-05-09
+
+- **Code of Conduct and Project Guidelines.** Published the [Code of Conduct](coc.qmd) (version 1.0.0) and the [Project Guidelines](guidelines.qmd), which include a link to the reference library.
+
+## 2023-04-12
+
+- **Taxonomic proposal template.** Updated the [GitHub Guide](github.qmd) to reflect the new "Taxonomic proposal" issue template.
+
+## 2023-02-22
+
+- **Website launched.** The PPG website went live, starting with the [GitHub Guide](github.qmd) for participating in PPG discussions.
