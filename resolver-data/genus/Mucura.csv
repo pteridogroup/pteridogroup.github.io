@@ -1,7 +1,7 @@
 "taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
 "wfo-1000044505",NA,"accepted","Mucura bipinnata (Cav.) L.A.Triana & Sundue","Mucura bipinnata"
 "wfo-1000044506",NA,"accepted","Mucura globulifera (Poir.) L.A.Triana & Sundue","Mucura globulifera"
-"wfo-1000077428",NA,"unchecked","Mucura gracilis (A.Rojas & Tejero) A.Rojas","Mucura gracilis"
+"wfo-1000077428","wfo-1000044506","synonym","Mucura gracilis (A.Rojas & Tejero) A.Rojas","Mucura gracilis"
 "wfo-1000080792",NA,"accepted","Mucura dissecta (Desv.) N.T.L.Pena & Schwartsb.","Mucura dissecta"
 "wfo-1000080793",NA,"accepted","Mucura tamandarei (Rosenst.) N.T.L.Pena & Schwartsb.","Mucura tamandarei"
 "wfo-1000080794",NA,"accepted","Mucura tenera (C.Presl) N.T.L.Pena & Schwartsb.","Mucura tenera"

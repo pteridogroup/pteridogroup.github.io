@@ -1,7 +1,7 @@
 "taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
 "wfo-0000145773","wfo-0001112306","synonym","Feea boryi Bosch","Feea boryi"
 "wfo-0000145774","wfo-0001119116","synonym","Feea spruceana Bosch","Feea spruceana"
-"wfo-0001112306",NA,"accepted","Trichomanes diversifrons (Bory) Mett.; Sadeb.","Trichomanes diversifrons"
+"wfo-0001112306",NA,"accepted","Trichomanes diversifrons (Bory) Mett. ex Sadeb.","Trichomanes diversifrons"
 "wfo-0001112308","wfo-0001112306","synonym","Feea diversifrons (Bory) Copel.","Feea diversifrons"
 "wfo-0001112309",NA,"accepted","Trichomanes trollii Bergdolt","Trichomanes trollii"
 "wfo-0001112310","wfo-0001112309","synonym","Feea trollii (Bergdolt) Vareschi","Feea trollii"

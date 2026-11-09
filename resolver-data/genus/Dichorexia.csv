@@ -1,5 +1,5 @@
 "taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
 "wfo-0000140187","wfo-1200009156","synonym","Dichorexia gigantea C.Presl","Dichorexia gigantea"
-"wfo-0001035215","wfo-1200105022","synonym","Dichorexia latebrosa C.Presl","Dichorexia latebrosa"
+"wfo-0001035215","wfo-0001255553","synonym","Dichorexia latebrosa (Wall. ex Hook.) C.Presl","Dichorexia latebrosa"
+"wfo-0001255553",NA,"accepted","Alsophila latebrosa Wall. ex Hook.","Alsophila latebrosa"
 "wfo-1200009156",NA,"accepted","Gymnosphaera gigantea (Wall. ex Hook.) S.Y.Dong","Gymnosphaera gigantea"
-"wfo-1200105022",NA,"accepted","Alsophila latebrosa Wall.","Alsophila latebrosa"

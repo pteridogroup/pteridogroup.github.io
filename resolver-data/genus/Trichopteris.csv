@@ -1,5 +1,5 @@
 "taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
 "wfo-0000140340",NA,"accepted","Sphaeropteris integra (J.Sm.) R.M.Tryon","Sphaeropteris integra"
-"wfo-0001124896",NA,"accepted","Alsophila corcovadensis (Raddi) C.Chr.","Alsophila corcovadensis"
+"wfo-0001279037",NA,"accepted","Cyathea corcovadensis (Raddi) Domin","Cyathea corcovadensis"
 "wfo-1000069908","wfo-0000140340","synonym","Trichopteris falcata Llanos","Trichopteris falcata"
-"wfo-1000069909","wfo-0001124896","synonym","Trichopteris taenitis (Roth) Hook.","Trichopteris taenitis"
+"wfo-1000069909","wfo-0001279037","synonym","Trichopteris taenitis (Roth) Hook.","Trichopteris taenitis"

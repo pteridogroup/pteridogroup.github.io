@@ -1,6 +1,6 @@
 "taxonID","acceptedNameUsageID","taxonomicStatus","scientificName","canonical"
 "wfo-0000146106","wfo-0001112309","synonym","Hymenostachys trollii (Bergdolt) Pic.Serm.","Hymenostachys trollii"
-"wfo-0001112306",NA,"accepted","Trichomanes diversifrons (Bory) Mett.; Sadeb.","Trichomanes diversifrons"
+"wfo-0001112306",NA,"accepted","Trichomanes diversifrons (Bory) Mett. ex Sadeb.","Trichomanes diversifrons"
 "wfo-0001112307","wfo-0001112306","synonym","Hymenostachys diversifrons Bory","Hymenostachys diversifrons"
 "wfo-0001112309",NA,"accepted","Trichomanes trollii Bergdolt","Trichomanes trollii"
 "wfo-0001116350",NA,"accepted","Trichomanes osmundioides DC. ex Poir.","Trichomanes osmundioides"

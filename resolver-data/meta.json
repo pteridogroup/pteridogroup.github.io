@@ -1,9 +1,9 @@
 {
   "schema": 2,
-  "tag": "v2.0.0",
-  "doi": "10.5281/zenodo.22760361",
-  "doi_url": "https://doi.org/10.5281/zenodo.22760361",
-  "n_names": 74763,
+  "tag": "v2.1.0",
+  "doi": "10.5281/zenodo.24069323",
+  "doi_url": "https://doi.org/10.5281/zenodo.24069323",
+  "n_names": 74784,
   "n_genera": 1069,
-  "built": "2026-11-08"
+  "built": "2026-11-09"
 }
