@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pteridogroup.github.io/github.html</loc>
-    <lastmod>2026-11-19T06:36:33.946Z</lastmod>
+    <loc>https://pteridogroup.github.io/ppg.html</loc>
+    <lastmod>2026-11-20T06:24:01.466Z</lastmod>
   </url>
   <url>
     <loc>https://pteridogroup.github.io/index.html</loc>
-    <lastmod>2026-11-19T06:36:33.986Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/curators.html</loc>
-    <lastmod>2026-11-19T06:36:33.946Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/news.html</loc>
-    <lastmod>2026-11-19T06:36:33.986Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/ppg.html</loc>
-    <lastmod>2026-11-19T06:36:33.986Z</lastmod>
+    <lastmod>2026-11-20T06:24:01.466Z</lastmod>
   </url>
   <url>
     <loc>https://pteridogroup.github.io/guidelines.html</loc>
-    <lastmod>2026-11-19T06:36:33.946Z</lastmod>
+    <lastmod>2026-11-20T06:24:01.426Z</lastmod>
   </url>
   <url>
-    <loc>https://pteridogroup.github.io/databrowser.html</loc>
-    <lastmod>2026-11-19T06:36:33.946Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/wfo.html</loc>
-    <lastmod>2026-11-19T06:36:33.987Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/coc.html</loc>
-    <lastmod>2026-11-19T06:36:33.946Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pteridogroup.github.io/resolve.html</loc>
-    <lastmod>2026-11-19T06:36:33.987Z</lastmod>
+    <loc>https://pteridogroup.github.io/github.html</loc>
+    <lastmod>2026-11-20T06:24:01.426Z</lastmod>
   </url>
   <url>
     <loc>https://pteridogroup.github.io/world-ferns.html</loc>
-    <lastmod>2026-11-19T06:36:33.987Z</lastmod>
+    <lastmod>2026-11-20T06:24:01.468Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/databrowser.html</loc>
+    <lastmod>2026-11-20T06:24:01.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/coc.html</loc>
+    <lastmod>2026-11-20T06:24:01.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/resolve.html</loc>
+    <lastmod>2026-11-20T06:24:01.467Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/wfo.html</loc>
+    <lastmod>2026-11-20T06:24:01.468Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/curators.html</loc>
+    <lastmod>2026-11-20T06:24:01.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pteridogroup.github.io/news.html</loc>
+    <lastmod>2026-11-20T06:24:01.466Z</lastmod>
   </url>
 </urlset>
